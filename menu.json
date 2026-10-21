@@ -1,0 +1,61 @@
+{
+ "bijgewerkt": "2026-10-21 14:36",
+ "dagen": {
+  "2026-10-12": {
+   "gerecht": "Nasi goreng",
+   "type": "koken"
+  },
+  "2026-10-13": {
+   "gerecht": "Kokoscurry met kip en zoete aardappel",
+   "type": "koken"
+  },
+  "2026-10-14": {
+   "gerecht": "Harira vooraf, kippenpootjes met parelcouscous",
+   "type": "koken"
+  },
+  "2026-10-15": {
+   "gerecht": "Restjes kokoscurry met rijst",
+   "type": "restjes"
+  },
+  "2026-10-16": {
+   "gerecht": "Pizza",
+   "type": "vriezer"
+  },
+  "2026-10-17": {
+   "gerecht": "Niet thuis eten",
+   "type": "flexibel"
+  },
+  "2026-10-18": {
+   "gerecht": "Cajun Jambalaya met rijst",
+   "type": "koken"
+  },
+  "2026-10-19": {
+   "gerecht": "Döner kebab gehaald",
+   "type": "flexibel"
+  },
+  "2026-10-20": {
+   "gerecht": "Uit eten",
+   "type": "flexibel"
+  },
+  "2026-10-21": {
+   "gerecht": "Nasi goreng pedis uit de vriezer met mini-loempia's en edamame",
+   "type": "vriezer"
+  },
+  "2026-10-22": {
+   "gerecht": "Philly cheesesteak met cheddar",
+   "type": "koken"
+  },
+  "2026-10-23": {
+   "gerecht": "Chicken teriyaki met rijst en Japanse wokgroente",
+   "type": "koken"
+  },
+  "2026-10-24": {
+   "gerecht": "Kinderfeest – eten wordt verzorgd",
+   "type": "flexibel"
+  },
+  "2026-10-25": {
+   "gerecht": "Kipshoarma-wraps met friet",
+   "type": "koken"
+  }
+ }
+}

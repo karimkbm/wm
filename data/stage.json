@@ -1,0 +1,26 @@
+{
+ "bijgewerkt": "21 okt 2026",
+ "quote": "Je hoeft niet perfect te zijn om te schitteren. Gewoon jezelf is al genoeg licht.",
+ "aftellen": {"titel": "LNGSHOT · EP 'S.W.I.S.H.'", "datum": "2026-11-10"},
+ "secties": [
+  {"id": "nieuw", "items": [
+   {"datum": "2026-10-21", "tot": "2026-10-28", "titel": "LNGSHOT: 'Masterpiece' is uit", "sub": "single + videoclip, voorproefje van de nieuwe EP"},
+   {"datum": "2026-11-10", "titel": "LNGSHOT: EP 'S.W.I.S.H.'", "sub": "eerste comeback sinds hun debuut · 10:00 Nederlandse tijd"}
+  ]},
+  {"id": "concert", "items": [
+   {"datum": "2027-03-02", "titel": "ENHYPEN", "sub": "Ziggo Dome, Amsterdam"},
+   {"datum": "2027-06-10", "titel": "TXT", "sub": "Amsterdam"},
+   {"datum": "2027-06-12", "titel": "TXT", "sub": "Antwerpen"},
+   {"datum": "2027-06-14", "titel": "TXT", "sub": "Keulen"}
+  ]},
+  {"id": "bts", "items": [
+   {"datum": "2026-10-21", "tot": "2026-10-24", "titel": "Arirang Tour: La Plata", "sub": "Argentinië"},
+   {"datum": "2026-10-28", "tot": "2026-10-31", "titel": "Arirang Tour: São Paulo", "sub": "Brazilië"},
+   {"datum": "2026-11-19", "tot": "2026-11-22", "titel": "Arirang Tour: Kaohsiung", "sub": "Taiwan"}
+  ]},
+  {"id": "jarig", "items": [
+   {"datum": "2026-12-04", "titel": "Jin", "sub": "BTS"},
+   {"datum": "2026-12-30", "titel": "V", "sub": "BTS"}
+  ]}
+ ]
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vuurbasis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;600;800&display=swap">
+<style>
+/* Thema: vuur en verzamelkaarten. Donkere basis, gloeiende sintels, één holo-glans. */
+:root{
+  --bg:#120b09; --panel:#1f1411; --panel2:#2a1a15; --line:#4a2a1e;
+  --ink:#fff1e6; --muted:#d9a98f; --fire:#ff6a1a; --gold:#ffc23d; --red:#e0321b;
+  --r:22px;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(120% 90% at 85% 110%,#4a1708 0%,#1a0d09 45%,var(--bg) 75%);background-color:var(--bg);color:var(--ink);font:18px/1.35 Rubik,system-ui,sans-serif;overflow:hidden}
+.embers{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.embers i{position:absolute;bottom:-20px;width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px 3px rgba(255,120,30,.6);opacity:0;animation:rise 9s linear infinite;will-change:transform,opacity}
+@keyframes rise{0%{transform:translate3d(0,0,0);opacity:0}10%{opacity:.9}100%{transform:translate3d(30px,-105vh,0);opacity:0}}
+.wrap{position:relative;z-index:1;height:100%;display:grid;grid-template-columns:1fr 1.15fr;gap:22px;padding:24px 26px}
+@media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;overflow:auto}body{overflow:auto}}
+.left,.right{display:flex;flex-direction:column;gap:18px;min-width:0;min-height:0}
+.tag{font:400 .8rem Bungee,sans-serif;letter-spacing:.08em;color:var(--fire)}
+.clock{display:flex;flex-direction:column;gap:6px}
+#tijd{font:400 clamp(5rem,13vw,10rem)/.85 Bungee,sans-serif;background:linear-gradient(180deg,#fff3d6 0%,var(--gold) 45%,var(--fire) 75%,var(--red) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:.02em}
+.sub{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;font-weight:600;font-size:1.3rem}
+#week{color:var(--muted);text-transform:none;font-size:1rem}
+#weer{display:flex;align-items:center;gap:10px;font-size:1.05rem;color:var(--muted)}
+#weer svg{width:30px;height:30px;color:var(--gold)}
+#weer b{font:400 1.5rem Bungee,sans-serif;color:var(--ink)}
+.holo{position:relative;overflow:hidden;border-radius:var(--r);padding:22px 24px;background:linear-gradient(135deg,#3a1c10,#24130e 55%,#3d2210);border:2px solid #7a3a16;box-shadow:0 0 0 4px #1a0d09,0 0 0 6px #5a2a12,0 10px 30px rgba(0,0,0,.4)}
+.holo::after{content:"";position:absolute;top:-50%;left:-60%;width:40%;height:200%;background:linear-gradient(100deg,transparent,rgba(255,220,150,.18),transparent);transform:translateX(0) rotate(12deg);animation:shine 7s ease-in-out infinite;will-change:transform}
+@keyframes shine{0%,60%{transform:translateX(0) rotate(12deg)}100%{transform:translateX(420%) rotate(12deg)}}
+#quote{font:800 clamp(1.4rem,2.6vw,2rem)/1.2 Rubik,sans-serif;margin:8px 0 0;text-wrap:balance}
+.aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:16px 22px;background:linear-gradient(90deg,var(--red),var(--fire) 60%,var(--gold));color:#2a0b02;margin-top:auto}
+.aftel .n{font:400 3.2rem/1 Bungee,sans-serif}
+.aftel .u{font-weight:800;font-size:1rem;display:block}
+.aftel .t{font-weight:800;font-size:1.15rem;line-height:1.2}
+.panel{background:var(--panel);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 20px;min-height:0;display:flex;flex-direction:column;gap:8px}
+.panel h2{margin:0;display:flex;align-items:center;gap:10px;font:400 1.15rem Bungee,sans-serif;color:var(--gold)}
+.panel h2 svg{width:22px;height:22px;color:var(--fire);flex:none}
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+li{display:grid;grid-template-columns:6.4em 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--line);align-items:baseline}
+li:first-child{border-top:0}
+li time{font-weight:800;color:var(--muted);font-size:.92rem}
+li.soon time{color:var(--fire)}
+li b{display:block;font-weight:600;line-height:1.25}
+li small{display:block;color:var(--muted);font-size:.88rem;margin-top:2px}
+li.leeg{display:block;color:var(--muted)}
+#flareon li{grid-template-columns:1fr}
+.flame{background:linear-gradient(160deg,#3b1408,#1f1411 60%)}
+.foot{font-size:.75rem;color:#8a6a5a;text-align:right}
+@media (max-height:760px) and (orientation:landscape){body{font-size:16px}.panel{padding:12px 16px}li{padding:6px 0}.holo{padding:16px 20px}}
+</style>
+</head>
+<body data-src="data/vuur.json">
+<div class="embers" aria-hidden="true">
+  <i style="left:6%;animation-delay:0s"></i><i style="left:14%;animation-delay:3.2s;animation-duration:11s"></i>
+  <i style="left:23%;animation-delay:6s"></i><i style="left:31%;animation-delay:1.5s;animation-duration:12s"></i>
+  <i style="left:42%;animation-delay:4.4s"></i><i style="left:55%;animation-delay:7.3s;animation-duration:10s"></i>
+  <i style="left:63%;animation-delay:2.2s"></i><i style="left:71%;animation-delay:5.1s;animation-duration:13s"></i>
+  <i style="left:80%;animation-delay:.8s"></i><i style="left:88%;animation-delay:6.6s;animation-duration:11s"></i>
+  <i style="left:95%;animation-delay:3.9s"></i><i style="left:48%;animation-delay:8.2s;animation-duration:14s"></i>
+</div>
+<main class="wrap">
+  <section class="left">
+    <div class="clock">
+      <span class="tag">VUURBASIS</span>
+      <div id="tijd">--:--</div>
+      <div class="sub"><span id="datum"></span><span id="week"></span></div>
+      <div id="weer"></div>
+    </div>
+    <div class="holo">
+      <span class="tag">VUUR VAN DE DAG</span>
+      <p id="quote">Laden…</p>
+    </div>
+    <div class="aftel" id="aftel" hidden>
+      <div><span class="n" id="aftel-n"></span><span class="u" id="aftel-u"></span></div>
+      <div class="t" id="aftel-t"></div>
+    </div>
+  </section>
+  <section class="right">
+    <div class="panel">
+      <h2><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7l1.6 3.3 3.4.4-2.5 2.4.7 3.4-3.2-1.8-3.2 1.8.7-3.4-2.5-2.4 3.4-.4z" fill="currentColor"/></svg>TCG-radar</h2>
+      <ul id="tcg" data-max="3"></ul>
+    </div>
+    <div class="panel">
+      <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.6" fill="currentColor"/></svg>Beurzen in de buurt</h2>
+      <ul id="beurs" data-max="3"></ul>
+    </div>
+    <div class="panel flame">
+      <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5 .2 1.6 1 2.6 2 3 .2-3.3-.8-6 .5-9z" fill="currentColor"/></svg>Flareon-hoek</h2>
+      <ul id="flareon" data-max="2"></ul>
+    </div>
+    <div class="foot" id="bijgewerkt"></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

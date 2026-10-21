@@ -1,0 +1,24 @@
+{
+ "bijgewerkt": "21 okt 2026",
+ "quote": "Elk vuur begint met één vonk. Wat ga jij vandaag aansteken?",
+ "aftellen": {"titel": "Halloween-kaartenbeurs in Tilburg", "datum": "2026-10-30"},
+ "secties": [
+  {"id": "tcg", "items": [
+   {"datum": "2026-10-24", "tot": "2026-11-01", "titel": "Prereleases Delta Reign", "sub": "toernooitjes bij kaartwinkels, 24 okt t/m 1 nov"},
+   {"datum": "2026-10-30", "titel": "Espeon ex & Umbreon ex Battle Deck", "sub": "30th Celebration · twee Eeveelutions"},
+   {"datum": "2026-11-06", "titel": "Delta Reign: Mega Rayquaza ex", "sub": "nieuwe hoofdset + nieuwe golf 30th Celebration"},
+   {"datum": "2026-12-04", "titel": "Laatste golf 30th Celebration", "sub": "verwacht in de winkels"}
+  ]},
+  {"id": "beurs", "items": [
+   {"datum": "2026-10-25", "titel": "Collector Fanatics", "sub": "Etten-Leur · vanaf 10:00"},
+   {"datum": "2026-10-30", "tot": "2026-11-01", "titel": "Xclusive Collectors Event: Halloween", "sub": "Tilburg · vr 30 okt t/m zo 1 nov"},
+   {"datum": "2026-11-14", "titel": "Cardview XL", "sub": "Waalre"},
+   {"datum": "2026-12-26", "titel": "Xclusive Collectors Kerstbeurs", "sub": "'s-Hertogenbosch · 09:00–16:30"},
+   {"datum": "2027-01-17", "titel": "Collector Fanatics", "sub": "Etten-Leur · vanaf 10:00"}
+  ]},
+  {"id": "flareon", "items": [
+   {"titel": "Topstuk om naar te zoeken: Flareon ex", "sub": "Special Illustration Rare uit Prismatic Evolutions (146/131)"},
+   {"titel": "Ruilkans: beurs in Tilburg", "sub": "neem een lijstje mee van welke Flareons je al hebt"}
+  ]}
+ ]
+}
