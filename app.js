@@ -50,7 +50,11 @@
   }
 
   function render(d){
-    if(d.quote && $("quote")) $("quote").textContent = d.quote;
+    if(d.quote && $("quote")){
+      var q = typeof d.quote === "string" ? {tekst: d.quote} : d.quote;
+      $("quote").textContent = q.tekst ? "\u201C" + q.tekst + "\u201D" : "";
+      if($("wie")){ $("wie").textContent = q.wie ? "\u2014 " + q.wie : ""; $("wie").hidden = !q.wie; }
+    }
     if(d.aftellen && $("aftel")){
       var n = over(d.aftellen.datum);
       if(n >= 0){ $("aftel").hidden = false; $("aftel-n").textContent = n === 0 ? "VANDAAG" : n; $("aftel-u").textContent = n === 0 ? "" : (n === 1 ? "dag" : "dagen"); $("aftel-t").textContent = d.aftellen.titel; }

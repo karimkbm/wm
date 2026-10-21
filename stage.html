@@ -55,6 +55,7 @@ li.leeg{display:block;color:var(--muted)}
 .duo li time{order:2;font-size:.85rem}
 .foot{font-size:.75rem;color:#a98fc4;text-align:right}
 @media (max-height:760px) and (orientation:landscape){body{font-size:16px}.panel{padding:12px 16px}li{padding:6px 0}.quote{padding:16px 20px}.stick{width:70px;height:70px}}
+#wie{margin:10px 0 0;font:600 .9rem Nunito,sans-serif;opacity:.75;letter-spacing:.02em}
 </style>
 </head>
 <body data-src="data/stage.json">
@@ -77,7 +78,8 @@ li.leeg{display:block;color:var(--muted)}
     <div id="weer"></div>
     <div class="quote">
       <span class="tag">Quote van vandaag</span>
-      <p id="quote">Laden…</p>
+      <p id="quote" lang="en">Laden…</p>
+      <p id="wie" hidden></p>
     </div>
     <div class="aftel" id="aftel" hidden>
       <div><span class="n" id="aftel-n"></span><span class="u" id="aftel-u"></span></div>
