@@ -67,6 +67,10 @@ li.leeg{display:block;color:var(--muted)}
 .duo li.soon small{color:var(--rose);font-weight:800}
 .foot{flex:none;font-size:.75rem;color:var(--muted);text-align:right}
 #fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:var(--rose);color:#fff;box-shadow:0 6px 18px rgba(226,86,143,.35)}
+.right .panel,.right .duo{flex:0 0 auto!important}
+.right .panel.groei{flex:1 0 auto!important}
+.duo .panel{height:auto}
+ul[data-compact]{padding-left:32px}
 @media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;height:auto}body{overflow:auto}.left,.right,.panel,.quote{overflow:visible}}
 </style>
 </head>
@@ -100,9 +104,9 @@ li.leeg{display:block;color:var(--muted)}
   <section class="right">
     <div class="panel vast">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.8" fill="currentColor"/><circle cx="17.5" cy="16" r="2.8" fill="currentColor"/></svg>Comebacks &amp; nieuw</h2>
-      <ul id="nieuw" data-max="4"></ul>
+      <ul id="nieuw" data-max="4" data-eerst-houden></ul>
     </div>
-    <div class="panel">
+    <div class="panel groei">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 0 0-6V6H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 6v12" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/></svg>Concerten dichtbij</h2>
       <ul id="concert" data-max="4"></ul>
     </div>
@@ -120,6 +124,6 @@ li.leeg{display:block;color:var(--muted)}
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=8"></script>
 </body>
 </html>

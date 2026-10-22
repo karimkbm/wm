@@ -51,12 +51,20 @@
 
   var laatste = null;
   /* Haalt regels weg die niet in hun vak passen, zodat niets over elkaar heen valt. */
+  /* Laat de rechterkolom altijd passen: haal steeds de onderste regel weg uit het vak met de meeste regels,
+     tot alles past. Zo valt er nooit een half item weg. */
   function pas(){
-    var panels = document.querySelectorAll(".panel");
-    for(var p = 0; p < panels.length; p++){
-      var ul = panels[p].querySelector("ul"); if(!ul) continue;
-      var lis = ul.querySelectorAll("li");
-      for(var k = lis.length - 1; k > 0 && panels[p].scrollHeight > panels[p].clientHeight + 1; k--) ul.removeChild(lis[k]);
+    var kol = document.querySelector(".right"); if(!kol) return;
+    if(getComputedStyle(kol).overflow === "visible") return;
+    var lijsten = kol.querySelectorAll(".panel ul");
+    for(var n = 0; n < 60 && kol.scrollHeight > kol.clientHeight + 1; n++){
+      var kies = null, meest = 1;
+      for(var j = 0; j < lijsten.length; j++){
+        var aantal = lijsten[j].children.length;
+        if(aantal > meest || (aantal === meest && kies && aantal > 1 && kies.hasAttribute("data-eerst-houden"))){ kies = lijsten[j]; meest = aantal; }
+      }
+      if(!kies) break;
+      kies.removeChild(kies.lastElementChild);
     }
   }
   function render(d){
