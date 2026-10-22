@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "21 okt 2026",
+ "bijgewerkt": "22 okt 2026",
  "quote": {
-  "tekst": "The best way out is always through.",
-  "wie": "Robert Frost"
+  "tekst": "On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.",
+  "wie": "Satoru Iwata (Nintendo), keynote op GDC 2005"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -16,7 +16,7 @@
      "datum": "2026-10-24",
      "tot": "2026-11-01",
      "titel": "Prereleases Delta Reign",
-     "sub": "toernooitjes bij kaartwinkels, 24 okt t/m 1 nov"
+     "sub": "Build & Battle Box bij kaartwinkels, vanaf 24 okt"
     },
     {
      "datum": "2026-10-30",
@@ -26,12 +26,22 @@
     {
      "datum": "2026-11-06",
      "titel": "Delta Reign: Mega Rayquaza ex",
-     "sub": "nieuwe hoofdset + nieuwe golf 30th Celebration"
+     "sub": "nieuwe hoofdset, meer dan 135 kaarten"
+    },
+    {
+     "datum": "2026-11-06",
+     "titel": "30th Celebration Ultra-Premium",
+     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo"
+    },
+    {
+     "datum": "2026-11-06",
+     "titel": "30th Celebration Ditto Premium",
+     "sub": "Ditto-promo + 8 boosters"
     },
     {
      "datum": "2026-12-04",
-     "titel": "Laatste golf 30th Celebration",
-     "sub": "verwacht in de winkels"
+     "titel": "30th Celebration Binder Collection",
+     "sub": "verzamelmap met 5 boosters"
     }
    ]
   },
@@ -41,28 +51,34 @@
     {
      "datum": "2026-10-25",
      "titel": "Collector Fanatics",
-     "sub": "Etten-Leur · vanaf 10:00"
+     "sub": "Etten-Leur · Het Turfschip · vanaf 10:00"
     },
     {
      "datum": "2026-10-30",
      "tot": "2026-11-01",
      "titel": "Xclusive Collectors Event: Halloween",
-     "sub": "Tilburg · vr 30 okt t/m zo 1 nov"
+     "sub": "Tilburg · Koepelhal · vr 19:00, za 14:00, zo 12:00"
+    },
+    {
+     "datum": "2026-11-07",
+     "titel": "PokéDark 5th Edition",
+     "sub": "Valkenswaard · De Hijskraan · vanaf 14:00"
     },
     {
      "datum": "2026-11-14",
      "titel": "Cardview XL",
-     "sub": "Waalre"
+     "sub": "Waalre · Sporthal 't Hazzo · vanaf 10:00"
     },
     {
-     "datum": "2026-12-26",
-     "titel": "Xclusive Collectors Kerstbeurs",
-     "sub": "'s-Hertogenbosch · 09:00–16:30"
+     "datum": "2026-11-21",
+     "tot": "2026-11-22",
+     "titel": "Pokémon Beurs Etten-Leur (Con-NXT)",
+     "sub": "Etten-Leur · De Grauwe Polder · vanaf 10:00"
     },
     {
-     "datum": "2027-01-17",
-     "titel": "Collector Fanatics",
-     "sub": "Etten-Leur · vanaf 10:00"
+     "datum": "2026-11-28",
+     "titel": "Cardfanz Arena Oss: Winter Edition",
+     "sub": "Oss · Frans Heesen Stadion · vanaf 11:00"
     }
    ]
   },
@@ -74,7 +90,7 @@
      "sub": "Special Illustration Rare uit Prismatic Evolutions (146/131)"
     },
     {
-     "titel": "Ruilkans: beurs in Tilburg",
+     "titel": "Ruilkans: beurs in Tilburg, 30 okt–1 nov",
      "sub": "neem een lijstje mee van welke Flareons je al hebt"
     }
    ]
