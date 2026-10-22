@@ -53,6 +53,31 @@
   /* Haalt regels weg die niet in hun vak passen, zodat niets over elkaar heen valt. */
   /* Laat beide kolommen altijd passen. Elk vak heeft een prioriteit (data-prio, hoger = belangrijker).
      Zolang een kolom niet past, gaat er een héél item weg uit het minst belangrijke vak dat nog meer dan één item heeft. */
+  // Afbeelding van de kaart van de dag (met reserve-adres als de eerste bron faalt)
+  function toonKaartbeeld(url){
+    var img = $("kv-img"), ico = document.querySelector(".kv-icoon");
+    if(!img) return;
+    function zonder(){ img.hidden = true; if(ico) ico.hidden = false; pas(); }
+    if(!url){ zonder(); return; }
+    if(img.getAttribute("data-url") === url && !img.hidden) return;
+    img.setAttribute("data-url", url);
+    img.onerror = function(){
+      var m = /pokemontcg\.io\/([^\/]+)\/([^\/_.]+)/.exec(img.src);
+      if(m) img.src = "https://images.pokemoncard.io/images/" + m[1] + "/" + m[1] + "-" + m[2] + ".png";
+      else zonder();
+    };
+    img.onload = function(){ img.hidden = false; if(ico) ico.hidden = true; pas(); };
+    img.onclick = function(e){
+      e.stopPropagation();
+      var g = $("kv-groot"), gi = g.querySelector("img");
+      gi.onerror = function(){ gi.onerror = null; gi.src = img.src; };
+      gi.src = /pokemontcg\.io/.test(img.src) ? img.src.replace(/\.png$/, "_hires.png") : img.src;
+      g.hidden = false;
+    };
+    img.src = url;
+  }
+  if($("kv-groot")) $("kv-groot").onclick = function(e){ e.stopPropagation(); this.hidden = true; };
+
   function pas(){
     var verborgen = document.querySelectorAll("[data-optioneel]");
     for(var v = 0; v < verborgen.length; v++) verborgen[v].style.display = "";
@@ -104,6 +129,7 @@
         $("kv-over").textContent = k.over || "";
         $("kv-cm").href = "https://www.cardmarket.com/nl/Pokemon/Products/Search?searchString=" + q;
         $("kv-pk").href = "https://pkmncards.com/?s=" + q;
+        toonKaartbeeld(k.afbeelding);
         $("kaartvak").hidden = false;
       } else $("kaartvak").hidden = true;
     }

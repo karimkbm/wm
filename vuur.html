@@ -80,6 +80,10 @@ ul[data-compact] li.soon small{color:var(--deep);font-weight:700}
 .kv-icoon{flex:none;width:46px;height:64px;border-radius:7px;background:linear-gradient(135deg,var(--amber),var(--fire) 50%,var(--deep));box-shadow:inset 0 0 0 3px rgba(255,255,255,.7),0 4px 12px rgba(217,72,15,.3);position:relative;overflow:hidden}
 .kv-icoon::after{content:"";position:absolute;top:-30%;left:-60%;width:40%;height:160%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.7),transparent);transform:rotate(15deg);animation:glans 4.5s ease-in-out infinite;will-change:transform}
 @keyframes glans{0%,55%{transform:translateX(0) rotate(15deg)}100%{transform:translateX(330%) rotate(15deg)}}
+.kv-img{flex:none;height:132px;width:auto;aspect-ratio:63/88;object-fit:contain;border-radius:6px;box-shadow:0 6px 16px rgba(217,72,15,.28);cursor:zoom-in;background:#fff3e6}
+#kv-groot{position:fixed;inset:0;z-index:20;background:rgba(20,12,6,.82);display:flex;align-items:center;justify-content:center;cursor:zoom-out}
+#kv-groot[hidden]{display:none}
+#kv-groot img{max-height:92vh;max-width:92vw;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 .kv-tekst{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
 .kv-tekst b{font-weight:800;font-size:1.1rem;line-height:1.2}
 .kv-tekst small{color:var(--muted);font-size:.85rem;font-weight:600}
@@ -136,6 +140,7 @@ ul[data-compact] li.soon small{color:var(--deep);font-weight:700}
     </div>
     <div class="kader kaart" id="kaartvak" hidden>
       <div class="kv-icoon" aria-hidden="true"></div>
+      <img id="kv-img" class="kv-img" alt="" hidden>
       <div class="kv-tekst">
         <span class="tag">Kaart van de dag</span>
         <b id="kv-titel"></b>
@@ -156,6 +161,7 @@ ul[data-compact] li.soon small{color:var(--deep);font-weight:700}
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=13"></script>
+<div id="kv-groot" hidden><img alt=""></div>
+<script src="app.js?v=14"></script>
 </body>
 </html>
