@@ -2,7 +2,11 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="manifest" href="vuur.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="icons/vuur-192.png">
 <title>Vuurbasis</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,12 +24,12 @@ body{background:radial-gradient(120% 90% at 85% 110%,#4a1708 0%,#1a0d09 45%,var(
 .embers{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
 .embers i{position:absolute;bottom:-20px;width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px 3px rgba(255,120,30,.6);opacity:0;animation:rise 9s linear infinite;will-change:transform,opacity}
 @keyframes rise{0%{transform:translate3d(0,0,0);opacity:0}10%{opacity:.9}100%{transform:translate3d(30px,-105vh,0);opacity:0}}
-.wrap{position:relative;z-index:1;height:100%;display:grid;grid-template-columns:1fr 1.15fr;gap:22px;padding:24px 26px}
+.wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.15fr;gap:min(22px,2.5vh);padding:min(24px,3vh) 26px}
 @media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;overflow:auto}body{overflow:auto}}
-.left,.right{display:flex;flex-direction:column;gap:18px;min-width:0;min-height:0}
+.left,.right{display:flex;flex-direction:column;gap:min(18px,2.2vh);min-width:0;min-height:0}
 .tag{font:400 .8rem Bungee,sans-serif;letter-spacing:.08em;color:var(--fire)}
 .clock{display:flex;flex-direction:column;gap:6px}
-#tijd{font:400 clamp(5rem,13vw,10rem)/.85 Bungee,sans-serif;background:linear-gradient(180deg,#fff3d6 0%,var(--gold) 45%,var(--fire) 75%,var(--red) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:.02em}
+#tijd{font:400 min(10vw,19vh)/.88 Bungee,sans-serif;background:linear-gradient(180deg,#fff3d6 0%,var(--gold) 45%,var(--fire) 75%,var(--red) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:.02em}
 .sub{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;font-weight:600;font-size:1.3rem}
 #week{color:var(--muted);text-transform:none;font-size:1rem}
 #weer{display:flex;align-items:center;gap:10px;font-size:1.05rem;color:var(--muted)}
@@ -34,9 +38,9 @@ body{background:radial-gradient(120% 90% at 85% 110%,#4a1708 0%,#1a0d09 45%,var(
 .holo{position:relative;overflow:hidden;border-radius:var(--r);padding:22px 24px;background:linear-gradient(135deg,#3a1c10,#24130e 55%,#3d2210);border:2px solid #7a3a16;box-shadow:0 0 0 4px #1a0d09,0 0 0 6px #5a2a12,0 10px 30px rgba(0,0,0,.4)}
 .holo::after{content:"";position:absolute;top:-50%;left:-60%;width:40%;height:200%;background:linear-gradient(100deg,transparent,rgba(255,220,150,.18),transparent);transform:translateX(0) rotate(12deg);animation:shine 7s ease-in-out infinite;will-change:transform}
 @keyframes shine{0%,60%{transform:translateX(0) rotate(12deg)}100%{transform:translateX(420%) rotate(12deg)}}
-#quote{font:800 clamp(1.4rem,2.6vw,2rem)/1.2 Rubik,sans-serif;margin:8px 0 0;text-wrap:balance}
+#quote{font:800 clamp(1rem,min(2.2vw,3.9vh),1.8rem)/1.2 Rubik,sans-serif;margin:8px 0 0;text-wrap:balance}
 .aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:16px 22px;background:linear-gradient(90deg,var(--red),var(--fire) 60%,var(--gold));color:#2a0b02;margin-top:auto}
-.aftel .n{font:400 3.2rem/1 Bungee,sans-serif}
+.aftel .n{font:400 min(3.2rem,7vh)/1 Bungee,sans-serif}
 .aftel .u{font-weight:800;font-size:1rem;display:block}
 .aftel .t{font-weight:800;font-size:1.15rem;line-height:1.2}
 .panel{background:var(--panel);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 20px;min-height:0;display:flex;flex-direction:column;gap:8px}
@@ -55,6 +59,13 @@ li.leeg{display:block;color:var(--muted)}
 .foot{font-size:.75rem;color:#8a6a5a;text-align:right}
 @media (max-height:760px) and (orientation:landscape){body{font-size:16px}.panel{padding:12px 16px}li{padding:6px 0}.holo{padding:16px 20px}}
 #wie{margin:10px 0 0;font:600 .9rem Rubik,sans-serif;opacity:.75;letter-spacing:.02em}
+html,body{height:100%;margin:0}
+.wrap{height:100vh;height:100dvh}
+.left,.right{overflow:hidden}
+.panel{flex:1 1 auto;min-height:0;overflow:hidden}
+.panel h2{flex:none}
+#fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(4px)}
+@media (orientation:portrait){.wrap{height:auto}.left,.right,.panel{overflow:visible}}
 </style>
 </head>
 <body data-src="data/vuur.json">
@@ -100,6 +111,7 @@ li.leeg{display:block;color:var(--muted)}
     <div class="foot" id="bijgewerkt"></div>
   </section>
 </main>
+<button id="fs" type="button" hidden>Tik voor volledig scherm</button>
 <script src="app.js"></script>
 </body>
 </html>

@@ -49,7 +49,18 @@
     x.send();
   }
 
+  var laatste = null;
+  /* Haalt regels weg die niet in hun vak passen, zodat niets over elkaar heen valt. */
+  function pas(){
+    var panels = document.querySelectorAll(".panel");
+    for(var p = 0; p < panels.length; p++){
+      var ul = panels[p].querySelector("ul"); if(!ul) continue;
+      var lis = ul.querySelectorAll("li");
+      for(var k = lis.length - 1; k > 0 && panels[p].scrollHeight > panels[p].clientHeight + 1; k--) ul.removeChild(lis[k]);
+    }
+  }
   function render(d){
+    laatste = d;
     if(d.quote && $("quote")){
       var q = typeof d.quote === "string" ? {tekst: d.quote} : d.quote;
       $("quote").textContent = q.tekst ? "\u201C" + q.tekst + "\u201D" : "";
@@ -72,7 +83,34 @@
       }).join("") || '<li class="leeg">Even niks nieuws.</li>';
     });
     if($("bijgewerkt") && d.bijgewerkt) $("bijgewerkt").textContent = "bijgewerkt "+d.bijgewerkt;
+    pas();
   }
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ setTimeout(pasOpnieuw, 50); });
+  var rt;
+  function pasOpnieuw(){ if(laatste){ var d = laatste; laatste = null; render(d); } }
+  window.addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(pasOpnieuw, 200); });
+
+  /* Volledig scherm en scherm wakker houden: werkt na een tik (zo willen browsers het). */
+  var fsKnop = $("fs");
+  function isVol(){ return !!(document.fullscreenElement || document.webkitFullscreenElement) || (window.matchMedia && (matchMedia("(display-mode: fullscreen)").matches || matchMedia("(display-mode: standalone)").matches)); }
+  function toonKnop(){ if(fsKnop) fsKnop.hidden = isVol(); }
+  var lock = null;
+  function wakker(){ try{ if(navigator.wakeLock && !lock) navigator.wakeLock.request("screen").then(function(l){ lock = l; l.addEventListener("release", function(){ lock = null; }); }).catch(function(){}); }catch(e){} }
+  function volScherm(){
+    var el = document.documentElement;
+    try{
+      if(!isVol()){
+        var r = el.requestFullscreen ? el.requestFullscreen() : (el.webkitRequestFullscreen ? el.webkitRequestFullscreen() : null);
+        if(r && r.catch) r.catch(function(){});
+      }
+    }catch(e){}
+    wakker();
+  }
+  document.addEventListener("click", volScherm);
+  document.addEventListener("fullscreenchange", function(){ toonKnop(); setTimeout(pasOpnieuw, 300); });
+  document.addEventListener("webkitfullscreenchange", function(){ toonKnop(); setTimeout(pasOpnieuw, 300); });
+  document.addEventListener("visibilitychange", function(){ if(document.visibilityState === "visible" && isVol()) wakker(); });
+  toonKnop();
   function laad(){
     var x = new XMLHttpRequest();
     x.open("GET", DATA+"?t="+Date.now());
