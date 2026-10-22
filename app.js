@@ -84,6 +84,15 @@
     });
     if($("bijgewerkt") && d.bijgewerkt) $("bijgewerkt").textContent = "bijgewerkt "+d.bijgewerkt;
     pas();
+    pasQuote();
+  }
+  /* Maakt de quote kleiner tot hij helemaal in zijn vak past. */
+  function pasQuote(){
+    var q = $("quote"); if(!q) return;
+    var box = q.parentNode;
+    q.style.fontSize = "";
+    var s = parseFloat(getComputedStyle(q).fontSize) || 24;
+    for(var i = 0; i < 40 && box.scrollHeight > box.clientHeight + 1 && s > 12; i++){ s -= 1; q.style.fontSize = s + "px"; }
   }
   if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ setTimeout(pasOpnieuw, 50); });
   var rt;

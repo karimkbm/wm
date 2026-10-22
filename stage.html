@@ -69,6 +69,9 @@ html,body{height:100%;margin:0}
 #fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(4px)}
 section.left{overflow:visible}
 .panel.vast{flex:none}
+.quote{flex:0 1 auto;min-height:0;overflow:hidden}
+.left > *{flex-shrink:0}
+.left > .quote{flex-shrink:1}
 @media (orientation:portrait){.wrap{height:auto}.left,.right,.panel{overflow:visible}}
 </style>
 </head>
@@ -123,6 +126,6 @@ section.left{overflow:visible}
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
