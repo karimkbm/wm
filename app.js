@@ -77,8 +77,13 @@
       var items = (s.items || []).filter(function(i){ return !i.datum || (i.tot || i.datum) >= vandaag; });
       items.sort(function(a,b){ return (a.datum||"0") < (b.datum||"0") ? -1 : 1; });
       var max = +el.getAttribute("data-max") || 4;
+      var kort = el.hasAttribute("data-compact");
       el.innerHTML = items.slice(0, max).map(function(i){
         var soon = i.datum && over(i.datum) <= 7 && (i.tot || i.datum) >= vandaag;
+        if(kort){
+          var regel = [i.datum ? dagLabel(i.datum, i.tot) : "", i.sub || ""].filter(Boolean).join(" · ");
+          return '<li'+(soon ? ' class="soon"' : '')+'><div><b>'+esc(i.titel)+'</b>'+(regel ? '<small>'+esc(regel)+'</small>' : '')+'</div></li>';
+        }
         return '<li'+(soon ? ' class="soon"' : '')+'>'+(i.datum ? '<time>'+esc(dagLabel(i.datum, i.tot))+'</time>' : '')+'<div><b>'+esc(i.titel)+'</b>'+(i.sub ? '<small>'+esc(i.sub)+'</small>' : '')+'</div></li>';
       }).join("") || '<li class="leeg">Even niks nieuws.</li>';
     });
