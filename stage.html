@@ -6,86 +6,80 @@
 <link rel="manifest" href="stage.webmanifest">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fff4f9">
 <link rel="icon" href="icons/stage-192.png">
 <title>Stage</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Nunito:wght@400;700;800&display=swap">
 <style>
-/* Thema: concertavond. Nachtblauw naar magenta, een gloeiende lightstick, fonkelende sterretjes. */
+/* Thema: wit en pastelroze, met een zacht patroon van hartjes, sterren en noten op de achtergrond. */
 :root{
-  --bg:#140c2b; --panel:rgba(255,255,255,.07); --line:rgba(255,255,255,.14);
-  --ink:#fdf4ff; --muted:#d6bfe8; --pink:#ff5fb8; --lilac:#b07cff; --mint:#6ff2d6;
+  --bg:#fff7fb; --bg2:#ffe6f1; --card:#ffffff; --line:#f7d3e4;
+  --ink:#4a2342; --muted:#9a7090; --pink:#ff7eb6; --pink2:#ffb3d4; --rose:#e2568f; --soft:#fff0f7;
   --r:24px;
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
-body{background:linear-gradient(160deg,#120a2e 0%,#2a0f4d 45%,#5a1260 80%,#7a1b5e 100%);background-color:var(--bg);color:var(--ink);font:18px/1.35 Nunito,system-ui,sans-serif;overflow:hidden}
-.stars{position:fixed;inset:0;pointer-events:none;z-index:0}
-.stars i{position:absolute;width:4px;height:4px;border-radius:50%;background:#fff;box-shadow:0 0 8px 2px rgba(255,200,255,.7);animation:tw 4s ease-in-out infinite;will-change:opacity}
-@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
-.wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.15fr;gap:min(22px,2.5vh);padding:min(24px,3vh) 26px}
-@media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;overflow:auto}body{overflow:auto}}
-.left,.right{display:flex;flex-direction:column;gap:min(18px,2.2vh);min-width:0;min-height:0}
-.tag{font:800 .78rem Unbounded,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
-.top{display:flex;align-items:center;gap:22px}
-.stick{flex:none;width:min(7vw,13vh);height:min(7vw,13vh);border-radius:50%;background:radial-gradient(circle at 40% 35%,#fff 0 12%,#ffd1f0 22%,var(--pink) 48%,var(--lilac) 75%,transparent 76%);box-shadow:0 0 40px 10px rgba(255,95,184,.45);animation:glow 3.2s ease-in-out infinite;will-change:transform}
-@keyframes glow{0%,100%{transform:scale(.94)}50%{transform:scale(1.04)}}
-#tijd{font:800 min(8vw,16vh)/.95 Unbounded,sans-serif;letter-spacing:-.03em;background:linear-gradient(90deg,#fff,#ffd6f2 40%,var(--pink) 75%,var(--lilac));-webkit-background-clip:text;background-clip:text;color:transparent}
+body{background:linear-gradient(160deg,var(--bg) 0%,#fff 40%,var(--bg2) 100%);background-color:var(--bg);color:var(--ink);font:18px/1.35 Nunito,system-ui,sans-serif;overflow:hidden}
+.deco{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.7;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='%23ffd3e6'%3E%3Cpath d='M38 52c-6-9-20-4-17 7 2 7 17 17 17 17s15-10 17-17c3-11-11-16-17-7z'/%3E%3Cpath d='M160 30l4 11 11 4-11 4-4 11-4-11-11-4 11-4z'/%3E%3Cpath d='M118 150v-30l26-5v28' fill='none' stroke='%23ffd3e6' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='112' cy='151' r='7'/%3E%3Ccircle cx='138' cy='145' r='7'/%3E%3Cpath d='M40 170l3 8 8 3-8 3-3 8-3-8-8-3 8-3z'/%3E%3Cpath d='M185 140c-4-6-13-3-11 4 1 5 11 11 11 11s10-6 11-11c2-7-7-10-11-4z'/%3E%3Ccircle cx='95' cy='80' r='3'/%3E%3Ccircle cx='200' cy='205' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:220px 220px}
+.deco i{position:absolute;color:var(--pink2);font-style:normal;font-size:22px;animation:float 9s ease-in-out infinite;will-change:transform,opacity;opacity:0}
+@keyframes float{0%{transform:translate3d(0,20px,0);opacity:0}20%{opacity:.9}80%{opacity:.9}100%{transform:translate3d(0,-60px,0);opacity:0}}
+.wrap{position:relative;z-index:1;height:100vh;height:100dvh;display:grid;grid-template-columns:1fr 1.15fr;gap:min(22px,2.5vh);padding:min(24px,3vh) 26px}
+.left,.right{display:flex;flex-direction:column;gap:min(16px,2vh);min-width:0;min-height:0;overflow:hidden}
+.left{padding:4px}
+.left > *{flex-shrink:0}
+.tag{font:800 .78rem Unbounded,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--rose)}
+.top{display:flex;align-items:center;gap:20px}
+.orb{flex:none;width:min(6.5vw,12vh);height:min(6.5vw,12vh);border-radius:50%;background:radial-gradient(circle at 38% 32%,#fff 0 14%,#ffe1ef 28%,var(--pink2) 55%,var(--pink) 85%);box-shadow:0 6px 20px rgba(255,126,182,.35);animation:glow 3.2s ease-in-out infinite;will-change:transform}
+@keyframes glow{0%,100%{transform:scale(.95)}50%{transform:scale(1.04)}}
+#tijd{font:800 min(8vw,16vh)/.95 Unbounded,sans-serif;letter-spacing:-.03em;background:linear-gradient(90deg,var(--rose),var(--pink) 60%,#ffa3c9);-webkit-background-clip:text;background-clip:text;color:transparent}
 .sub{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;font-weight:800;font-size:1.3rem}
-#week{color:var(--muted);text-transform:none;font-size:1rem;font-weight:700}
+#week{color:var(--muted);font-size:1rem;font-weight:700}
 #weer{display:flex;align-items:center;gap:10px;font-size:1.05rem;color:var(--muted)}
-#weer svg{width:30px;height:30px;color:var(--mint)}
+#weer svg{width:30px;height:30px;color:var(--pink)}
 #weer b{font:800 1.4rem Unbounded,sans-serif;color:var(--ink)}
-.quote{border-radius:var(--r);padding:22px 24px;background:linear-gradient(135deg,rgba(255,95,184,.28),rgba(176,124,255,.22));border:1.5px solid rgba(255,255,255,.22)}
-#quote{font:800 clamp(1rem,min(2.2vw,3.9vh),1.8rem)/1.22 Nunito,sans-serif;margin:8px 0 0;text-wrap:balance}
-.aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:16px 22px;background:linear-gradient(90deg,var(--lilac),var(--pink));margin-top:auto;box-shadow:0 8px 30px rgba(255,95,184,.3)}
-.aftel .n{font:800 min(3rem,7vh)/1 Unbounded,sans-serif}
-.aftel .u{font-weight:800;font-size:1rem;display:block}
+.quote{position:relative;border-radius:var(--r);padding:20px 24px;background:var(--card);border:1.5px solid var(--line);box-shadow:0 8px 24px rgba(226,86,143,.08);flex:0 1 auto!important;min-height:0;overflow:hidden}
+.quote::before{content:"\201C";position:absolute;right:18px;top:-18px;font:800 7rem/1 Unbounded,sans-serif;color:var(--soft)}
+#quote{position:relative;font:800 clamp(1rem,min(2.2vw,3.9vh),1.8rem)/1.25 Nunito,sans-serif;margin:8px 0 0;text-wrap:balance;color:var(--ink)}
+#wie{position:relative;margin:10px 0 0;font:700 .9rem Nunito,sans-serif;color:var(--muted)}
+.aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:14px 22px;background:linear-gradient(90deg,#ffc1dc,#ffe3ef);color:var(--ink);margin-top:auto;border:1.5px solid #ffd0e4}
+.aftel .n{font:800 min(3rem,7vh)/1 Unbounded,sans-serif;color:var(--rose)}
+.aftel .u{font-weight:800;font-size:.95rem;display:block;color:var(--rose)}
 .aftel .t{font-weight:800;font-size:1.15rem;line-height:1.2}
-.panel{background:var(--panel);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 20px;min-height:0;display:flex;flex-direction:column;gap:8px}
-.panel h2{margin:0;display:flex;align-items:center;gap:10px;font:800 1rem Unbounded,sans-serif;color:#ffd6f2}
+.panel{background:rgba(255,255,255,.88);border:1.5px solid var(--line);border-radius:var(--r);padding:14px 20px;min-height:0;display:flex;flex-direction:column;gap:6px;flex:1 1 auto;overflow:hidden;box-shadow:0 8px 24px rgba(226,86,143,.06)}
+.panel.vast{flex:none}
+.panel h2{margin:0;flex:none;display:flex;align-items:center;gap:10px;font:800 .98rem Unbounded,sans-serif;color:var(--rose)}
 .panel h2 svg{width:22px;height:22px;color:var(--pink);flex:none}
 ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-li{display:grid;grid-template-columns:6.4em 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--line);align-items:baseline}
+li{display:grid;grid-template-columns:6.4em 1fr;gap:12px;padding:8px 0;border-top:1px solid var(--line);align-items:baseline}
 li:first-child{border-top:0}
 li time{font-weight:800;color:var(--muted);font-size:.92rem}
-li.soon time{color:var(--mint)}
+li.soon time{color:var(--rose)}
 li b{display:block;font-weight:800;line-height:1.25}
 li small{display:block;color:var(--muted);font-size:.9rem;margin-top:2px}
 li.leeg{display:block;color:var(--muted)}
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;min-height:0;flex:1 1 auto}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:min(16px,2vh);min-height:0;flex:0 1 auto}
 .duo .panel{height:100%}
 .duo li{grid-template-columns:1fr}
 .duo li time{order:2;font-size:.85rem}
-.foot{font-size:.75rem;color:#a98fc4;text-align:right}
-@media (max-height:760px) and (orientation:landscape){body{font-size:16px}.panel{padding:12px 16px}li{padding:6px 0}.quote{padding:16px 20px}.stick{width:70px;height:70px}}
-#wie{margin:10px 0 0;font:600 .9rem Nunito,sans-serif;opacity:.75;letter-spacing:.02em}
-html,body{height:100%;margin:0}
-.wrap{height:100vh;height:100dvh}
-.left,.right{overflow:hidden}
-.panel{flex:1 1 auto;min-height:0;overflow:hidden}
-.panel h2{flex:none}
-#fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(4px)}
-section.left{overflow:visible}
-.panel.vast{flex:none}
-.quote{flex:0 1 auto;min-height:0;overflow:hidden}
-.left > *{flex-shrink:0}
-.left > .quote{flex-shrink:1}
-@media (orientation:portrait){.wrap{height:auto}.left,.right,.panel{overflow:visible}}
+.foot{flex:none;font-size:.75rem;color:var(--muted);text-align:right}
+#fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:var(--rose);color:#fff;box-shadow:0 6px 18px rgba(226,86,143,.35)}
+@media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;height:auto}body{overflow:auto}.left,.right,.panel,.quote{overflow:visible}}
 </style>
 </head>
 <body data-src="data/stage.json">
-<div class="stars" aria-hidden="true">
-  <i style="left:8%;top:12%"></i><i style="left:22%;top:70%;animation-delay:1.3s"></i><i style="left:35%;top:30%;animation-delay:2.6s"></i>
-  <i style="left:47%;top:85%;animation-delay:.7s"></i><i style="left:58%;top:8%;animation-delay:3.1s"></i><i style="left:66%;top:55%;animation-delay:1.9s"></i>
-  <i style="left:78%;top:22%;animation-delay:.4s"></i><i style="left:88%;top:78%;animation-delay:2.2s"></i><i style="left:94%;top:40%;animation-delay:3.6s"></i>
-  <i style="left:14%;top:45%;animation-delay:2.9s"></i>
+<div class="deco" aria-hidden="true">
+  <i style="left:12%;top:70%">&#9825;</i><i style="left:38%;top:85%;animation-delay:3s">&#10022;</i>
+  <i style="left:62%;top:75%;animation-delay:5.5s">&#9834;</i><i style="left:84%;top:88%;animation-delay:1.5s">&#9825;</i>
+  <i style="left:26%;top:40%;animation-delay:7s">&#10022;</i>
 </div>
 <main class="wrap">
   <section class="left">
     <div class="top">
-      <div class="stick" aria-hidden="true"></div>
+      <div class="orb" aria-hidden="true"></div>
       <div>
         <span class="tag">Backstage</span>
         <div id="tijd">--:--</div>
@@ -106,16 +100,16 @@ section.left{overflow:visible}
   <section class="right">
     <div class="panel vast">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.8" fill="currentColor"/><circle cx="17.5" cy="16" r="2.8" fill="currentColor"/></svg>Comebacks &amp; nieuw</h2>
-      <ul id="nieuw" data-max="3"></ul>
+      <ul id="nieuw" data-max="4"></ul>
     </div>
     <div class="panel">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 0 0-6V6H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 6v12" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/></svg>Concerten dichtbij</h2>
-      <ul id="concert" data-max="3"></ul>
+      <ul id="concert" data-max="4"></ul>
     </div>
     <div class="duo">
       <div class="panel">
-        <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6-8 11-8 11z" fill="currentColor"/></svg>BTS</h2>
-        <ul id="bts" data-max="2"></ul>
+        <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.6 6.3L21 9l-5 4.4 1.5 6.6L12 16.6 6.5 20 8 13.4 3 9l6.4-.7z" fill="currentColor"/></svg>Op tour</h2>
+        <ul id="tour" data-max="2"></ul>
       </div>
       <div class="panel">
         <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11h14v10H5zM3 7h18v4H3zM12 7v14M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Jarig</h2>
@@ -126,6 +120,6 @@ section.left{overflow:visible}
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

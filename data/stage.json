@@ -1,87 +1,33 @@
 {
  "bijgewerkt": "22 okt 2026",
  "quote": {
-  "tekst": "We have learned to love ourselves, so now I urge you to 'speak yourself.'",
-  "wie": "RM (BTS), speech bij de VN, 2018"
+  "tekst": "I have also learned that I should try to love myself a bit more.",
+  "wie": "Bang Chan (Stray Kids), interview met Rolling Stone UK"
  },
- "aftellen": {
-  "titel": "LNGSHOT · EP 'S.W.I.S.H.'",
-  "datum": "2026-11-10"
- },
+ "aftellen": {"titel": "LNGSHOT · EP 'S.W.I.S.H.'", "datum": "2026-11-10"},
  "secties": [
-  {
-   "id": "nieuw",
-   "items": [
-    {
-     "datum": "2026-10-21",
-     "tot": "2026-10-28",
-     "titel": "LNGSHOT: 'Masterpiece' is uit",
-     "sub": "single + videoclip, voorproefje van de nieuwe EP"
-    },
-    {
-     "datum": "2026-11-10",
-     "titel": "LNGSHOT: EP 'S.W.I.S.H.'",
-     "sub": "eerste comeback sinds hun debuut · 10:00 Nederlandse tijd"
-    }
-   ]
-  },
-  {
-   "id": "concert",
-   "items": [
-    {
-     "datum": "2027-03-02",
-     "titel": "ENHYPEN",
-     "sub": "Ziggo Dome, Amsterdam"
-    },
-    {
-     "datum": "2027-06-10",
-     "titel": "TXT",
-     "sub": "Amsterdam"
-    },
-    {
-     "datum": "2027-06-12",
-     "titel": "TXT",
-     "sub": "Antwerpen"
-    },
-    {
-     "datum": "2027-06-14",
-     "titel": "TXT",
-     "sub": "Keulen"
-    }
-   ]
-  },
-  {
-   "id": "bts",
-   "items": [
-    {
-     "datum": "2026-10-21",
-     "tot": "2026-10-24",
-     "titel": "Arirang Tour: La Plata",
-     "sub": "Argentinië"
-    },
-    {
-     "datum": "2026-10-28",
-     "tot": "2026-10-31",
-     "titel": "Arirang Tour: São Paulo",
-     "sub": "Brazilië"
-    },
-    {
-     "datum": "2026-11-19",
-     "tot": "2026-11-22",
-     "titel": "Arirang Tour: Kaohsiung",
-     "sub": "Taiwan"
-    }
-   ]
-  },
-  {
-   "id": "jarig",
-   "items": [
-    {
-     "datum": "2026-12-04",
-     "titel": "Jin",
-     "sub": "BTS"
-    }
-   ]
-  }
+  {"id": "nieuw", "items": [
+   {"datum": "2026-10-21", "tot": "2026-10-28", "titel": "LNGSHOT: 'Masterpiece' is uit", "sub": "single + videoclip, voorproefje van de nieuwe EP"},
+   {"datum": "2026-11-10", "titel": "LNGSHOT: EP 'S.W.I.S.H.'", "sub": "eerste comeback sinds hun debuut · 10:00 Nederlandse tijd"},
+   {"datum": "2026-11-16", "titel": "TXT: mini-album 'PERFECT STORM'", "sub": "hun negende mini-album, zes nummers"}
+  ]},
+  {"id": "concert", "items": [
+   {"datum": "2027-03-02", "titel": "ENHYPEN · BLOOD SAGA", "sub": "Ziggo Dome, Amsterdam"},
+   {"datum": "2027-06-10", "titel": "TXT", "sub": "Amsterdam"},
+   {"datum": "2027-06-12", "titel": "TXT", "sub": "Antwerpen"},
+   {"datum": "2027-06-14", "titel": "TXT", "sub": "Keulen"}
+  ]},
+  {"id": "tour", "items": [
+   {"datum": "2026-10-24", "titel": "Stray Kids · Fukuoka", "sub": "Japan, dome-concert"},
+   {"datum": "2026-11-06", "tot": "2026-11-08", "titel": "Stray Kids · Tokyo Dome", "sub": "Japan"},
+   {"datum": "2026-11-13", "tot": "2026-11-15", "titel": "TXT · start wereldtour", "sub": "Seoul, KSPO Dome"}
+  ]},
+  {"id": "jarig", "items": [
+   {"datum": "2026-10-25", "titel": "Lee Know", "sub": "Stray Kids"},
+   {"datum": "2026-11-15", "titel": "Jake", "sub": "ENHYPEN"},
+   {"datum": "2026-12-05", "titel": "Soobin", "sub": "TXT"},
+   {"datum": "2026-12-08", "titel": "Sunghoon", "sub": "ENHYPEN"},
+   {"datum": "2026-12-09", "titel": "Ni-ki", "sub": "ENHYPEN"}
+  ]}
  ]
 }
