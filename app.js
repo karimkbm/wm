@@ -82,6 +82,18 @@
       $("quote").textContent = q.tekst ? "\u201C" + q.tekst + "\u201D" : "";
       if($("wie")){ $("wie").textContent = q.wie ? "\u2014 " + q.wie : ""; $("wie").hidden = !q.wie; }
     }
+    if($("nummerkaart")){
+      var nr = d.nummer;
+      if(nr && nr.titel){
+        var zoek = encodeURIComponent((nr.artiest || "") + " " + nr.titel);
+        $("nk-titel").textContent = nr.titel + (nr.artiest ? " \u2014 " + nr.artiest : "");
+        $("nk-info").textContent = [nr.album, nr.jaar].filter(Boolean).join(" \u00B7 ");
+        $("nk-over").textContent = nr.over || "";
+        $("nk-yt").href = "https://www.youtube.com/results?search_query=" + zoek;
+        $("nk-sp").href = "https://open.spotify.com/search/" + zoek;
+        $("nummerkaart").hidden = false;
+      } else $("nummerkaart").hidden = true;
+    }
     if(d.aftellen && $("aftel")){
       var n = over(d.aftellen.datum);
       if(n >= 0){ $("aftel").hidden = false; $("aftel-n").textContent = n === 0 ? "VANDAAG" : n; $("aftel-u").textContent = n === 0 ? "" : (n === 1 ? "dag" : "dagen"); $("aftel-t").textContent = d.aftellen.titel; }

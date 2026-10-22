@@ -72,6 +72,19 @@ li.leeg{display:block;color:var(--muted)}
 .panel.groei{flex:1 0 auto!important}
 .duo .panel{height:auto}
 ul[data-compact]{padding-left:32px}
+.nummer{flex:none;display:flex;align-items:center;gap:16px;border-radius:var(--r);padding:14px 18px;background:linear-gradient(110deg,#fff 0%,#ffeaf4 55%,#ffd6e8 100%);border:1.5px solid var(--line);box-shadow:0 8px 24px rgba(226,86,143,.08)}
+.nummer[hidden]{display:none}
+.nk-icoon{flex:none;width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 50% 50%,#fff 0 16%,var(--pink) 17% 60%,var(--rose) 61%);display:flex;align-items:center;justify-content:center;animation:draai 6s linear infinite;will-change:transform}
+@keyframes draai{to{transform:rotate(360deg)}}
+.nk-icoon::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--rose)}
+.nk-tekst{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.nk-tekst b{font-weight:800;font-size:1.1rem;line-height:1.2}
+.nk-tekst small{color:var(--muted);font-size:.85rem;font-weight:700}
+.nk-tekst p{margin:3px 0 0;font-size:.92rem;line-height:1.3}
+.nk-tekst p:empty{display:none}
+.nk-knoppen{flex:none;display:flex;flex-direction:column;gap:6px}
+.nk-knoppen a{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:.85rem;padding:7px 14px;border-radius:999px;background:var(--rose);color:#fff;min-width:88px}
+.nk-knoppen a + a{background:#fff;color:var(--rose);border:1.5px solid var(--pink2)}
 @media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;height:auto}body{overflow:auto}.left,.right,.panel,.quote{overflow:visible}}
 </style>
 </head>
@@ -117,6 +130,19 @@ ul[data-compact]{padding-left:32px}
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.8" fill="currentColor"/><circle cx="17.5" cy="16" r="2.8" fill="currentColor"/></svg>Comebacks &amp; nieuw</h2>
       <ul id="nieuw" data-prio="4" data-max="5"></ul>
     </div>
+    <div class="nummer" id="nummerkaart" hidden>
+      <div class="nk-icoon" aria-hidden="true"></div>
+      <div class="nk-tekst">
+        <span class="tag">Nummer van de dag</span>
+        <b id="nk-titel"></b>
+        <small id="nk-info"></small>
+        <p id="nk-over"></p>
+      </div>
+      <div class="nk-knoppen">
+        <a id="nk-yt" target="_blank" rel="noopener">YouTube</a>
+        <a id="nk-sp" target="_blank" rel="noopener">Spotify</a>
+      </div>
+    </div>
     <div class="panel groei">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 0 0-6V6H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 6v12" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/></svg>Concerten dichtbij</h2>
       <ul id="concert" data-prio="1" data-max="4"></ul>
@@ -125,6 +151,6 @@ ul[data-compact]{padding-left:32px}
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=11"></script>
+<script src="app.js?v=12"></script>
 </body>
 </html>
