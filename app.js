@@ -89,10 +89,15 @@
   /* Maakt de quote kleiner tot hij helemaal in zijn vak past. */
   function pasQuote(){
     var q = $("quote"); if(!q) return;
-    var box = q.parentNode;
+    var box = q.parentNode, wie = $("wie");
     q.style.fontSize = "";
+    function teVol(){
+      var laatst = (wie && !wie.hidden) ? wie : q;
+      var onder = box.getBoundingClientRect().bottom - (parseFloat(getComputedStyle(box).paddingBottom) || 0);
+      return laatst.getBoundingClientRect().bottom > onder + 1;
+    }
     var s = parseFloat(getComputedStyle(q).fontSize) || 24;
-    for(var i = 0; i < 40 && box.scrollHeight > box.clientHeight + 1 && s > 12; i++){ s -= 1; q.style.fontSize = s + "px"; }
+    for(var i = 0; i < 40 && teVol() && s > 13; i++){ s -= 1; q.style.fontSize = s + "px"; }
   }
   if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ setTimeout(pasOpnieuw, 50); });
   var rt;
