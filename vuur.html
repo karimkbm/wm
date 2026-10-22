@@ -6,96 +6,123 @@
 <link rel="manifest" href="vuur.webmanifest">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fbf6ef">
 <link rel="icon" href="icons/vuur-192.png">
 <title>Vuurbasis</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Rubik:wght@400;600;800&display=swap">
 <style>
-/* Thema: vuur en verzamelkaarten. Donkere basis, gloeiende sintels, één holo-glans. */
+/* Thema: licht "dev-level". Een maatvoeringsraster zoals in een level-editor, zwevende draadmodel-blokken
+   en een paar opstijgende vonken. Wit/zand met vuuroranje accenten. */
 :root{
-  --bg:#120b09; --panel:#1f1411; --panel2:#2a1a15; --line:#4a2a1e;
-  --ink:#fff1e6; --muted:#d9a98f; --fire:#ff6a1a; --gold:#ffc23d; --red:#e0321b;
-  --r:22px;
+  --bg:#fbf6ef; --card:#ffffff; --line:#eedfcf; --grid:#f1e2d0; --grid2:#e8d2bb;
+  --ink:#2a1f17; --muted:#8b7260; --fire:#ff6a1a; --amber:#ffa62b; --deep:#d9480f; --soft:#fff3e6;
+  --r:18px;
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
-body{background:radial-gradient(120% 90% at 85% 110%,#4a1708 0%,#1a0d09 45%,var(--bg) 75%);background-color:var(--bg);color:var(--ink);font:18px/1.35 Rubik,system-ui,sans-serif;overflow:hidden}
-.embers{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
-.embers i{position:absolute;bottom:-20px;width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px 3px rgba(255,120,30,.6);opacity:0;animation:rise 9s linear infinite;will-change:transform,opacity}
-@keyframes rise{0%{transform:translate3d(0,0,0);opacity:0}10%{opacity:.9}100%{transform:translate3d(30px,-105vh,0);opacity:0}}
-.wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.15fr;gap:min(22px,2.5vh);padding:min(24px,3vh) 26px}
-.right .panel,.right .duo{flex:0 0 auto!important}
-.right .panel.groei{flex:1 0 auto!important}
-.duo .panel{height:auto}
-ul[data-compact]{padding-left:32px}
-@media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;overflow:auto}body{overflow:auto}}
-.left,.right{display:flex;flex-direction:column;gap:min(18px,2.2vh);min-width:0;min-height:0}
-.tag{font:400 .8rem Bungee,sans-serif;letter-spacing:.08em;color:var(--fire)}
-.clock{display:flex;flex-direction:column;gap:6px}
-#tijd{font:400 min(10vw,19vh)/.88 Bungee,sans-serif;background:linear-gradient(180deg,#fff3d6 0%,var(--gold) 45%,var(--fire) 75%,var(--red) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:.02em}
-.sub{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;font-weight:600;font-size:1.3rem}
-#week{color:var(--muted);text-transform:none;font-size:1rem}
+body{background-color:var(--bg);color:var(--ink);font:18px/1.35 Rubik,system-ui,sans-serif;overflow:hidden;
+  background-image:
+    linear-gradient(var(--grid2) 1.5px,transparent 1.5px),linear-gradient(90deg,var(--grid2) 1.5px,transparent 1.5px),
+    linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:256px 256px,256px 256px,64px 64px,64px 64px;background-position:-1px -1px}
+.deco{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.maat{position:absolute;font:700 11px "Chakra Petch",monospace;color:#d9b896;letter-spacing:.06em}
+.blok{position:absolute;width:90px;height:90px;color:#f7b98a;opacity:.85;animation:tuimel 26s linear infinite;will-change:transform}
+.blok svg{width:100%;height:100%}
+@keyframes tuimel{0%{transform:translate3d(0,0,0) rotate(0)}50%{transform:translate3d(30px,-40px,0) rotate(180deg)}100%{transform:translate3d(0,0,0) rotate(360deg)}}
+.vonk{position:absolute;bottom:-10px;width:5px;height:5px;background:var(--fire);box-shadow:0 0 8px 2px rgba(255,106,26,.45);opacity:0;animation:stijg 10s linear infinite;will-change:transform,opacity}
+@keyframes stijg{0%{transform:translate3d(0,0,0);opacity:0}12%{opacity:.8}100%{transform:translate3d(25px,-100vh,0);opacity:0}}
+.wrap{position:relative;z-index:1;height:100vh;height:100dvh;display:grid;grid-template-columns:1fr 1.15fr;gap:min(22px,2.5vh);padding:min(24px,3vh) 26px}
+.left,.right{display:flex;flex-direction:column;gap:min(16px,2vh);min-width:0;min-height:0;overflow:hidden}
+.left{padding:4px}
+.left > *{flex-shrink:0}
+.tag{font:700 .8rem "Chakra Petch",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--deep)}
+.klokrij{display:flex;align-items:flex-end;gap:14px}
+#tijd{font:700 min(8.5vw,15.5vh)/.86 "Chakra Petch",sans-serif;letter-spacing:-.02em;background:linear-gradient(180deg,var(--amber) 0%,var(--fire) 55%,var(--deep) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;font-weight:800;font-size:1.3rem}
+#week{color:var(--muted);font-size:1rem;font-weight:600}
 #weer{display:flex;align-items:center;gap:10px;font-size:1.05rem;color:var(--muted)}
-#weer svg{width:30px;height:30px;color:var(--gold)}
-#weer b{font:400 1.5rem Bungee,sans-serif;color:var(--ink)}
-.holo{position:relative;overflow:hidden;border-radius:var(--r);padding:22px 24px;background:linear-gradient(135deg,#3a1c10,#24130e 55%,#3d2210);border:2px solid #7a3a16;box-shadow:0 0 0 4px #1a0d09,0 0 0 6px #5a2a12,0 10px 30px rgba(0,0,0,.4)}
-.holo::after{content:"";position:absolute;top:-50%;left:-60%;width:40%;height:200%;background:linear-gradient(100deg,transparent,rgba(255,220,150,.18),transparent);transform:translateX(0) rotate(12deg);animation:shine 7s ease-in-out infinite;will-change:transform}
-@keyframes shine{0%,60%{transform:translateX(0) rotate(12deg)}100%{transform:translateX(420%) rotate(12deg)}}
-#quote{font:800 clamp(1rem,min(2.2vw,3.9vh),1.8rem)/1.2 Rubik,sans-serif;margin:8px 0 0;text-wrap:balance}
-.aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:16px 22px;background:linear-gradient(90deg,var(--red),var(--fire) 60%,var(--gold));color:#2a0b02;margin-top:auto}
-.aftel .n{font:400 min(3.2rem,7vh)/1 Bungee,sans-serif}
-.aftel .u{font-weight:800;font-size:1rem;display:block}
+#weer svg{width:30px;height:30px;color:var(--fire)}
+#weer b{font:700 1.5rem "Chakra Petch",sans-serif;color:var(--ink)}
+.kader{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);box-shadow:0 8px 22px rgba(217,72,15,.07)}
+.kader::before,.kader::after{content:"";position:absolute;width:14px;height:14px;border-color:var(--fire);border-style:solid;pointer-events:none}
+.kader::before{top:-2px;left:-2px;border-width:3px 0 0 3px;border-top-left-radius:var(--r)}
+.kader::after{bottom:-2px;right:-2px;border-width:0 3px 3px 0;border-bottom-right-radius:var(--r)}
+.quote{padding:18px 22px;flex:0 0 auto!important;min-height:0;overflow:hidden}
+#quote{font:800 clamp(1rem,min(2vw,3.4vh),1.6rem)/1.25 Rubik,sans-serif;margin:8px 0 0;text-wrap:balance}
+#wie{margin:10px 0 0;font:600 .9rem Rubik,sans-serif;color:var(--muted)}
+.aftel{display:flex;align-items:center;gap:18px;border-radius:var(--r);padding:14px 22px;background:linear-gradient(90deg,var(--deep),var(--fire) 55%,var(--amber));color:#fff;margin-top:auto;box-shadow:0 8px 22px rgba(217,72,15,.25)}
+.aftel .n{font:700 min(3.2rem,7vh)/1 "Chakra Petch",sans-serif}
+.aftel .u{font-weight:800;font-size:.95rem;display:block}
 .aftel .t{font-weight:800;font-size:1.15rem;line-height:1.2}
-.panel{background:var(--panel);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 20px;min-height:0;display:flex;flex-direction:column;gap:8px}
-.panel h2{margin:0;display:flex;align-items:center;gap:10px;font:400 1.15rem Bungee,sans-serif;color:var(--gold)}
+.panel{padding:14px 20px;min-height:0;display:flex;flex-direction:column;gap:6px;overflow:hidden}
+.panel h2{margin:0;flex:none;display:flex;align-items:center;gap:10px;font:700 1.02rem "Chakra Petch",sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--deep)}
 .panel h2 svg{width:22px;height:22px;color:var(--fire);flex:none}
 ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-li{display:grid;grid-template-columns:6.4em 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--line);align-items:baseline}
+li{display:grid;grid-template-columns:6.4em 1fr;gap:12px;padding:8px 0;border-top:1px dashed var(--line);align-items:baseline}
 li:first-child{border-top:0}
 li time{font-weight:800;color:var(--muted);font-size:.92rem}
-li.soon time{color:var(--fire)}
+li.soon time{color:var(--deep)}
 li b{display:block;font-weight:600;line-height:1.25}
 li small{display:block;color:var(--muted);font-size:.88rem;margin-top:2px}
 li.leeg{display:block;color:var(--muted)}
-#flareon li{grid-template-columns:1fr}
-.flame{background:linear-gradient(160deg,#3b1408,#1f1411 60%)}
-.foot{font-size:.75rem;color:#8a6a5a;text-align:right}
-@media (max-height:760px) and (orientation:landscape){body{font-size:16px}.panel{padding:12px 16px}li{padding:6px 0}.holo{padding:16px 20px}}
-#wie{margin:10px 0 0;font:600 .9rem Rubik,sans-serif;opacity:.75;letter-spacing:.02em}
-html,body{height:100%;margin:0}
-.wrap{height:100vh;height:100dvh}
-.left,.right{overflow:hidden}
-.panel{flex:1 1 auto;min-height:0;overflow:hidden}
-.panel h2{flex:none}
-#fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:999px;padding:10px 18px;font:700 .95rem system-ui,sans-serif;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(4px)}
-.holo{flex:0 1 auto;min-height:0;overflow:hidden}
-.left > *{flex-shrink:0}
-.left > .holo{flex-shrink:0}
-@media (orientation:portrait){.wrap{height:auto}.left,.right,.panel{overflow:visible}}
+ul[data-compact]{padding-left:32px}
+ul[data-compact] li{grid-template-columns:1fr}
+ul[data-compact] li.soon small{color:var(--deep);font-weight:700}
+.duo{display:flex;gap:min(16px,2vh);min-height:0}
+.duo > .panel{flex:1 1 0!important;min-width:0}
+.panel,.duo{flex:0 0 auto!important}
+.panel.groei{flex:1 0 auto!important}
+.kaart{flex:none;display:flex;align-items:center;gap:16px;padding:14px 18px;background:linear-gradient(110deg,#fff 0%,#fff3e6 60%,#ffe2c7 100%)}
+.kaart[hidden]{display:none}
+.kv-icoon{flex:none;width:46px;height:64px;border-radius:7px;background:linear-gradient(135deg,var(--amber),var(--fire) 50%,var(--deep));box-shadow:inset 0 0 0 3px rgba(255,255,255,.7),0 4px 12px rgba(217,72,15,.3);position:relative;overflow:hidden}
+.kv-icoon::after{content:"";position:absolute;top:-30%;left:-60%;width:40%;height:160%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.7),transparent);transform:rotate(15deg);animation:glans 4.5s ease-in-out infinite;will-change:transform}
+@keyframes glans{0%,55%{transform:translateX(0) rotate(15deg)}100%{transform:translateX(330%) rotate(15deg)}}
+.kv-tekst{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.kv-tekst b{font-weight:800;font-size:1.1rem;line-height:1.2}
+.kv-tekst small{color:var(--muted);font-size:.85rem;font-weight:600}
+.kv-rar{align-self:flex-start;margin-top:3px;font:700 .72rem "Chakra Petch",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--deep);background:var(--soft);border:1px solid #ffd2ad;border-radius:6px;padding:2px 7px}
+.kv-tekst p{margin:3px 0 0;font-size:.92rem;line-height:1.3}
+.kv-tekst p:empty{display:none}
+.kv-knoppen{flex:none;display:flex;flex-direction:column;gap:6px}
+.kv-knoppen a{display:block;text-align:center;text-decoration:none;font:700 .85rem "Chakra Petch",sans-serif;letter-spacing:.04em;padding:7px 14px;border-radius:10px;background:var(--fire);color:#fff;min-width:100px}
+.kv-knoppen a + a{background:#fff;color:var(--deep);border:1.5px solid #ffc9a3}
+.foot{flex:none;font-size:.75rem;color:var(--muted);text-align:right}
+#fs{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;border:0;border-radius:12px;padding:10px 18px;font:700 .95rem "Chakra Petch",system-ui,sans-serif;letter-spacing:.04em;background:var(--ink);color:#fff;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+@media (orientation:portrait){.wrap{grid-template-columns:1fr;grid-auto-rows:min-content;height:auto}body{overflow:auto}.left,.right,.panel,.quote{overflow:visible}}
 </style>
 </head>
 <body data-src="data/vuur.json">
-<div class="embers" aria-hidden="true">
-  <i style="left:6%;animation-delay:0s"></i><i style="left:14%;animation-delay:3.2s;animation-duration:11s"></i>
-  <i style="left:23%;animation-delay:6s"></i><i style="left:31%;animation-delay:1.5s;animation-duration:12s"></i>
-  <i style="left:42%;animation-delay:4.4s"></i><i style="left:55%;animation-delay:7.3s;animation-duration:10s"></i>
-  <i style="left:63%;animation-delay:2.2s"></i><i style="left:71%;animation-delay:5.1s;animation-duration:13s"></i>
-  <i style="left:80%;animation-delay:.8s"></i><i style="left:88%;animation-delay:6.6s;animation-duration:11s"></i>
-  <i style="left:95%;animation-delay:3.9s"></i><i style="left:48%;animation-delay:8.2s;animation-duration:14s"></i>
+<div class="deco" aria-hidden="true">
+  <span class="maat" style="left:6px;top:4px">0</span><span class="maat" style="left:262px;top:4px">256</span><span class="maat" style="left:518px;top:4px">512</span><span class="maat" style="left:774px;top:4px">768</span><span class="maat" style="left:1030px;top:4px">1024</span>
+  <div class="blok" style="left:4%;top:62%"><svg viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M50 8 88 29v42L50 92 12 71V29z"/><path d="M12 29l38 21 38-21M50 50v42"/></g></svg></div>
+  <div class="blok" style="left:46%;top:78%;width:60px;height:60px;animation-duration:34s;animation-direction:reverse"><svg viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"><path d="M50 8 88 29v42L50 92 12 71V29z"/><path d="M12 29l38 21 38-21M50 50v42"/></g></svg></div>
+  <div class="blok" style="left:88%;top:8%;width:70px;height:70px;animation-duration:30s"><svg viewBox="0 0 100 100"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"><circle cx="50" cy="50" r="40"/><ellipse cx="50" cy="50" rx="40" ry="14"/><ellipse cx="50" cy="50" rx="14" ry="40"/></g></svg></div>
+  <i class="vonk" style="left:10%"></i><i class="vonk" style="left:27%;animation-delay:3s"></i><i class="vonk" style="left:52%;animation-delay:6s"></i>
+  <i class="vonk" style="left:71%;animation-delay:1.5s"></i><i class="vonk" style="left:90%;animation-delay:4.5s"></i>
 </div>
 <main class="wrap">
   <section class="left">
-    <div class="clock">
-      <span class="tag">VUURBASIS</span>
-      <div id="tijd">--:--</div>
-      <div class="sub"><span id="datum"></span><span id="week"></span></div>
-      <div id="weer"></div>
-    </div>
-    <div class="holo">
-      <span class="tag">VUUR VAN DE DAG</span>
+    <span class="tag">Vuurbasis</span>
+    <div id="tijd">--:--</div>
+    <div class="sub"><span id="datum"></span><span id="week"></span></div>
+    <div id="weer"></div>
+    <div class="kader quote">
+      <span class="tag">Vuur van de dag</span>
       <p id="quote" lang="en">Laden…</p>
       <p id="wie" hidden></p>
+    </div>
+    <div class="duo">
+      <div class="kader panel">
+        <h2><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 10v4M5 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="15.5" cy="11" r="1.3" fill="currentColor"/><circle cx="18" cy="13.5" r="1.3" fill="currentColor"/></svg>Gaming</h2>
+        <ul id="gaming" data-prio="3" data-max="2" data-compact></ul>
+      </div>
+      <div class="kader panel" data-optioneel>
+        <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5 .2 1.6 1 2.6 2 3 .2-3.3-.8-6 .5-9z" fill="currentColor"/></svg>Flareon-hoek</h2>
+        <ul id="flareon" data-prio="2" data-max="2" data-compact></ul>
+      </div>
     </div>
     <div class="aftel" id="aftel" hidden>
       <div><span class="n" id="aftel-n"></span><span class="u" id="aftel-u"></span></div>
@@ -103,22 +130,32 @@ html,body{height:100%;margin:0}
     </div>
   </section>
   <section class="right">
-    <div class="panel">
+    <div class="kader panel">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7l1.6 3.3 3.4.4-2.5 2.4.7 3.4-3.2-1.8-3.2 1.8.7-3.4-2.5-2.4 3.4-.4z" fill="currentColor"/></svg>TCG-radar</h2>
-      <ul id="tcg" data-prio="3" data-max="3"></ul>
+      <ul id="tcg" data-prio="4" data-max="3"></ul>
     </div>
-    <div class="panel groei">
+    <div class="kader kaart" id="kaartvak" hidden>
+      <div class="kv-icoon" aria-hidden="true"></div>
+      <div class="kv-tekst">
+        <span class="tag">Kaart van de dag</span>
+        <b id="kv-titel"></b>
+        <small id="kv-info"></small>
+        <span class="kv-rar" id="kv-rar" hidden></span>
+        <p id="kv-over"></p>
+      </div>
+      <div class="kv-knoppen">
+        <a id="kv-cm" target="_blank" rel="noopener">Cardmarket</a>
+        <a id="kv-pk" target="_blank" rel="noopener">Bekijk kaart</a>
+      </div>
+    </div>
+    <div class="kader panel groei">
       <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.6" fill="currentColor"/></svg>Beurzen in de buurt</h2>
-      <ul id="beurs" data-prio="2" data-max="3"></ul>
-    </div>
-    <div class="panel flame">
-      <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5 .2 1.6 1 2.6 2 3 .2-3.3-.8-6 .5-9z" fill="currentColor"/></svg>Flareon-hoek</h2>
-      <ul id="flareon" data-prio="1" data-max="2"></ul>
+      <ul id="beurs" data-prio="1" data-max="4"></ul>
     </div>
     <div class="foot" id="bijgewerkt"></div>
   </section>
 </main>
 <button id="fs" type="button" hidden>Tik voor volledig scherm</button>
-<script src="app.js?v=12"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

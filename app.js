@@ -94,6 +94,19 @@
         $("nummerkaart").hidden = false;
       } else $("nummerkaart").hidden = true;
     }
+    if($("kaartvak")){
+      var k = d.kaart;
+      if(k && k.naam){
+        var q = encodeURIComponent(k.naam + (k.nummer ? " " + k.nummer.split("/")[0] : ""));
+        $("kv-titel").textContent = k.naam;
+        $("kv-info").textContent = [k.set, k.nummer, k.jaar].filter(Boolean).join(" \u00B7 ");
+        $("kv-rar").textContent = k.zeldzaamheid || ""; $("kv-rar").hidden = !k.zeldzaamheid;
+        $("kv-over").textContent = k.over || "";
+        $("kv-cm").href = "https://www.cardmarket.com/nl/Pokemon/Products/Search?searchString=" + q;
+        $("kv-pk").href = "https://pkmncards.com/?s=" + q;
+        $("kaartvak").hidden = false;
+      } else $("kaartvak").hidden = true;
+    }
     if(d.aftellen && $("aftel")){
       var n = over(d.aftellen.datum);
       if(n >= 0){ $("aftel").hidden = false; $("aftel-n").textContent = n === 0 ? "VANDAAG" : n; $("aftel-u").textContent = n === 0 ? "" : (n === 1 ? "dag" : "dagen"); $("aftel-t").textContent = d.aftellen.titel; }

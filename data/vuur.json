@@ -86,14 +86,37 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Topstuk om naar te zoeken: Flareon ex",
-     "sub": "Special Illustration Rare uit Prismatic Evolutions (146/131)"
+     "titel": "Ruilkans: beurs in Tilburg",
+     "sub": "30 okt–1 nov · neem je ruillijst mee",
+     "datum": "2026-10-30",
+     "tot": "2026-11-01"
     },
     {
-     "titel": "Ruilkans: beurs in Tilburg, 30 okt–1 nov",
-     "sub": "neem een lijstje mee van welke Flareons je al hebt"
+     "titel": "Weetje: Flareon is nr. 136",
+     "sub": "in de National Pokédex, sinds de allereerste games"
+    }
+   ]
+  },
+  {
+   "id": "gaming",
+   "items": [
+    {
+     "titel": "s&box gaat gratis",
+     "sub": "opvolger-platform van Garry's Mod wordt eind 2026 free-to-play"
+    },
+    {
+     "titel": "GMod-update in testfase",
+     "sub": "o.a. HL2-containers en standaard 64-bit"
     }
    ]
   }
- ]
+ ],
+ "kaart": {
+  "naam": "Flareon ex",
+  "set": "Prismatic Evolutions",
+  "nummer": "146/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "Uit de speciale Eevee-set waarin alle Eeveelutions een eigen Special Illustration Rare kregen. Een van de topkaarten voor een Flareon-verzamelaar."
+ }
 }
