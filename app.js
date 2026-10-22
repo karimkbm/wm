@@ -51,20 +51,28 @@
 
   var laatste = null;
   /* Haalt regels weg die niet in hun vak passen, zodat niets over elkaar heen valt. */
-  /* Laat de rechterkolom altijd passen: haal steeds de onderste regel weg uit het vak met de meeste regels,
-     tot alles past. Zo valt er nooit een half item weg. */
+  /* Laat beide kolommen altijd passen. Elk vak heeft een prioriteit (data-prio, hoger = belangrijker).
+     Zolang een kolom niet past, gaat er een héél item weg uit het minst belangrijke vak dat nog meer dan één item heeft. */
   function pas(){
-    var kol = document.querySelector(".right"); if(!kol) return;
-    if(getComputedStyle(kol).overflow === "visible") return;
-    var lijsten = kol.querySelectorAll(".panel ul");
-    for(var n = 0; n < 60 && kol.scrollHeight > kol.clientHeight + 1; n++){
-      var kies = null, meest = 1;
-      for(var j = 0; j < lijsten.length; j++){
-        var aantal = lijsten[j].children.length;
-        if(aantal > meest || (aantal === meest && kies && aantal > 1 && kies.hasAttribute("data-eerst-houden"))){ kies = lijsten[j]; meest = aantal; }
+    var verborgen = document.querySelectorAll("[data-optioneel]");
+    for(var v = 0; v < verborgen.length; v++) verborgen[v].style.display = "";
+    var kols = document.querySelectorAll(".left,.right");
+    for(var c = 0; c < kols.length; c++){
+      var kol = kols[c];
+      if(getComputedStyle(kol).overflow === "visible") continue;
+      var lijsten = kol.querySelectorAll(".panel ul");
+      for(var n = 0; n < 80 && kol.scrollHeight > kol.clientHeight + 1; n++){
+        var kies = null, laagst = 1e9;
+        for(var j = 0; j < lijsten.length; j++){
+          var l = lijsten[j], prio = +(l.getAttribute("data-prio") || 1);
+          if(l.children.length > 1 && prio < laagst){ kies = l; laagst = prio; }
+        }
+        if(!kies) break;
+        kies.removeChild(kies.lastElementChild);
       }
-      if(!kies) break;
-      kies.removeChild(kies.lastElementChild);
+      /* Past het dan nog niet, verberg dan vakken die gemist kunnen worden. */
+      var opt = kol.querySelectorAll("[data-optioneel]");
+      for(var o = 0; o < opt.length && kol.scrollHeight > kol.clientHeight + 1; o++) opt[o].style.display = "none";
     }
   }
   function render(d){
@@ -102,9 +110,10 @@
   /* Maakt de quote kleiner tot hij helemaal in zijn vak past. */
   function pasQuote(){
     var q = $("quote"); if(!q) return;
-    var box = q.parentNode, wie = $("wie");
+    var box = q.parentNode, wie = $("wie"), kol = box.parentNode;
     q.style.fontSize = "";
     function teVol(){
+      if(getComputedStyle(kol).overflow !== "visible" && kol.scrollHeight > kol.clientHeight + 1) return true;
       var laatst = (wie && !wie.hidden) ? wie : q;
       var onder = box.getBoundingClientRect().bottom - (parseFloat(getComputedStyle(box).paddingBottom) || 0);
       return laatst.getBoundingClientRect().bottom > onder + 1;
