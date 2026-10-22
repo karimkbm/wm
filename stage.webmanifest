@@ -4,8 +4,8 @@
  "start_url": "stage.html",
  "scope": "./",
  "display": "fullscreen",
- "background_color": "#140c2b",
- "theme_color": "#140c2b",
+ "background_color": "#fff7fb",
+ "theme_color": "#fff7fb",
  "icons": [
   {
    "src": "icons/stage-192.png",

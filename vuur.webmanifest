@@ -4,8 +4,8 @@
  "start_url": "vuur.html",
  "scope": "./",
  "display": "fullscreen",
- "background_color": "#120b09",
- "theme_color": "#120b09",
+ "background_color": "#fbf6ef",
+ "theme_color": "#fbf6ef",
  "icons": [
   {
    "src": "icons/vuur-192.png",
