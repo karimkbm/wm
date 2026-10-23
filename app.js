@@ -129,6 +129,10 @@
         $("kv-over").textContent = k.over || "";
         $("kv-cm").href = "https://www.cardmarket.com/nl/Pokemon/Products/Search?searchString=" + q;
         $("kv-pk").href = "https://pkmncards.com/?s=" + q;
+        if($("kv-dex")){
+          var pm = k.pokemon || ((k.naam.match(/eevee|vaporeon|jolteon|flareon|espeon|umbreon|leafeon|glaceon|sylveon/i) || [k.naam.split(" ")[0]])[0]);
+          $("kv-dex").href = "https://www.pokemon.com/uk/pokedex/" + encodeURIComponent(pm.toLowerCase());
+        }
         toonKaartbeeld(k.afbeelding);
         $("kaartvak").hidden = false;
       } else $("kaartvak").hidden = true;
