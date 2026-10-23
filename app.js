@@ -127,7 +127,7 @@
         $("kv-info").textContent = [k.set, k.nummer, k.jaar].filter(Boolean).join(" \u00B7 ");
         $("kv-rar").textContent = k.zeldzaamheid || ""; $("kv-rar").hidden = !k.zeldzaamheid;
         $("kv-over").textContent = k.over || "";
-        $("kv-cm").href = "https://www.cardmarket.com/nl/Pokemon/Products/Search?searchString=" + q;
+        $("kv-cm").href = "https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=" + encodeURIComponent(k.naam);
         $("kv-pk").href = "https://pkmncards.com/?s=" + q;
         if($("kv-dex")){
           var pm = k.pokemon || ((k.naam.match(/eevee|vaporeon|jolteon|flareon|espeon|umbreon|leafeon|glaceon|sylveon/i) || [k.naam.split(" ")[0]])[0]);
