@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "23 okt 2026",
+ "bijgewerkt": "24 okt 2026",
  "quote": {
-  "tekst": "We do not need magic to transform our world, we carry all the power we need inside ourselves already.",
-  "wie": "J.K. Rowling (schrijver van Harry Potter), speech op Harvard, 2008"
+  "tekst": "I've failed over and over and over again in my life. And that is why I succeed.",
+  "wie": "Michael Jordan (basketballer), Nike-reclame 'Failure', 1997"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -92,8 +92,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Weetje: Flareon kan zo'n 900 °C heet worden",
-     "sub": "met zijn pluizige kraag koelt hij zichzelf af"
+     "titel": "Tip: maak een aparte ruilmap",
+     "sub": "stop je dubbele kaarten erin, handig op de beurs"
     }
    ]
   },
@@ -117,12 +117,13 @@
   }
  ],
  "kaart": {
-  "naam": "Vaporeon",
-  "set": "Jungle",
-  "nummer": "12/64",
-  "jaar": "1999",
-  "zeldzaamheid": "Rare Holo",
-  "over": "Een klassieker uit de tweede Engelse set ooit, getekend door Kagemaru Himeno. De eerste drukken missen per ongeluk het Jungle-setsymbool, wat verzamelaars leuk vinden.",
-  "afbeelding": "https://images.pokemontcg.io/base2/12.png"
+  "naam": "Sylveon ex",
+  "pokemon": "sylveon",
+  "set": "Prismatic Evolutions",
+  "nummer": "156/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "Een kunstkaart uit Prismatic Evolutions, de set die helemaal draait om Eevee en zijn evoluties. Elke Eeveelution kreeg daarin zo'n speciale full-art illustratie.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/156.png"
  }
 }
