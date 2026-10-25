@@ -6,7 +6,7 @@
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
-  "datum": "2026-10-30"
+  "datum": "2026-10-31"
  },
  "secties": [
   {
@@ -92,8 +92,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Weetje: Flareon wordt gloeiend heet",
-     "sub": "Pokédex: vóór een gevecht ruim 1.650 °F, zo'n 900 °C"
+     "titel": "Weetje: vuur doet Flareon niets",
+     "sub": "met zijn vermogen Flash Fire wordt hij juist sterker van vuuraanvallen"
     }
    ]
   },
@@ -125,5 +125,32 @@
   "zeldzaamheid": "Holo Rare",
   "over": "Een van de klassieke holokaarten uit Jungle, de tweede Engelstalige set ooit. Samen met Vaporeon en Jolteon waren dit de eerste Eeveelution-holo's.",
   "afbeelding": "https://images.pokemontcg.io/base2/3.png"
+ },
+ "gehad": {
+  "quotes": [
+   "Elk vuur begint met één vonk. Wat ga jij vandaag aansteken?",
+   "The best way out is always through.",
+   "On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.",
+   "We do not need magic to transform our world, we carry all the power we need inside ourselves already.",
+   "I've failed over and over and over again in my life. And that is why I succeed."
+  ],
+  "weetjes": [
+   "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
+   "Ruilkans: beurs in Tilburg — neem een lijstje mee van welke Flareons je al hebt",
+   "Ruilkans: beurs in Tilburg, 30 okt–1 nov — neem een lijstje mee van welke Flareons je al hebt",
+   "Weetje: Flareon is nr. 136 — in de National Pokédex, sinds de allereerste games",
+   "Flareon kan zo'n 900 °C heet worden — met zijn pluizige kraag koelt hij zichzelf af (Pokédex)",
+   "Sterkste aanval van alle Eeveelutions — Flareon heeft een basis-Attack van 130, Leafeon volgt met 110",
+   "Weetje: Flareon kan zo'n 900 °C heet worden — met zijn pluizige kraag koelt hij zichzelf af",
+   "Tip: maak een aparte ruilmap — stop je dubbele kaarten erin, handig op de beurs",
+   "Weetje: Flareon wordt gloeiend heet — Pokédex: vóór een gevecht ruim 1.650 °F, zo'n 900 °C",
+   "Weetje: vuur doet Flareon niets — met zijn vermogen Flash Fire wordt hij juist sterker van vuuraanvallen"
+  ],
+  "kaarten": [
+   "Flareon ex – Prismatic Evolutions 146/131",
+   "Vaporeon – Jungle 12/64",
+   "Sylveon ex – Prismatic Evolutions 156/131",
+   "Flareon – Jungle 3/64"
+  ]
  }
 }
