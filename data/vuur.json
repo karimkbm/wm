@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "24 okt 2026",
+ "bijgewerkt": "25 okt 2026",
  "quote": {
-  "tekst": "I've failed over and over and over again in my life. And that is why I succeed.",
-  "wie": "Michael Jordan (basketballer), Nike-reclame 'Failure', 1997"
+  "tekst": "On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.",
+  "wie": "Satoru Iwata (president van Nintendo), keynote op de Game Developers Conference, 2005"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -92,8 +92,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Tip: maak een aparte ruilmap",
-     "sub": "stop je dubbele kaarten erin, handig op de beurs"
+     "titel": "Weetje: Flareon wordt gloeiend heet",
+     "sub": "Pokédex: vóór een gevecht ruim 1.650 °F, zo'n 900 °C"
     }
    ]
   },
@@ -117,13 +117,13 @@
   }
  ],
  "kaart": {
-  "naam": "Sylveon ex",
-  "pokemon": "sylveon",
-  "set": "Prismatic Evolutions",
-  "nummer": "156/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "Een kunstkaart uit Prismatic Evolutions, de set die helemaal draait om Eevee en zijn evoluties. Elke Eeveelution kreeg daarin zo'n speciale full-art illustratie.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/156.png"
+  "naam": "Flareon",
+  "pokemon": "flareon",
+  "set": "Jungle",
+  "nummer": "3/64",
+  "jaar": "1999",
+  "zeldzaamheid": "Holo Rare",
+  "over": "Een van de klassieke holokaarten uit Jungle, de tweede Engelstalige set ooit. Samen met Vaporeon en Jolteon waren dit de eerste Eeveelution-holo's.",
+  "afbeelding": "https://images.pokemontcg.io/base2/3.png"
  }
 }
