@@ -1,34 +1,6 @@
 {
- "bijgewerkt": "2026-10-21 19:52",
+ "bijgewerkt": "2026-10-26 12:52",
  "dagen": {
-  "2026-10-12": {
-   "gerecht": "Nasi goreng",
-   "type": "koken"
-  },
-  "2026-10-13": {
-   "gerecht": "Kokoscurry met kip en zoete aardappel",
-   "type": "koken"
-  },
-  "2026-10-14": {
-   "gerecht": "Harira vooraf, kippenpootjes met parelcouscous",
-   "type": "koken"
-  },
-  "2026-10-15": {
-   "gerecht": "Restjes kokoscurry met rijst",
-   "type": "restjes"
-  },
-  "2026-10-16": {
-   "gerecht": "Pizza",
-   "type": "vriezer"
-  },
-  "2026-10-17": {
-   "gerecht": "Niet thuis eten",
-   "type": "flexibel"
-  },
-  "2026-10-18": {
-   "gerecht": "Cajun Jambalaya met rijst",
-   "type": "koken"
-  },
   "2026-10-19": {
    "gerecht": "Döner kebab gehaald",
    "type": "flexibel"
@@ -56,6 +28,34 @@
   "2026-10-25": {
    "gerecht": "Kipshoarma-wraps met friet",
    "type": "koken"
+  },
+  "2026-10-26": {
+   "gerecht": "Wordt nader bepaald",
+   "type": "flexibel"
+  },
+  "2026-10-27": {
+   "gerecht": "Broccoli beef met gebakken rijst",
+   "type": "koken"
+  },
+  "2026-10-28": {
+   "gerecht": "Lekkerbekjes en vissticks met krieltjes en sla",
+   "type": "vriezer"
+  },
+  "2026-10-29": {
+   "gerecht": "Rijst met soep met stukjes kipdijfilet",
+   "type": "koken"
+  },
+  "2026-10-30": {
+   "gerecht": "Nog open",
+   "type": "flexibel"
+  },
+  "2026-10-31": {
+   "gerecht": "Chicken teriyaki met rijst en Bacon, Jalapeño & Garlic Green Beans",
+   "type": "koken"
+  },
+  "2026-11-01": {
+   "gerecht": "Aardappelschijfjes uit de pan met gehaktballetjes in tomatensaus",
+   "type": "vriezer"
   }
  }
 }
