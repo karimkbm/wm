@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "25 okt 2026",
+ "bijgewerkt": "26 okt 2026",
  "quote": {
-  "tekst": "We're a group, so that's how we work. Together.",
-  "wie": "Bang Chan (Stray Kids), interview met Rolling Stone, 2025"
+  "tekst": "I think I'll keep exploring different sides of myself rather than trying to fit into one label.",
+  "wie": "Yeonjun (TXT), interview met Hypebeast over 'No Labels: Part 02', 2026"
  },
  "aftellen": {
   "titel": "LNGSHOT · EP 'S.W.I.S.H.'",
@@ -13,12 +13,6 @@
    "id": "nieuw",
    "items": [
     {
-     "datum": "2026-10-21",
-     "tot": "2026-10-25",
-     "titel": "LNGSHOT: 'Masterpiece' is uit",
-     "sub": "single + videoclip, voorproefje van de nieuwe EP"
-    },
-    {
      "datum": "2026-11-10",
      "titel": "LNGSHOT: EP 'S.W.I.S.H.'",
      "sub": "eerste comeback sinds hun debuut · 10:00 Nederlandse tijd"
@@ -27,6 +21,11 @@
      "datum": "2026-11-16",
      "titel": "TXT: mini-album 'PERFECT STORM'",
      "sub": "hun negende mini-album, zes nummers"
+    },
+    {
+     "datum": "2026-11-20",
+     "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
+     "sub": "slot van de The Sin-reeks · cd op 23 nov"
     }
    ]
   },
@@ -69,17 +68,17 @@
      "tot": "2026-11-15",
      "titel": "TXT · start wereldtour",
      "sub": "Seoul, KSPO Dome"
+    },
+    {
+     "datum": "2026-12-05",
+     "titel": "Stray Kids · Hongkong",
+     "sub": "China, Kai Tak Stadium"
     }
    ]
   },
   {
    "id": "jarig",
    "items": [
-    {
-     "datum": "2026-10-25",
-     "titel": "Lee Know",
-     "sub": "Stray Kids"
-    },
     {
      "datum": "2026-11-15",
      "titel": "Jake",
@@ -104,11 +103,11 @@
   }
  ],
  "nummer": {
-  "titel": "Masterpiece",
-  "artiest": "LNGSHOT",
-  "album": "S.W.I.S.H. (voorproefje)",
-  "jaar": "2026",
-  "over": "Een rustig alternatief R&B-nummer waarin iemand om wie je geeft wordt vergeleken met een uniek meesterwerk. Uit op 21 oktober, vóór hun EP van 10 november."
+  "titel": "Kitsch",
+  "artiest": "IVE",
+  "album": "I've IVE",
+  "jaar": "2023",
+  "over": "Een vrolijk popnummer over zelfvertrouwen en van jezelf houden, wat anderen er ook van vinden. IVE is een girlgroup die eind 2021 debuteerde; dit was het voorproefje van hun eerste album."
  },
  "gehad": {
   "quotes": [
@@ -118,12 +117,14 @@
    "I have also learned that I should try to love myself a bit more.",
    "We're grateful that we are still doing shows and people come to see us and we're proud to have come this far.",
    "I'm always trying really hard to show the best version of myself when I'm performing.",
-   "We're a group, so that's how we work. Together."
+   "We're a group, so that's how we work. Together.",
+   "I think I'll keep exploring different sides of myself rather than trying to fit into one label."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
    "Ride or Die – EVAN",
-   "Magnetic – ILLIT"
+   "Magnetic – ILLIT",
+   "Kitsch – IVE"
   ]
  }
 }
