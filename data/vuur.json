@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "26 okt 2026",
+ "bijgewerkt": "27 okt 2026",
  "quote": {
-  "tekst": "The only way to do great work is to love what you do.",
-  "wie": "Steve Jobs (medeoprichter van Apple), toespraak aan Stanford University, 2005"
+  "tekst": "All we have to decide is what to do with the time that is given us.",
+  "wie": "Gandalf in 'The Fellowship of the Ring' van J.R.R. Tolkien (1954)"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -91,8 +91,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Tip: kijk onderaan de kaart",
-     "sub": "setsymbool en nummer vertellen precies welke Flareon je hebt"
+     "titel": "Weetje: de Pyro-truc in Pokémon GO",
+     "sub": "noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon"
     }
    ]
   },
@@ -116,14 +116,14 @@
   }
  ],
  "kaart": {
-  "naam": "Umbreon VMAX",
-  "pokemon": "umbreon",
-  "set": "Evolving Skies",
-  "nummer": "215/203",
-  "jaar": "2021",
-  "zeldzaamheid": "Secret Rare (Alternate Art)",
-  "over": "Een van de bekendste alternate arts ooit: Umbreon bij nacht onder een grote volle maan. Verzamelaars noemen hem daarom 'Moonbreon'.",
-  "afbeelding": "https://images.pokemontcg.io/swsh7/215.png"
+  "naam": "Jolteon",
+  "pokemon": "jolteon",
+  "set": "Jungle",
+  "nummer": "4/64",
+  "jaar": "1999",
+  "zeldzaamheid": "Holo Rare",
+  "over": "Een van de eerste Eeveelution-holo's ooit, uit Jungle: de allereerste uitbreiding na de Base Set. Samen met Flareon en Vaporeon uit dezelfde set een klassiek trio.",
+  "afbeelding": "https://images.pokemontcg.io/base2/4.png"
  },
  "gehad": {
   "quotes": [
@@ -132,7 +132,8 @@
    "On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.",
    "We do not need magic to transform our world, we carry all the power we need inside ourselves already.",
    "I've failed over and over and over again in my life. And that is why I succeed.",
-   "The only way to do great work is to love what you do."
+   "The only way to do great work is to love what you do.",
+   "All we have to decide is what to do with the time that is given us."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -145,14 +146,16 @@
    "Tip: maak een aparte ruilmap — stop je dubbele kaarten erin, handig op de beurs",
    "Weetje: Flareon wordt gloeiend heet — Pokédex: vóór een gevecht ruim 1.650 °F, zo'n 900 °C",
    "Weetje: vuur doet Flareon niets — met zijn vermogen Flash Fire wordt hij juist sterker van vuuraanvallen",
-   "Tip: kijk onderaan de kaart — setsymbool en nummer vertellen precies welke Flareon je hebt"
+   "Tip: kijk onderaan de kaart — setsymbool en nummer vertellen precies welke Flareon je hebt",
+   "Weetje: de Pyro-truc in Pokémon GO — noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
    "Vaporeon – Jungle 12/64",
    "Sylveon ex – Prismatic Evolutions 156/131",
    "Flareon – Jungle 3/64",
-   "Umbreon VMAX – Evolving Skies 215/203"
+   "Umbreon VMAX – Evolving Skies 215/203",
+   "Jolteon – Jungle 4/64"
   ]
  }
 }
