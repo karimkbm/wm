@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "27 okt 2026",
+ "bijgewerkt": "28 okt 2026",
  "quote": {
-  "tekst": "All we have to decide is what to do with the time that is given us.",
-  "wie": "Gandalf in 'The Fellowship of the Ring' van J.R.R. Tolkien (1954)"
+  "tekst": "I've learned that 100 percent of the shots you don't take don't go in the net.",
+  "wie": "Wayne Gretzky, ijshockeylegende, na een wedstrijd met 4 goals (Philadelphia Inquirer, 1983)"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -91,8 +91,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Weetje: de Pyro-truc in Pokémon GO",
-     "sub": "noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon"
+     "titel": "Tip: gebruik toploaders",
+     "sub": "stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes"
     }
    ]
   },
@@ -116,14 +116,14 @@
   }
  ],
  "kaart": {
-  "naam": "Jolteon",
-  "pokemon": "jolteon",
-  "set": "Jungle",
-  "nummer": "4/64",
-  "jaar": "1999",
-  "zeldzaamheid": "Holo Rare",
-  "over": "Een van de eerste Eeveelution-holo's ooit, uit Jungle: de allereerste uitbreiding na de Base Set. Samen met Flareon en Vaporeon uit dezelfde set een klassiek trio.",
-  "afbeelding": "https://images.pokemontcg.io/base2/4.png"
+  "naam": "Flareon VMAX",
+  "pokemon": "flareon",
+  "set": "Evolving Skies",
+  "nummer": "018/203",
+  "jaar": "2021",
+  "zeldzaamheid": "Rare Holo VMAX",
+  "over": "Uit Evolving Skies, de bekende 'Eevee-set' uit 2021 vol V- en VMAX-kaarten van Eeveelutions. Hier is Flareon reusachtig groot geworden, met een extra dikke vuurkraag.",
+  "afbeelding": "https://images.pokemontcg.io/swsh7/18.png"
  },
  "gehad": {
   "quotes": [
@@ -133,7 +133,8 @@
    "We do not need magic to transform our world, we carry all the power we need inside ourselves already.",
    "I've failed over and over and over again in my life. And that is why I succeed.",
    "The only way to do great work is to love what you do.",
-   "All we have to decide is what to do with the time that is given us."
+   "All we have to decide is what to do with the time that is given us.",
+   "I've learned that 100 percent of the shots you don't take don't go in the net."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -147,7 +148,8 @@
    "Weetje: Flareon wordt gloeiend heet — Pokédex: vóór een gevecht ruim 1.650 °F, zo'n 900 °C",
    "Weetje: vuur doet Flareon niets — met zijn vermogen Flash Fire wordt hij juist sterker van vuuraanvallen",
    "Tip: kijk onderaan de kaart — setsymbool en nummer vertellen precies welke Flareon je hebt",
-   "Weetje: de Pyro-truc in Pokémon GO — noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon"
+   "Weetje: de Pyro-truc in Pokémon GO — noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon",
+   "Tip: gebruik toploaders — stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -155,7 +157,8 @@
    "Sylveon ex – Prismatic Evolutions 156/131",
    "Flareon – Jungle 3/64",
    "Umbreon VMAX – Evolving Skies 215/203",
-   "Jolteon – Jungle 4/64"
+   "Jolteon – Jungle 4/64",
+   "Flareon VMAX – Evolving Skies 018/203"
   ]
  }
 }
