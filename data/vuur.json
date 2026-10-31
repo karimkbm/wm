@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "29 okt 2026",
+ "bijgewerkt": "31 okt 2026",
  "quote": {
-  "tekst": "I've learned that 100 percent of the shots you don't take don't go in the net.",
-  "wie": "Wayne Gretzky, ijshockeylegende, na een wedstrijd met 4 goals (Philadelphia Inquirer, 1983)"
+  "tekst": "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles.",
+  "wie": "Simone Biles, turnster, tegen verslaggevers op de Olympische Spelen in Rio (2016)"
  },
  "aftellen": {
   "titel": "Halloween-kaartenbeurs in Tilburg",
@@ -86,8 +86,8 @@
      "tot": "2026-11-01"
     },
     {
-     "titel": "Tip: gebruik toploaders",
-     "sub": "stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes"
+     "titel": "Weetje: Flareon heeft een geheim vermogen",
+     "sub": "met Guts valt hij harder aan als hij vergiftigd of verlamd is"
     }
    ]
   },
@@ -111,14 +111,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon VMAX",
-  "pokemon": "flareon",
-  "set": "Evolving Skies",
-  "nummer": "018/203",
-  "jaar": "2021",
-  "zeldzaamheid": "Rare Holo VMAX",
-  "over": "Uit Evolving Skies, de bekende 'Eevee-set' uit 2021 vol V- en VMAX-kaarten van Eeveelutions. Hier is Flareon reusachtig groot geworden, met een extra dikke vuurkraag.",
-  "afbeelding": "https://images.pokemontcg.io/swsh7/18.png"
+  "naam": "Espeon",
+  "pokemon": "espeon",
+  "set": "Neo Discovery",
+  "nummer": "1/75",
+  "jaar": "2001",
+  "zeldzaamheid": "Rare Holo",
+  "over": "Een klassieker uit 2001: Neo Discovery was een van de eerste sets met Pokémon uit Johto, en deze holo Espeon is kaart nummer 1 van de set. Verzamelaars van oude kaarten zoeken hem graag.",
+  "afbeelding": "https://images.pokemontcg.io/neo2/1.png"
  },
  "gehad": {
   "quotes": [
@@ -129,7 +129,8 @@
    "I've failed over and over and over again in my life. And that is why I succeed.",
    "The only way to do great work is to love what you do.",
    "All we have to decide is what to do with the time that is given us.",
-   "I've learned that 100 percent of the shots you don't take don't go in the net."
+   "I've learned that 100 percent of the shots you don't take don't go in the net.",
+   "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -144,7 +145,8 @@
    "Weetje: vuur doet Flareon niets — met zijn vermogen Flash Fire wordt hij juist sterker van vuuraanvallen",
    "Tip: kijk onderaan de kaart — setsymbool en nummer vertellen precies welke Flareon je hebt",
    "Weetje: de Pyro-truc in Pokémon GO — noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon",
-   "Tip: gebruik toploaders — stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes"
+   "Tip: gebruik toploaders — stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes",
+   "Weetje: Flareon heeft een geheim vermogen — met Guts valt hij harder aan als hij vergiftigd of verlamd is"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -153,7 +155,8 @@
    "Flareon – Jungle 3/64",
    "Umbreon VMAX – Evolving Skies 215/203",
    "Jolteon – Jungle 4/64",
-   "Flareon VMAX – Evolving Skies 018/203"
+   "Flareon VMAX – Evolving Skies 018/203",
+   "Espeon – Neo Discovery 1/75"
   ]
  }
 }
