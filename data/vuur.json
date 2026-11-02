@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "1 nov 2026",
+ "bijgewerkt": "2 nov 2026",
  "quote": {
   "tekst": "No human is limited.",
   "wie": "Eliud Kipchoge, marathonloper, vóór zijn poging om onder de twee uur te lopen (INEOS 1:59, 2019)"
@@ -12,12 +12,6 @@
   {
    "id": "tcg",
    "items": [
-    {
-     "datum": "2026-10-24",
-     "tot": "2026-11-01",
-     "titel": "Prereleases Delta Reign",
-     "sub": "Build & Battle Box bij kaartwinkels, vanaf 24 okt"
-    },
     {
      "datum": "2026-10-30",
      "titel": "Espeon ex & Umbreon ex Battle Deck",
@@ -40,6 +34,11 @@
      "sub": "Ditto-promo + 8 boosters"
     },
     {
+     "datum": "2026-11-13",
+     "titel": "Mega Greninja ex League Battle Deck",
+     "sub": "kant-en-klaar toernooideck"
+    },
+    {
      "datum": "2026-12-04",
      "titel": "30th Celebration Binder Collection",
      "sub": "verzamelmap met 5 boosters"
@@ -49,12 +48,6 @@
   {
    "id": "beurs",
    "items": [
-    {
-     "datum": "2026-10-30",
-     "tot": "2026-11-01",
-     "titel": "Xclusive Collectors Event: Halloween",
-     "sub": "Tilburg · Koepelhal · vr 19:00, za 14:00, zo 12:00"
-    },
     {
      "datum": "2026-11-07",
      "titel": "PokéDark 5th Edition",
@@ -71,21 +64,25 @@
      "sub": "Helmond · Elzas Passage · vanaf 11:00"
     },
     {
+     "datum": "2026-11-22",
+     "titel": "Tradingcardevents Hoensbroek",
+     "sub": "Hoensbroek (Limburg) · vanaf 10:00"
+    },
+    {
      "datum": "2026-11-28",
      "titel": "Cardfanz Arena Oss: Winter Edition",
      "sub": "Oss · Frans Heesen Stadion · vanaf 11:00"
+    },
+    {
+     "datum": "2026-12-26",
+     "titel": "Xclusive Collectors Kerstbeurs",
+     "sub": "'s-Hertogenbosch · 9:00–16:30"
     }
    ]
   },
   {
    "id": "flareon",
    "items": [
-    {
-     "titel": "Ruilkans: beurs in Tilburg",
-     "sub": "30 okt–1 nov · neem je ruillijst mee",
-     "datum": "2026-10-30",
-     "tot": "2026-11-01"
-    },
     {
      "titel": "Tip: houd je kaarten uit de zon",
      "sub": "zonlicht laat de kleuren van je Flareons langzaam vervagen"
