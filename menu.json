@@ -1,34 +1,6 @@
 {
- "bijgewerkt": "2026-10-26 12:52",
+ "bijgewerkt": "2026-11-02 06:50",
  "dagen": {
-  "2026-10-19": {
-   "gerecht": "Döner kebab gehaald",
-   "type": "flexibel"
-  },
-  "2026-10-20": {
-   "gerecht": "Uit eten",
-   "type": "flexibel"
-  },
-  "2026-10-21": {
-   "gerecht": "Nasi goreng pedis uit de vriezer met mini-loempia's en edamame",
-   "type": "vriezer"
-  },
-  "2026-10-22": {
-   "gerecht": "Philly cheesesteak met cheddar",
-   "type": "koken"
-  },
-  "2026-10-23": {
-   "gerecht": "Chicken teriyaki met rijst en Japanse wokgroente",
-   "type": "koken"
-  },
-  "2026-10-24": {
-   "gerecht": "Kinderfeest – eten wordt verzorgd",
-   "type": "flexibel"
-  },
-  "2026-10-25": {
-   "gerecht": "Kipshoarma-wraps met friet",
-   "type": "koken"
-  },
   "2026-10-26": {
    "gerecht": "Wordt nader bepaald",
    "type": "flexibel"
@@ -55,6 +27,34 @@
   },
   "2026-11-01": {
    "gerecht": "Aardappelschijfjes uit de pan met gehaktballetjes in tomatensaus",
+   "type": "vriezer"
+  },
+  "2026-11-02": {
+   "gerecht": "Mie met kip en roerbakgroente in honing-sojasaus",
+   "type": "koken"
+  },
+  "2026-11-03": {
+   "gerecht": "Snelle spaghetti met gehakt-tomatensaus",
+   "type": "koken"
+  },
+  "2026-11-04": {
+   "gerecht": "Traybake met Wahid-worstjes, krieltjes en groente",
+   "type": "koken"
+  },
+  "2026-11-05": {
+   "gerecht": "Kip-quesadilla's met cheddar",
+   "type": "koken"
+  },
+  "2026-11-06": {
+   "gerecht": "Niet thuis",
+   "type": "flexibel"
+  },
+  "2026-11-07": {
+   "gerecht": "Zelfgemaakte hamburgers met friet en sla",
+   "type": "koken"
+  },
+  "2026-11-08": {
+   "gerecht": "Bao buns met crispy chick'n",
    "type": "vriezer"
   }
  }
