@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "2 nov 2026",
+ "bijgewerkt": "3 nov 2026",
  "quote": {
-  "tekst": "No human is limited.",
-  "wie": "Eliud Kipchoge, marathonloper, vóór zijn poging om onder de twee uur te lopen (INEOS 1:59, 2019)"
+  "tekst": "A game that keeps a smile on the player's face is a wonderful thing.",
+  "wie": "Shigeru Miyamoto, maker van Mario en Zelda (Nintendo), in een interview met Famitsu"
  },
  "aftellen": {
   "titel": "Delta Reign ligt in de winkel",
@@ -84,8 +84,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Tip: houd je kaarten uit de zon",
-     "sub": "zonlicht laat de kleuren van je Flareons langzaam vervagen"
+     "titel": "Weetje: Flareon roostert zijn eten",
+     "sub": "Pokédex (Sun): hij blaast vuur op prooi en bessen tot ze gaar zijn"
+    },
+    {
+     "titel": "Tip: pak je kaarten bij de randen",
+     "sub": "vingerafdrukken maken de glans van holo-Flareons dof"
     }
    ]
   },
@@ -109,14 +113,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon V",
-  "pokemon": "flareon",
-  "set": "Evolving Skies",
-  "nummer": "169/203",
-  "jaar": "2021",
-  "zeldzaamheid": "Ultra Rare (Full Art)",
-  "over": "Een full art uit Evolving Skies, de beroemde Eevee-set uit 2021 waarin alle Eeveelutions een eigen V-kaart kregen. Deze versie bestaat alleen als glimmende holo.",
-  "afbeelding": "https://images.pokemontcg.io/swsh7/169.png"
+  "naam": "Leafeon",
+  "pokemon": "leafeon",
+  "set": "Majestic Dawn",
+  "nummer": "7/100",
+  "jaar": "2008",
+  "zeldzaamheid": "Rare Holo",
+  "over": "Een holo uit Majestic Dawn, de Diamond & Pearl-set vol Eeveelutions, getekend door Kouki Saitou. Met de aanval Leaf Guard krijgt Leafeon een beurt lang minder schade.",
+  "afbeelding": "https://images.pokemontcg.io/dp5/7.png"
  },
  "gehad": {
   "quotes": [
@@ -129,7 +133,8 @@
    "All we have to decide is what to do with the time that is given us.",
    "I've learned that 100 percent of the shots you don't take don't go in the net.",
    "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles.",
-   "No human is limited."
+   "No human is limited.",
+   "A game that keeps a smile on the player's face is a wonderful thing."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -146,7 +151,9 @@
    "Weetje: de Pyro-truc in Pokémon GO — noem Eevee 'Pyro' vóór het evolueren: dan wordt het een Flareon",
    "Tip: gebruik toploaders — stevige hoesjes beschermen je mooiste Flareons tegen krasjes en knikjes",
    "Weetje: Flareon heeft een geheim vermogen — met Guts valt hij harder aan als hij vergiftigd of verlamd is",
-   "Tip: houd je kaarten uit de zon — zonlicht laat de kleuren van je Flareons langzaam vervagen"
+   "Tip: houd je kaarten uit de zon — zonlicht laat de kleuren van je Flareons langzaam vervagen",
+   "Weetje: Flareon roostert zijn eten — Pokédex (Sun): hij blaast vuur op prooi en bessen tot ze gaar zijn",
+   "Tip: pak je kaarten bij de randen — vingerafdrukken maken de glans van holo-Flareons dof"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -157,7 +164,8 @@
    "Jolteon – Jungle 4/64",
    "Flareon VMAX – Evolving Skies 018/203",
    "Espeon – Neo Discovery 1/75",
-   "Flareon V – Evolving Skies 169/203"
+   "Flareon V – Evolving Skies 169/203",
+   "Leafeon – Majestic Dawn 7/100"
   ]
  }
 }
