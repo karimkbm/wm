@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "3 nov 2026",
+ "bijgewerkt": "4 nov 2026",
  "quote": {
-  "tekst": "A game that keeps a smile on the player's face is a wonderful thing.",
-  "wie": "Shigeru Miyamoto, maker van Mario en Zelda (Nintendo), in een interview met Famitsu"
+  "tekst": "Rock bottom became the solid foundation on which I rebuilt my life.",
+  "wie": "J.K. Rowling, schrijver van Harry Potter, speech op Harvard University (2008)"
  },
  "aftellen": {
   "titel": "Delta Reign ligt in de winkel",
@@ -12,12 +12,6 @@
   {
    "id": "tcg",
    "items": [
-    {
-     "datum": "2026-10-30",
-     "titel": "Espeon ex & Umbreon ex Battle Deck",
-     "sub": "30th Celebration · twee Eeveelutions",
-     "tot": "2026-11-03"
-    },
     {
      "datum": "2026-11-06",
      "titel": "Delta Reign: Mega Rayquaza ex",
@@ -84,12 +78,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon roostert zijn eten",
-     "sub": "Pokédex (Sun): hij blaast vuur op prooi en bessen tot ze gaar zijn"
+     "titel": "Weetje: in Japan heet Flareon 'Booster'",
+     "sub": "ブースター: zo heet hij in de Japanse games en op Japanse kaarten"
     },
     {
-     "titel": "Tip: pak je kaarten bij de randen",
-     "sub": "vingerafdrukken maken de glans van holo-Flareons dof"
+     "titel": "Tip: kies een binder met zijvakjes",
+     "sub": "kaarten schuiven er van opzij in en vallen er niet snel uit"
     }
    ]
   },
@@ -113,14 +107,14 @@
   }
  ],
  "kaart": {
-  "naam": "Leafeon",
-  "pokemon": "leafeon",
-  "set": "Majestic Dawn",
-  "nummer": "7/100",
-  "jaar": "2008",
-  "zeldzaamheid": "Rare Holo",
-  "over": "Een holo uit Majestic Dawn, de Diamond & Pearl-set vol Eeveelutions, getekend door Kouki Saitou. Met de aanval Leaf Guard krijgt Leafeon een beurt lang minder schade.",
-  "afbeelding": "https://images.pokemontcg.io/dp5/7.png"
+  "naam": "Glaceon ex",
+  "pokemon": "glaceon",
+  "set": "Prismatic Evolutions",
+  "nummer": "150/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "Komt uit Prismatic Evolutions, de set die helemaal om Eevee en zijn evoluties draait. Eevee en alle acht Eeveelutions kregen daar zo'n speciale illustratiekaart, dus verzamelaars proberen de hele rij compleet te krijgen.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/150.png"
  },
  "gehad": {
   "quotes": [
@@ -134,7 +128,8 @@
    "I've learned that 100 percent of the shots you don't take don't go in the net.",
    "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles.",
    "No human is limited.",
-   "A game that keeps a smile on the player's face is a wonderful thing."
+   "A game that keeps a smile on the player's face is a wonderful thing.",
+   "Rock bottom became the solid foundation on which I rebuilt my life."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -153,7 +148,9 @@
    "Weetje: Flareon heeft een geheim vermogen — met Guts valt hij harder aan als hij vergiftigd of verlamd is",
    "Tip: houd je kaarten uit de zon — zonlicht laat de kleuren van je Flareons langzaam vervagen",
    "Weetje: Flareon roostert zijn eten — Pokédex (Sun): hij blaast vuur op prooi en bessen tot ze gaar zijn",
-   "Tip: pak je kaarten bij de randen — vingerafdrukken maken de glans van holo-Flareons dof"
+   "Tip: pak je kaarten bij de randen — vingerafdrukken maken de glans van holo-Flareons dof",
+   "Weetje: in Japan heet Flareon 'Booster' — ブースター: zo heet hij in de Japanse games en op Japanse kaarten",
+   "Tip: kies een binder met zijvakjes — kaarten schuiven er van opzij in en vallen er niet snel uit"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -165,7 +162,8 @@
    "Flareon VMAX – Evolving Skies 018/203",
    "Espeon – Neo Discovery 1/75",
    "Flareon V – Evolving Skies 169/203",
-   "Leafeon – Majestic Dawn 7/100"
+   "Leafeon – Majestic Dawn 7/100",
+   "Glaceon ex – Prismatic Evolutions 150/131"
   ]
  }
 }
