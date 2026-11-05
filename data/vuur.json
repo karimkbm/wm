@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "4 nov 2026",
+ "bijgewerkt": "5 nov 2026",
  "quote": {
-  "tekst": "Rock bottom became the solid foundation on which I rebuilt my life.",
-  "wie": "J.K. Rowling, schrijver van Harry Potter, speech op Harvard University (2008)"
+  "tekst": "You must do the thing you think you cannot do.",
+  "wie": "Eleanor Roosevelt, schrijver en mensenrechtenactivist, boek You Learn by Living (1960)"
  },
  "aftellen": {
   "titel": "Delta Reign ligt in de winkel",
@@ -15,27 +15,32 @@
     {
      "datum": "2026-11-06",
      "titel": "Delta Reign: Mega Rayquaza ex",
-     "sub": "nieuwe hoofdset, meer dan 135 kaarten"
+     "sub": "nieuwe hoofdset, meer dan 135 kaarten",
+     "tot": "2026-11-10"
     },
     {
      "datum": "2026-11-06",
      "titel": "30th Celebration Ultra-Premium",
-     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo"
+     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo",
+     "tot": "2026-11-10"
     },
     {
      "datum": "2026-11-06",
      "titel": "30th Celebration Ditto Premium",
-     "sub": "Ditto-promo + 8 boosters"
+     "sub": "Ditto-promo + 8 boosters",
+     "tot": "2026-11-10"
     },
     {
      "datum": "2026-11-13",
      "titel": "Mega Greninja ex League Battle Deck",
-     "sub": "kant-en-klaar toernooideck"
+     "sub": "kant-en-klaar toernooideck",
+     "tot": "2026-11-17"
     },
     {
      "datum": "2026-12-04",
      "titel": "30th Celebration Binder Collection",
-     "sub": "verzamelmap met 5 boosters"
+     "sub": "verzamelmap met 5 boosters",
+     "tot": "2026-12-08"
     }
    ]
   },
@@ -78,12 +83,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: in Japan heet Flareon 'Booster'",
-     "sub": "ブースター: zo heet hij in de Japanse games en op Japanse kaarten"
+     "titel": "Weetje: Flareon weegt 25 kilo",
+     "sub": "en hij is ongeveer 0,9 meter hoog (Pokédex)"
     },
     {
-     "titel": "Tip: kies een binder met zijvakjes",
-     "sub": "kaarten schuiven er van opzij in en vallen er niet snel uit"
+     "titel": "Tip: check de staat vóór je ruilt",
+     "sub": "kijk naar hoekjes, randen en krasjes op de holo"
     }
    ]
   },
@@ -95,26 +100,28 @@
      "sub": "opvolger-platform van Garry's Mod wordt eind 2026 free-to-play"
     },
     {
-     "titel": "GMod-update in testfase",
-     "sub": "o.a. HL2-containers en standaard 64-bit"
-    },
-    {
      "datum": "2026-11-19",
      "titel": "GTA 6 komt uit op 19 november",
      "sub": "eerst alleen PS5 en Xbox; pc-versie nog niet aangekondigd"
+    },
+    {
+     "datum": "2026-12-17",
+     "tot": "2027-01-04",
+     "titel": "Steam Winter Sale",
+     "sub": "17 december t/m 4 januari, bevestigd door Valve"
     }
    ]
   }
  ],
  "kaart": {
-  "naam": "Glaceon ex",
-  "pokemon": "glaceon",
-  "set": "Prismatic Evolutions",
-  "nummer": "150/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "Komt uit Prismatic Evolutions, de set die helemaal om Eevee en zijn evoluties draait. Eevee en alle acht Eeveelutions kregen daar zo'n speciale illustratiekaart, dus verzamelaars proberen de hele rij compleet te krijgen.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/150.png"
+  "naam": "Eevee",
+  "pokemon": "eevee",
+  "set": "Jungle",
+  "nummer": "51/64",
+  "jaar": "1999",
+  "zeldzaamheid": "Common",
+  "over": "Komt uit Jungle, een van de allereerste Engelse uitbreidingen. Getekend door Kagemaru Himeno; met de aanval Tail Wag kan Eevee soms voorkomen dat de tegenstander hem aanvalt.",
+  "afbeelding": "https://images.pokemontcg.io/base2/51.png"
  },
  "gehad": {
   "quotes": [
@@ -129,7 +136,8 @@
    "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles.",
    "No human is limited.",
    "A game that keeps a smile on the player's face is a wonderful thing.",
-   "Rock bottom became the solid foundation on which I rebuilt my life."
+   "Rock bottom became the solid foundation on which I rebuilt my life.",
+   "You must do the thing you think you cannot do."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -150,7 +158,9 @@
    "Weetje: Flareon roostert zijn eten — Pokédex (Sun): hij blaast vuur op prooi en bessen tot ze gaar zijn",
    "Tip: pak je kaarten bij de randen — vingerafdrukken maken de glans van holo-Flareons dof",
    "Weetje: in Japan heet Flareon 'Booster' — ブースター: zo heet hij in de Japanse games en op Japanse kaarten",
-   "Tip: kies een binder met zijvakjes — kaarten schuiven er van opzij in en vallen er niet snel uit"
+   "Tip: kies een binder met zijvakjes — kaarten schuiven er van opzij in en vallen er niet snel uit",
+   "Weetje: Flareon weegt 25 kilo — en hij is ongeveer 0,9 meter hoog (Pokédex)",
+   "Tip: check de staat vóór je ruilt — kijk naar hoekjes, randen en krasjes op de holo"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -163,7 +173,8 @@
    "Espeon – Neo Discovery 1/75",
    "Flareon V – Evolving Skies 169/203",
    "Leafeon – Majestic Dawn 7/100",
-   "Glaceon ex – Prismatic Evolutions 150/131"
+   "Glaceon ex – Prismatic Evolutions 150/131",
+   "Eevee – Jungle 51/64"
   ]
  }
 }

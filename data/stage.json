@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "4 nov 2026",
+ "bijgewerkt": "5 nov 2026",
  "quote": {
-  "tekst": "I hope this song reminds people that it's okay to keep going at their own pace.",
-  "wie": "Yeonjun (TXT), interview met Wonderland Magazine, 2026"
+  "tekst": "The fact that all five members are always together to this day seems like a miracle to me.",
+  "wie": "Taehyun (TXT), interview met NME (2024)"
  },
  "aftellen": {
   "titel": "LNGSHOT · EP 'S.W.I.S.H.'",
@@ -15,17 +15,17 @@
     {
      "datum": "2026-11-10",
      "titel": "LNGSHOT: EP 'S.W.I.S.H.'",
-     "sub": "eerste comeback sinds hun debuut · 10:00 Nederlandse tijd"
+     "sub": "titelnummer 'Bananas' · 10:00 Nederlandse tijd"
     },
     {
      "datum": "2026-11-16",
      "titel": "TXT: mini-album 'PERFECT STORM'",
-     "sub": "hun negende mini-album, zes nummers"
+     "sub": "negende mini-album, titelnummer 'Angel Bite'"
     },
     {
      "datum": "2026-11-20",
      "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
-     "sub": "slot van de The Sin-reeks · cd op 23 nov"
+     "sub": "titelnummer 'I Want You' · cd op 23 nov"
     },
     {
      "datum": "2026-11-25",
@@ -44,17 +44,17 @@
     },
     {
      "datum": "2027-06-10",
-     "titel": "TXT",
+     "titel": "TXT · STEAL THE WIND",
      "sub": "Amsterdam"
     },
     {
      "datum": "2027-06-12",
-     "titel": "TXT",
+     "titel": "TXT · STEAL THE WIND",
      "sub": "Antwerpen"
     },
     {
      "datum": "2027-06-14",
-     "titel": "TXT",
+     "titel": "TXT · STEAL THE WIND",
      "sub": "Keulen"
     }
    ]
@@ -75,9 +75,16 @@
      "sub": "Seoul, KSPO Dome"
     },
     {
-     "datum": "2026-12-05",
-     "titel": "Stray Kids · Hongkong",
-     "sub": "China, Kai Tak Stadium"
+     "datum": "2026-11-21",
+     "tot": "2026-11-22",
+     "titel": "TXT · Macau",
+     "sub": "China, Galaxy Arena"
+    },
+    {
+     "datum": "2026-12-01",
+     "tot": "2026-12-02",
+     "titel": "ENHYPEN · Tokyo Dome",
+     "sub": "Japan"
     }
    ]
   },
@@ -108,11 +115,11 @@
   }
  ],
  "nummer": {
-  "titel": "GGUM",
-  "artiest": "Yeonjun (TXT)",
-  "album": "GGUM (single)",
+  "titel": "Supernova",
+  "artiest": "aespa",
+  "album": "Armageddon",
   "jaar": "2024",
-  "over": "Yeonjuns eerste solonummer. 'GGUM' betekent 'droom' in het Koreaans; een zelfverzekerd hiphop- en electronummer waarin hij zijn eigen stijl laat zien. Won een M Countdown."
+  "over": "Een energiek sci-finummer over een innerlijk ontwaken: zoals een supernova laat aespa opgebouwde kracht vrij. Het was de voorloper van hun eerste volledige album."
  },
  "gehad": {
   "quotes": [
@@ -132,7 +139,8 @@
    "I still feel nervous, shaky, hopeful, and excited for the stage.",
    "Seeing how people connect with my music in their own way made everything feel worth it.",
    "I think that in order to not fall behind, I have to keep working hard.",
-   "I hope this song reminds people that it's okay to keep going at their own pace."
+   "I hope this song reminds people that it's okay to keep going at their own pace.",
+   "The fact that all five members are always together to this day seems like a miracle to me."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -147,7 +155,8 @@
    "Feel Special – TWICE",
    "God's Menu – Stray Kids",
    "Get A Guitar – RIIZE",
-   "GGUM – Yeonjun (TXT)"
+   "GGUM – Yeonjun (TXT)",
+   "Supernova – aespa"
   ]
  }
 }
