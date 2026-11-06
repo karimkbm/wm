@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "5 nov 2026",
+ "bijgewerkt": "6 nov 2026",
  "quote": {
-  "tekst": "You must do the thing you think you cannot do.",
-  "wie": "Eleanor Roosevelt, schrijver en mensenrechtenactivist, boek You Learn by Living (1960)"
+  "tekst": "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
+  "wie": "Wilbur Wright, uitvinder van het vliegtuig, lezing Some Aeronautical Experiments (1901)"
  },
  "aftellen": {
   "titel": "Delta Reign ligt in de winkel",
@@ -83,12 +83,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon weegt 25 kilo",
-     "sub": "en hij is ongeveer 0,9 meter hoog (Pokédex)"
+     "titel": "Weetje: een Vuursteen maakt Flareon",
+     "sub": "geef Eevee een Fire Stone en hij evolueert meteen in Flareon"
     },
     {
-     "titel": "Tip: check de staat vóór je ruilt",
-     "sub": "kijk naar hoekjes, randen en krasjes op de holo"
+     "titel": "Tip: pas op voor nepkaarten",
+     "sub": "vergelijk lettertype, kleuren en achterkant met een echte kaart"
     }
    ]
   },
@@ -114,14 +114,14 @@
   }
  ],
  "kaart": {
-  "naam": "Eevee",
-  "pokemon": "eevee",
-  "set": "Jungle",
-  "nummer": "51/64",
-  "jaar": "1999",
-  "zeldzaamheid": "Common",
-  "over": "Komt uit Jungle, een van de allereerste Engelse uitbreidingen. Getekend door Kagemaru Himeno; met de aanval Tail Wag kan Eevee soms voorkomen dat de tegenstander hem aanvalt.",
-  "afbeelding": "https://images.pokemontcg.io/base2/51.png"
+  "naam": "Flareon",
+  "pokemon": "flareon",
+  "set": "151",
+  "nummer": "136/165",
+  "jaar": "2023",
+  "zeldzaamheid": "Rare (holo)",
+  "over": "151 bracht alle Pokémon uit de eerste generatie terug, op volgorde van de Pokédex. Daardoor zitten Vaporeon, Jolteon en Flareon in deze set precies naast elkaar in je map.",
+  "afbeelding": "https://images.pokemontcg.io/sv3pt5/136.png"
  },
  "gehad": {
   "quotes": [
@@ -137,7 +137,8 @@
    "No human is limited.",
    "A game that keeps a smile on the player's face is a wonderful thing.",
    "Rock bottom became the solid foundation on which I rebuilt my life.",
-   "You must do the thing you think you cannot do."
+   "You must do the thing you think you cannot do.",
+   "If you are looking for perfect safety you will do well to sit on a fence and watch the birds."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -160,7 +161,9 @@
    "Weetje: in Japan heet Flareon 'Booster' — ブースター: zo heet hij in de Japanse games en op Japanse kaarten",
    "Tip: kies een binder met zijvakjes — kaarten schuiven er van opzij in en vallen er niet snel uit",
    "Weetje: Flareon weegt 25 kilo — en hij is ongeveer 0,9 meter hoog (Pokédex)",
-   "Tip: check de staat vóór je ruilt — kijk naar hoekjes, randen en krasjes op de holo"
+   "Tip: check de staat vóór je ruilt — kijk naar hoekjes, randen en krasjes op de holo",
+   "Weetje: een Vuursteen maakt Flareon — geef Eevee een Fire Stone en hij evolueert meteen in Flareon",
+   "Tip: pas op voor nepkaarten — vergelijk lettertype, kleuren en achterkant met een echte kaart"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -174,7 +177,8 @@
    "Flareon V – Evolving Skies 169/203",
    "Leafeon – Majestic Dawn 7/100",
    "Glaceon ex – Prismatic Evolutions 150/131",
-   "Eevee – Jungle 51/64"
+   "Eevee – Jungle 51/64",
+   "Flareon – 151 136/165"
   ]
  }
 }
