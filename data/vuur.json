@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "6 nov 2026",
+ "bijgewerkt": "7 nov 2026",
  "quote": {
-  "tekst": "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
-  "wie": "Wilbur Wright, uitvinder van het vliegtuig, lezing Some Aeronautical Experiments (1901)"
+  "tekst": "Life is either a daring adventure or nothing.",
+  "wie": "Helen Keller, schrijver en activist, in haar boek Let Us Have Faith (1940)"
  },
  "aftellen": {
   "titel": "Delta Reign ligt in de winkel",
@@ -83,12 +83,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: een Vuursteen maakt Flareon",
-     "sub": "geef Eevee een Fire Stone en hij evolueert meteen in Flareon"
+     "titel": "Weetje: Flareon in de anime",
+     "sub": "in 'The Battling Eevee Brothers' heeft broer Pyro een Flareon"
     },
     {
-     "titel": "Tip: pas op voor nepkaarten",
-     "sub": "vergelijk lettertype, kleuren en achterkant met een echte kaart"
+     "titel": "Tip: bewaar je kaarten droog",
+     "sub": "vocht laat kaarten krom trekken; vermijd een vochtige kelder"
     }
    ]
   },
@@ -114,14 +114,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon",
-  "pokemon": "flareon",
-  "set": "151",
-  "nummer": "136/165",
-  "jaar": "2023",
-  "zeldzaamheid": "Rare (holo)",
-  "over": "151 bracht alle Pokémon uit de eerste generatie terug, op volgorde van de Pokédex. Daardoor zitten Vaporeon, Jolteon en Flareon in deze set precies naast elkaar in je map.",
-  "afbeelding": "https://images.pokemontcg.io/sv3pt5/136.png"
+  "naam": "Umbreon",
+  "pokemon": "umbreon",
+  "set": "Neo Discovery",
+  "nummer": "13/75",
+  "jaar": "2001",
+  "zeldzaamheid": "Rare Holo",
+  "over": "Een glimmende holokaart uit 2001, getekend door Kimiya Masago. In dezelfde set zit ook een holo-Espeon, dus samen vormen ze het dag-en-nachtduo in je map.",
+  "afbeelding": "https://images.pokemontcg.io/neo2/13.png"
  },
  "gehad": {
   "quotes": [
@@ -138,7 +138,8 @@
    "A game that keeps a smile on the player's face is a wonderful thing.",
    "Rock bottom became the solid foundation on which I rebuilt my life.",
    "You must do the thing you think you cannot do.",
-   "If you are looking for perfect safety you will do well to sit on a fence and watch the birds."
+   "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
+   "Life is either a daring adventure or nothing."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -163,7 +164,9 @@
    "Weetje: Flareon weegt 25 kilo — en hij is ongeveer 0,9 meter hoog (Pokédex)",
    "Tip: check de staat vóór je ruilt — kijk naar hoekjes, randen en krasjes op de holo",
    "Weetje: een Vuursteen maakt Flareon — geef Eevee een Fire Stone en hij evolueert meteen in Flareon",
-   "Tip: pas op voor nepkaarten — vergelijk lettertype, kleuren en achterkant met een echte kaart"
+   "Tip: pas op voor nepkaarten — vergelijk lettertype, kleuren en achterkant met een echte kaart",
+   "Weetje: Flareon in de anime — in 'The Battling Eevee Brothers' heeft broer Pyro een Flareon",
+   "Tip: bewaar je kaarten droog — vocht laat kaarten krom trekken; vermijd een vochtige kelder"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -178,7 +181,8 @@
    "Leafeon – Majestic Dawn 7/100",
    "Glaceon ex – Prismatic Evolutions 150/131",
    "Eevee – Jungle 51/64",
-   "Flareon – 151 136/165"
+   "Flareon – 151 136/165",
+   "Umbreon – Neo Discovery 13/75"
   ]
  }
 }
