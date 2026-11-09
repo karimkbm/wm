@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "8 nov 2026",
+ "bijgewerkt": "9 nov 2026",
  "quote": {
-  "tekst": "We want to continue to express our honest thoughts and relate to one another through our music.",
-  "wie": "Jake (ENHYPEN), interview met NME (2021)"
+  "tekst": "I will never take anything for granted and keep on doing my best.",
+  "wie": "Yeonjun (TXT), interview met NME (2024)"
  },
  "aftellen": {
   "titel": "LNGSHOT · EP 'S.W.I.S.H.'",
@@ -14,21 +14,25 @@
    "items": [
     {
      "datum": "2026-11-10",
+     "tot": "2026-11-14",
      "titel": "LNGSHOT: EP 'S.W.I.S.H.'",
      "sub": "titelnummer 'Bananas' · 10:00 Nederlandse tijd"
     },
     {
      "datum": "2026-11-16",
+     "tot": "2026-11-20",
      "titel": "TXT: mini-album 'PERFECT STORM'",
      "sub": "negende mini-album, titelnummer 'Angel Bite'"
     },
     {
      "datum": "2026-11-20",
+     "tot": "2026-11-24",
      "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
-     "sub": "titelnummer 'I Want You' · cd op 23 nov"
+     "sub": "spin-off single met 'I Want You' · cd op 23 nov"
     },
     {
      "datum": "2026-11-25",
+     "tot": "2026-11-29",
      "titel": "Stray Kids: Japans mini-album 'SUIATSU'",
      "sub": "hun vierde Japanse mini-album"
     }
@@ -63,19 +67,13 @@
    "id": "tour",
    "items": [
     {
-     "datum": "2026-11-06",
-     "tot": "2026-11-08",
-     "titel": "Stray Kids · Tokyo Dome",
-     "sub": "Japan"
-    },
-    {
      "datum": "2026-11-13",
      "tot": "2026-11-15",
      "titel": "TXT · start wereldtour",
      "sub": "Seoul, KSPO Dome"
     },
     {
-     "datum": "2026-11-21",
+     "datum": "2026-11-20",
      "tot": "2026-11-22",
      "titel": "TXT · Macau",
      "sub": "China, Galaxy Arena"
@@ -85,6 +83,11 @@
      "tot": "2026-12-02",
      "titel": "ENHYPEN · Tokyo Dome",
      "sub": "Japan"
+    },
+    {
+     "datum": "2026-12-05",
+     "titel": "Stray Kids · Hongkong",
+     "sub": "Kai Tak Stadium"
     }
    ]
   },
@@ -115,11 +118,11 @@
   }
  ],
  "nummer": {
-  "titel": "Thunderous",
-  "artiest": "Stray Kids",
-  "album": "NOEASY",
-  "jaar": "2021",
-  "over": "Over trouw blijven aan jezelf en je niet laten ontmoedigen door kritiek. Zelf geschreven door 3RACHA, met hiphop en Koreaanse traditionele muziek; won zes muziekshows."
+  "titel": "plot twist",
+  "artiest": "TWS",
+  "album": "Sparkling Blue",
+  "jaar": "2024",
+  "over": "Over de kriebels en zenuwen van een eerste ontmoeting, zoals op je eerste schooldag. Debuutnummer van boygroup TWS; het werd een van de grootste hits van 2024 in Korea."
  },
  "gehad": {
   "quotes": [
@@ -143,7 +146,8 @@
    "The fact that all five members are always together to this day seems like a miracle to me.",
    "But them showing me love teaches me that I can be more confident in myself.",
    "To me, it's about believing in yourself and continuing to move forward.",
-   "We want to continue to express our honest thoughts and relate to one another through our music."
+   "We want to continue to express our honest thoughts and relate to one another through our music.",
+   "I will never take anything for granted and keep on doing my best."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -162,7 +166,8 @@
    "Supernova – aespa",
    "Future Perfect (Pass the MIC) – ENHYPEN",
    "WANNABE – ITZY",
-   "Thunderous – Stray Kids"
+   "Thunderous – Stray Kids",
+   "plot twist – TWS"
   ]
  }
 }

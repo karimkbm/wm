@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "8 nov 2026",
+ "bijgewerkt": "9 nov 2026",
  "quote": {
-  "tekst": "Life is either a daring adventure or nothing.",
-  "wie": "Helen Keller, schrijver en activist, in haar boek Let Us Have Faith (1940)"
+  "tekst": "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
+  "wie": "Toni Morrison, schrijver, in een speech voor de Ohio Arts Council (1981)"
  },
  "aftellen": {
   "titel": "Cardview XL in Waalre",
@@ -14,33 +14,39 @@
    "items": [
     {
      "datum": "2026-11-06",
+     "tot": "2026-11-10",
      "titel": "Delta Reign: Mega Rayquaza ex",
-     "sub": "nieuwe hoofdset, meer dan 135 kaarten",
-     "tot": "2026-11-10"
+     "sub": "nieuwe hoofdset, meer dan 135 kaarten"
     },
     {
      "datum": "2026-11-06",
+     "tot": "2026-11-10",
      "titel": "30th Celebration Ultra-Premium",
-     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo",
-     "tot": "2026-11-10"
-    },
-    {
-     "datum": "2026-11-06",
-     "titel": "30th Celebration Ditto Premium",
-     "sub": "Ditto-promo + 8 boosters",
-     "tot": "2026-11-10"
+     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo"
     },
     {
      "datum": "2026-11-13",
+     "tot": "2026-11-17",
      "titel": "Mega Greninja ex League Battle Deck",
-     "sub": "kant-en-klaar toernooideck",
-     "tot": "2026-11-17"
+     "sub": "kant-en-klaar toernooideck"
     },
     {
      "datum": "2026-12-04",
+     "tot": "2026-12-08",
      "titel": "30th Celebration Binder Collection",
-     "sub": "verzamelmap met 5 boosters",
-     "tot": "2026-12-08"
+     "sub": "verzamelmap met 5 boosters"
+    },
+    {
+     "datum": "2026-12-04",
+     "tot": "2026-12-08",
+     "titel": "30th Celebration tins",
+     "sub": "met Sylveon ex of Greninja ex"
+    },
+    {
+     "datum": "2027-02-05",
+     "tot": "2027-02-09",
+     "titel": "Flowing Fists: Mega Lucario Z ex",
+     "sub": "eerste nieuwe hoofdset van 2027"
     }
    ]
   },
@@ -50,7 +56,7 @@
     {
      "datum": "2026-11-14",
      "titel": "Cardview XL",
-     "sub": "Waalre · Sporthal 't Hazzo · vanaf 10:00"
+     "sub": "Waalre · Sporthal 't Hazzo · 11:00 (vroege toegang 10:00)"
     },
     {
      "datum": "2026-11-14",
@@ -58,14 +64,21 @@
      "sub": "Helmond · Elzas Passage · vanaf 11:00"
     },
     {
-     "datum": "2026-11-22",
-     "titel": "Tradingcardevents Hoensbroek",
-     "sub": "Hoensbroek (Limburg) · vanaf 10:00"
+     "datum": "2026-11-21",
+     "tot": "2026-11-22",
+     "titel": "Con-NXT Pokémon Beurs",
+     "sub": "Etten-Leur · De Grauwe Polder · vanaf 10:00"
     },
     {
      "datum": "2026-11-28",
      "titel": "Cardfanz Arena Oss: Winter Edition",
      "sub": "Oss · Frans Heesen Stadion · vanaf 11:00"
+    },
+    {
+     "datum": "2026-12-12",
+     "tot": "2026-12-13",
+     "titel": "TCG Collectors Day",
+     "sub": "Turnhout (België) · Futur · za 9:00, zo 10:00"
     },
     {
      "datum": "2026-12-26",
@@ -78,12 +91,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon in de anime",
-     "sub": "in 'The Battling Eevee Brothers' heeft broer Pyro een Flareon"
+     "titel": "Weetje: Flareon speelt mee in Pokémon UNITE",
+     "sub": "sinds 13 oktober 2026 speelbaar, samen met Jolteon"
     },
     {
-     "titel": "Tip: bewaar je kaarten droog",
-     "sub": "vocht laat kaarten krom trekken; vermijd een vochtige kelder"
+     "titel": "Tip: ruil rustig en eerlijk",
+     "sub": "neem bedenktijd en laat bij grote ruilen een volwassene meekijken"
     }
    ]
   },
@@ -91,13 +104,17 @@
    "id": "gaming",
    "items": [
     {
-     "titel": "s&box gaat gratis",
-     "sub": "opvolger-platform van Garry's Mod wordt eind 2026 free-to-play"
-    },
-    {
      "datum": "2026-11-19",
      "titel": "GTA 6 komt uit op 19 november",
-     "sub": "eerst alleen PS5 en Xbox; pc-versie nog niet aangekondigd"
+     "sub": "PS5 en Xbox, vooraf downloaden vanaf 10 nov · pc nog niet aangekondigd"
+    },
+    {
+     "titel": "s&box gaat gratis",
+     "sub": "Facepunch: eind 2026 free-to-play, plus een nieuw Sandbox-spel"
+    },
+    {
+     "titel": "Teardown Rally komt eraan",
+     "sub": "gratis racemodus met 18 nieuwe voertuigen, tot 12 spelers"
     },
     {
      "datum": "2026-12-17",
@@ -109,14 +126,14 @@
   }
  ],
  "kaart": {
-  "naam": "Umbreon",
-  "pokemon": "umbreon",
-  "set": "Neo Discovery",
-  "nummer": "13/75",
-  "jaar": "2001",
-  "zeldzaamheid": "Rare Holo",
-  "over": "Een glimmende holokaart uit 2001, getekend door Kimiya Masago. In dezelfde set zit ook een holo-Espeon, dus samen vormen ze het dag-en-nachtduo in je map.",
-  "afbeelding": "https://images.pokemontcg.io/neo2/13.png"
+  "naam": "Leafeon VMAX",
+  "pokemon": "leafeon",
+  "set": "Evolving Skies",
+  "nummer": "205/203",
+  "jaar": "2021",
+  "zeldzaamheid": "Secret Rare (Alternate Art)",
+  "over": "Een 'alternate art'-kaart van illustrator HYOGONOSUKE, met een hele tekening in plaats van alleen de Pokémon. Evolving Skies is geliefd bij verzamelaars omdat alle Eeveelutions erin zitten.",
+  "afbeelding": "https://images.pokemontcg.io/swsh7/205.png"
  },
  "gehad": {
   "quotes": [
@@ -134,7 +151,8 @@
    "Rock bottom became the solid foundation on which I rebuilt my life.",
    "You must do the thing you think you cannot do.",
    "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
-   "Life is either a daring adventure or nothing."
+   "Life is either a daring adventure or nothing.",
+   "If you find a book you really want to read but it hasn't been written yet, then you must write it."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -161,7 +179,9 @@
    "Weetje: een Vuursteen maakt Flareon — geef Eevee een Fire Stone en hij evolueert meteen in Flareon",
    "Tip: pas op voor nepkaarten — vergelijk lettertype, kleuren en achterkant met een echte kaart",
    "Weetje: Flareon in de anime — in 'The Battling Eevee Brothers' heeft broer Pyro een Flareon",
-   "Tip: bewaar je kaarten droog — vocht laat kaarten krom trekken; vermijd een vochtige kelder"
+   "Tip: bewaar je kaarten droog — vocht laat kaarten krom trekken; vermijd een vochtige kelder",
+   "Weetje: Flareon speelt mee in Pokémon UNITE — sinds 13 oktober 2026 speelbaar, samen met Jolteon",
+   "Tip: ruil rustig en eerlijk — neem bedenktijd en laat bij grote ruilen een volwassene meekijken"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -177,7 +197,8 @@
    "Glaceon ex – Prismatic Evolutions 150/131",
    "Eevee – Jungle 51/64",
    "Flareon – 151 136/165",
-   "Umbreon – Neo Discovery 13/75"
+   "Umbreon – Neo Discovery 13/75",
+   "Leafeon VMAX – Evolving Skies 205/203"
   ]
  }
 }
