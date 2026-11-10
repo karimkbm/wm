@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "9 nov 2026",
+ "bijgewerkt": "10 nov 2026",
  "quote": {
-  "tekst": "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
-  "wie": "Toni Morrison, schrijver, in een speech voor de Ohio Arts Council (1981)"
+  "tekst": "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
+  "wie": "Thomas Edison, uitvinder, geciteerd in 1901 (bevestigd door Quote Investigator)"
  },
  "aftellen": {
   "titel": "Cardview XL in Waalre",
@@ -91,12 +91,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon speelt mee in Pokémon UNITE",
-     "sub": "sinds 13 oktober 2026 speelbaar, samen met Jolteon"
+     "titel": "Weetje: waar de naam Flareon vandaan komt",
+     "sub": "van 'flare' (vlam) plus '-eon', net als de andere Eeveelutions"
     },
     {
-     "titel": "Tip: ruil rustig en eerlijk",
-     "sub": "neem bedenktijd en laat bij grote ruilen een volwassene meekijken"
+     "titel": "Tip: zoek ook de reverse holo",
+     "sub": "veel Flareon-kaarten bestaan ook met glans op de rest van de kaart"
     }
    ]
   },
@@ -126,14 +126,14 @@
   }
  ],
  "kaart": {
-  "naam": "Leafeon VMAX",
-  "pokemon": "leafeon",
-  "set": "Evolving Skies",
-  "nummer": "205/203",
-  "jaar": "2021",
-  "zeldzaamheid": "Secret Rare (Alternate Art)",
-  "over": "Een 'alternate art'-kaart van illustrator HYOGONOSUKE, met een hele tekening in plaats van alleen de Pokémon. Evolving Skies is geliefd bij verzamelaars omdat alle Eeveelutions erin zitten.",
-  "afbeelding": "https://images.pokemontcg.io/swsh7/205.png"
+  "naam": "Flareon",
+  "pokemon": "flareon",
+  "set": "Majestic Dawn",
+  "nummer": "19/100",
+  "jaar": "2008",
+  "zeldzaamheid": "Rare",
+  "over": "Uit Majestic Dawn, de set waarin Leafeon en Glaceon hun eerste Engelse kaarten kregen. Daardoor is het een geliefde set om de hele Eevee-familie van toen te verzamelen.",
+  "afbeelding": "https://images.pokemontcg.io/dp5/19.png"
  },
  "gehad": {
   "quotes": [
@@ -152,7 +152,8 @@
    "You must do the thing you think you cannot do.",
    "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
    "Life is either a daring adventure or nothing.",
-   "If you find a book you really want to read but it hasn't been written yet, then you must write it."
+   "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
+   "Genius is one per cent inspiration and ninety-nine per cent perspiration."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -181,7 +182,9 @@
    "Weetje: Flareon in de anime — in 'The Battling Eevee Brothers' heeft broer Pyro een Flareon",
    "Tip: bewaar je kaarten droog — vocht laat kaarten krom trekken; vermijd een vochtige kelder",
    "Weetje: Flareon speelt mee in Pokémon UNITE — sinds 13 oktober 2026 speelbaar, samen met Jolteon",
-   "Tip: ruil rustig en eerlijk — neem bedenktijd en laat bij grote ruilen een volwassene meekijken"
+   "Tip: ruil rustig en eerlijk — neem bedenktijd en laat bij grote ruilen een volwassene meekijken",
+   "Weetje: waar de naam Flareon vandaan komt — van 'flare' (vlam) plus '-eon', net als de andere Eeveelutions",
+   "Tip: zoek ook de reverse holo — veel Flareon-kaarten bestaan ook met glans op de rest van de kaart"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -198,7 +201,8 @@
    "Eevee – Jungle 51/64",
    "Flareon – 151 136/165",
    "Umbreon – Neo Discovery 13/75",
-   "Leafeon VMAX – Evolving Skies 205/203"
+   "Leafeon VMAX – Evolving Skies 205/203",
+   "Flareon – Majestic Dawn 19/100"
   ]
  }
 }
