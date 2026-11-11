@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "10 nov 2026",
+ "bijgewerkt": "11 nov 2026",
  "quote": {
-  "tekst": "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
-  "wie": "Thomas Edison, uitvinder, geciteerd in 1901 (bevestigd door Quote Investigator)"
+  "tekst": "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
+  "wie": "Marie Curie, natuurkundige en Nobelprijswinnaar, in een brief (biografie door haar dochter Eve Curie, 1937)"
  },
  "aftellen": {
   "titel": "Cardview XL in Waalre",
@@ -12,18 +12,6 @@
   {
    "id": "tcg",
    "items": [
-    {
-     "datum": "2026-11-06",
-     "tot": "2026-11-10",
-     "titel": "Delta Reign: Mega Rayquaza ex",
-     "sub": "nieuwe hoofdset, meer dan 135 kaarten"
-    },
-    {
-     "datum": "2026-11-06",
-     "tot": "2026-11-10",
-     "titel": "30th Celebration Ultra-Premium",
-     "sub": "Day & Night · met Espeon ex- of Umbreon ex-promo"
-    },
     {
      "datum": "2026-11-13",
      "tot": "2026-11-17",
@@ -91,12 +79,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: waar de naam Flareon vandaan komt",
-     "sub": "van 'flare' (vlam) plus '-eon', net als de andere Eeveelutions"
+     "titel": "Weetje: de eerste Engelse Flareon-kaart",
+     "sub": "kwam in 1999 uit in Jungle, als holo (3/64) én als gewone kaart (19/64)"
     },
     {
-     "titel": "Tip: zoek ook de reverse holo",
-     "sub": "veel Flareon-kaarten bestaan ook met glans op de rest van de kaart"
+     "titel": "Tip: sorteer je map op jaartal",
+     "sub": "zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist"
     }
    ]
   },
@@ -126,14 +114,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon",
-  "pokemon": "flareon",
-  "set": "Majestic Dawn",
-  "nummer": "19/100",
-  "jaar": "2008",
-  "zeldzaamheid": "Rare",
-  "over": "Uit Majestic Dawn, de set waarin Leafeon en Glaceon hun eerste Engelse kaarten kregen. Daardoor is het een geliefde set om de hele Eevee-familie van toen te verzamelen.",
-  "afbeelding": "https://images.pokemontcg.io/dp5/19.png"
+  "naam": "Jolteon ex",
+  "pokemon": "jolteon",
+  "set": "Prismatic Evolutions",
+  "nummer": "153/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "Een van de negen Special Illustration Rares van de Eevee-familie in Prismatic Evolutions. De illustratie loopt over de hele kaart, dus hij past perfect naast je Flareon ex uit dezelfde set.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/153.png"
  },
  "gehad": {
   "quotes": [
@@ -153,7 +141,8 @@
    "If you are looking for perfect safety you will do well to sit on a fence and watch the birds.",
    "Life is either a daring adventure or nothing.",
    "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
-   "Genius is one per cent inspiration and ninety-nine per cent perspiration."
+   "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
+   "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -184,7 +173,9 @@
    "Weetje: Flareon speelt mee in Pokémon UNITE — sinds 13 oktober 2026 speelbaar, samen met Jolteon",
    "Tip: ruil rustig en eerlijk — neem bedenktijd en laat bij grote ruilen een volwassene meekijken",
    "Weetje: waar de naam Flareon vandaan komt — van 'flare' (vlam) plus '-eon', net als de andere Eeveelutions",
-   "Tip: zoek ook de reverse holo — veel Flareon-kaarten bestaan ook met glans op de rest van de kaart"
+   "Tip: zoek ook de reverse holo — veel Flareon-kaarten bestaan ook met glans op de rest van de kaart",
+   "Weetje: de eerste Engelse Flareon-kaart — kwam in 1999 uit in Jungle, als holo (3/64) én als gewone kaart (19/64)",
+   "Tip: sorteer je map op jaartal — zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -202,7 +193,8 @@
    "Flareon – 151 136/165",
    "Umbreon – Neo Discovery 13/75",
    "Leafeon VMAX – Evolving Skies 205/203",
-   "Flareon – Majestic Dawn 19/100"
+   "Flareon – Majestic Dawn 19/100",
+   "Jolteon ex – Prismatic Evolutions 153/131"
   ]
  }
 }
