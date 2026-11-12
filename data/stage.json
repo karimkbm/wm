@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "11 nov 2026",
+ "bijgewerkt": "12 nov 2026",
  "quote": {
-  "tekst": "Even if we're unsure if we can pull it off, we can if we just go for it.",
-  "wie": "Jungwon (ENHYPEN), interview met NME (2025)"
+  "tekst": "There is always a safe choice, but the reason we do experimental things is because it's more fun.",
+  "wie": "Han (Stray Kids), persconferentie voor het album 'THIS & THAT' (SBS Star, 2026)"
  },
  "aftellen": {
   "titel": "Jake (ENHYPEN) jarig",
@@ -35,6 +35,10 @@
      "tot": "2026-11-29",
      "titel": "Stray Kids: Japans mini-album 'SUIATSU'",
      "sub": "hun vierde Japanse mini-album"
+    },
+    {
+     "titel": "Stray Kids: wereldtour 'RUN IT' 2027",
+     "sub": "stadiontour door Azië, Amerika en Europa, ook Arnhem"
     }
    ]
   },
@@ -60,6 +64,11 @@
      "datum": "2027-06-14",
      "titel": "TXT · STEAL THE WIND",
      "sub": "Keulen"
+    },
+    {
+     "datum": "2027-07-27",
+     "titel": "Stray Kids · RUN IT",
+     "sub": "GelreDome, Arnhem"
     }
    ]
   },
@@ -118,11 +127,11 @@
   }
  ],
  "nummer": {
-  "titel": "Bananas",
-  "artiest": "LNGSHOT",
-  "album": "S.W.I.S.H.",
-  "jaar": "2026",
-  "over": "Het nieuwe titelnummer, net uit: verslavende dance-pop. De EP-titel staat voor 'Swag with integrity shapes history': met een eigen, echte stijl een nieuwe golf maken."
+  "titel": "In Bloom",
+  "artiest": "ZEROBASEONE",
+  "album": "Youth in the Shade",
+  "jaar": "2023",
+  "over": "Debuut-titelnummer van ZEROBASEONE, de boyband uit de talentenshow Boys Planet. Een frisse, energieke popsong over jong zijn en openbloeien als een bloem."
  },
  "gehad": {
   "quotes": [
@@ -149,7 +158,8 @@
    "We want to continue to express our honest thoughts and relate to one another through our music.",
    "I will never take anything for granted and keep on doing my best.",
    "If we make mistakes, we grow together.",
-   "Even if we're unsure if we can pull it off, we can if we just go for it."
+   "Even if we're unsure if we can pull it off, we can if we just go for it.",
+   "There is always a safe choice, but the reason we do experimental things is because it's more fun."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -171,7 +181,8 @@
    "Thunderous – Stray Kids",
    "plot twist – TWS",
    "Blue Hour – TXT (TOMORROW X TOGETHER)",
-   "Bananas – LNGSHOT"
+   "Bananas – LNGSHOT",
+   "In Bloom – ZEROBASEONE"
   ]
  }
 }
