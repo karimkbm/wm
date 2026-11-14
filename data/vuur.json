@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "13 nov 2026",
+ "bijgewerkt": "14 nov 2026",
  "quote": {
-  "tekst": "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
-  "wie": "Marie Curie, natuurkundige en Nobelprijswinnaar, in een brief (biografie door haar dochter Eve Curie, 1937)"
+  "tekst": "Effortless is a myth.",
+  "wie": "Roger Federer, tenniskampioen, in zijn speech voor afgestudeerden van Dartmouth College (2024)"
  },
  "aftellen": {
   "titel": "Cardview XL in Waalre",
@@ -79,12 +79,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: de eerste Engelse Flareon-kaart",
-     "sub": "kwam in 1999 uit in Jungle, als holo (3/64) én als gewone kaart (19/64)"
+     "titel": "Weetje: Flareon spuwt vuur van 1.600 °C",
+     "sub": "Pokédex: ingeademde lucht wordt in zijn vlamzak verhit tot ruim 3.000 °F"
     },
     {
-     "titel": "Tip: sorteer je map op jaartal",
-     "sub": "zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist"
+     "titel": "Tip: sleeve je topkaarten dubbel",
+     "sub": "eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen"
     }
    ]
   },
@@ -114,14 +114,14 @@
   }
  ],
  "kaart": {
-  "naam": "Jolteon ex",
-  "pokemon": "jolteon",
-  "set": "Prismatic Evolutions",
-  "nummer": "153/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "Een van de negen Special Illustration Rares van de Eevee-familie in Prismatic Evolutions. De illustratie loopt over de hele kaart, dus hij past perfect naast je Flareon ex uit dezelfde set.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/153.png"
+  "naam": "Glaceon",
+  "pokemon": "glaceon",
+  "set": "Majestic Dawn",
+  "nummer": "5/100",
+  "jaar": "2008",
+  "zeldzaamheid": "Rare Holo",
+  "over": "Uit Majestic Dawn, de set waarin Glaceon en Leafeon hun eerste Engelse kaarten kregen. Getekend door Atsuko Nishida, die ook meehielp Pikachu te ontwerpen.",
+  "afbeelding": "https://images.pokemontcg.io/dp5/5.png"
  },
  "gehad": {
   "quotes": [
@@ -142,7 +142,8 @@
    "Life is either a daring adventure or nothing.",
    "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
    "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
-   "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves."
+   "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
+   "Effortless is a myth."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -175,7 +176,9 @@
    "Weetje: waar de naam Flareon vandaan komt — van 'flare' (vlam) plus '-eon', net als de andere Eeveelutions",
    "Tip: zoek ook de reverse holo — veel Flareon-kaarten bestaan ook met glans op de rest van de kaart",
    "Weetje: de eerste Engelse Flareon-kaart — kwam in 1999 uit in Jungle, als holo (3/64) én als gewone kaart (19/64)",
-   "Tip: sorteer je map op jaartal — zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist"
+   "Tip: sorteer je map op jaartal — zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist",
+   "Weetje: Flareon spuwt vuur van 1.600 °C — Pokédex: ingeademde lucht wordt in zijn vlamzak verhit tot ruim 3.000 °F",
+   "Tip: sleeve je topkaarten dubbel — eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -194,7 +197,8 @@
    "Umbreon – Neo Discovery 13/75",
    "Leafeon VMAX – Evolving Skies 205/203",
    "Flareon – Majestic Dawn 19/100",
-   "Jolteon ex – Prismatic Evolutions 153/131"
+   "Jolteon ex – Prismatic Evolutions 153/131",
+   "Glaceon – Majestic Dawn 5/100"
   ]
  }
 }

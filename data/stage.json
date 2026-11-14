@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "13 nov 2026",
+ "bijgewerkt": "14 nov 2026",
  "quote": {
-  "tekst": "It's the small efforts I've built up, day by day, that have brought me to where I am now.",
-  "wie": "Sunghoon (ENHYPEN), coverinterview met Billboard Korea (2025)"
+  "tekst": "We still have that same heat and passion for the stage.",
+  "wie": "I.N (Stray Kids), interview met Clash Magazine (2024)"
  },
  "aftellen": {
   "titel": "Jake (ENHYPEN) jarig",
@@ -127,11 +127,11 @@
   }
  ],
  "nummer": {
-  "titel": "Levanter",
-  "artiest": "Stray Kids",
-  "album": "Clé: Levanter",
-  "jaar": "2019",
-  "over": "Gaat over de wens om uit een saaie sleur te breken en je eigen weg en kleur te vinden, als een wind die je meeneemt. Won in december 2019 bij M Countdown."
+  "titel": "Hello Future",
+  "artiest": "NCT DREAM",
+  "album": "Hello Future",
+  "jaar": "2021",
+  "over": "Een vrolijk, hoopvol nummer over vol vertrouwen samen de toekomst tegemoet gaan. NCT DREAM is een subgroep van NCT; het titelnummer van hun heruitgave van 'Hot Sauce'."
  },
  "gehad": {
   "quotes": [
@@ -160,7 +160,8 @@
    "If we make mistakes, we grow together.",
    "Even if we're unsure if we can pull it off, we can if we just go for it.",
    "There is always a safe choice, but the reason we do experimental things is because it's more fun.",
-   "It's the small efforts I've built up, day by day, that have brought me to where I am now."
+   "It's the small efforts I've built up, day by day, that have brought me to where I am now.",
+   "We still have that same heat and passion for the stage."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -184,7 +185,8 @@
    "Blue Hour – TXT (TOMORROW X TOGETHER)",
    "Bananas – LNGSHOT",
    "In Bloom – ZEROBASEONE",
-   "Levanter – Stray Kids"
+   "Levanter – Stray Kids",
+   "Hello Future – NCT DREAM"
   ]
  }
 }
