@@ -1,12 +1,12 @@
 {
- "bijgewerkt": "14 nov 2026",
+ "bijgewerkt": "15 nov 2026",
  "quote": {
-  "tekst": "Effortless is a myth.",
-  "wie": "Roger Federer, tenniskampioen, in zijn speech voor afgestudeerden van Dartmouth College (2024)"
+  "tekst": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
+  "wie": "J.K. Rowling, schrijver van Harry Potter, in haar speech aan Harvard University (2008)"
  },
  "aftellen": {
-  "titel": "Cardview XL in Waalre",
-  "datum": "2026-11-14"
+  "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
+  "datum": "2026-11-21"
  },
  "secties": [
   {
@@ -42,16 +42,6 @@
    "id": "beurs",
    "items": [
     {
-     "datum": "2026-11-14",
-     "titel": "Cardview XL",
-     "sub": "Waalre · Sporthal 't Hazzo · 11:00 (vroege toegang 10:00)"
-    },
-    {
-     "datum": "2026-11-14",
-     "titel": "Collectors Days",
-     "sub": "Helmond · Elzas Passage · vanaf 11:00"
-    },
-    {
      "datum": "2026-11-21",
      "tot": "2026-11-22",
      "titel": "Con-NXT Pokémon Beurs",
@@ -79,12 +69,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon spuwt vuur van 1.600 °C",
-     "sub": "Pokédex: ingeademde lucht wordt in zijn vlamzak verhit tot ruim 3.000 °F"
+     "titel": "Weetje: Flareon in een eigen korte film",
+     "sub": "in 'Eevee & Friends' (2013) spelen Eevee en alle Eeveelutions de hoofdrol"
     },
     {
-     "titel": "Tip: sleeve je topkaarten dubbel",
-     "sub": "eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen"
+     "titel": "Tip: verzamel per illustrator",
+     "sub": "onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar"
     }
    ]
   },
@@ -114,14 +104,14 @@
   }
  ],
  "kaart": {
-  "naam": "Glaceon",
-  "pokemon": "glaceon",
-  "set": "Majestic Dawn",
-  "nummer": "5/100",
-  "jaar": "2008",
-  "zeldzaamheid": "Rare Holo",
-  "over": "Uit Majestic Dawn, de set waarin Glaceon en Leafeon hun eerste Engelse kaarten kregen. Getekend door Atsuko Nishida, die ook meehielp Pikachu te ontwerpen.",
-  "afbeelding": "https://images.pokemontcg.io/dp5/5.png"
+  "naam": "Flareon ex",
+  "pokemon": "flareon",
+  "set": "Prismatic Evolutions",
+  "nummer": "014/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Double Rare",
+  "over": "De gewone ex-versie van Flareon uit Prismatic Evolutions, de speciale Eevee-set waarin Eevee en alle Eeveelutions een eigen ex-kaart kregen.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/14.png"
  },
  "gehad": {
   "quotes": [
@@ -143,7 +133,8 @@
    "If you find a book you really want to read but it hasn't been written yet, then you must write it.",
    "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
    "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
-   "Effortless is a myth."
+   "Effortless is a myth.",
+   "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -178,7 +169,9 @@
    "Weetje: de eerste Engelse Flareon-kaart — kwam in 1999 uit in Jungle, als holo (3/64) én als gewone kaart (19/64)",
    "Tip: sorteer je map op jaartal — zet je Flareons van oud naar nieuw, dan zie je meteen welke je nog mist",
    "Weetje: Flareon spuwt vuur van 1.600 °C — Pokédex: ingeademde lucht wordt in zijn vlamzak verhit tot ruim 3.000 °F",
-   "Tip: sleeve je topkaarten dubbel — eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen"
+   "Tip: sleeve je topkaarten dubbel — eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen",
+   "Weetje: Flareon in een eigen korte film — in 'Eevee & Friends' (2013) spelen Eevee en alle Eeveelutions de hoofdrol",
+   "Tip: verzamel per illustrator — onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -198,7 +191,8 @@
    "Leafeon VMAX – Evolving Skies 205/203",
    "Flareon – Majestic Dawn 19/100",
    "Jolteon ex – Prismatic Evolutions 153/131",
-   "Glaceon – Majestic Dawn 5/100"
+   "Glaceon – Majestic Dawn 5/100",
+   "Flareon ex – Prismatic Evolutions 014/131"
   ]
  }
 }

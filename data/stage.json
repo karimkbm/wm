@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "14 nov 2026",
+ "bijgewerkt": "15 nov 2026",
  "quote": {
-  "tekst": "We still have that same heat and passion for the stage.",
-  "wie": "I.N (Stray Kids), interview met Clash Magazine (2024)"
+  "tekst": "As time goes by, I think the chemistry between our seven just gets better.",
+  "wie": "Jake (ENHYPEN), interview met NME (2025)"
  },
  "aftellen": {
   "titel": "Jake (ENHYPEN) jarig",
@@ -12,12 +12,6 @@
   {
    "id": "nieuw",
    "items": [
-    {
-     "datum": "2026-11-10",
-     "tot": "2026-11-14",
-     "titel": "LNGSHOT: EP 'S.W.I.S.H.'",
-     "sub": "titelnummer 'Bananas' · 10:00 Nederlandse tijd"
-    },
     {
      "datum": "2026-11-16",
      "tot": "2026-11-20",
@@ -127,11 +121,11 @@
   }
  ],
  "nummer": {
-  "titel": "Hello Future",
-  "artiest": "NCT DREAM",
-  "album": "Hello Future",
-  "jaar": "2021",
-  "over": "Een vrolijk, hoopvol nummer over vol vertrouwen samen de toekomst tegemoet gaan. NCT DREAM is een subgroep van NCT; het titelnummer van hun heruitgave van 'Hot Sauce'."
+  "titel": "9 and Three Quarters (Run Away)",
+  "artiest": "TXT (TOMORROW X TOGETHER)",
+  "album": "The Dream Chapter: MAGIC",
+  "jaar": "2019",
+  "over": "Over de kracht die je vindt in bijzondere momenten met je vrienden; de titel verwijst naar perron 9¾ uit Harry Potter. Titelnummer van hun eerste album."
  },
  "gehad": {
   "quotes": [
@@ -161,7 +155,8 @@
    "Even if we're unsure if we can pull it off, we can if we just go for it.",
    "There is always a safe choice, but the reason we do experimental things is because it's more fun.",
    "It's the small efforts I've built up, day by day, that have brought me to where I am now.",
-   "We still have that same heat and passion for the stage."
+   "We still have that same heat and passion for the stage.",
+   "As time goes by, I think the chemistry between our seven just gets better."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -186,7 +181,8 @@
    "Bananas – LNGSHOT",
    "In Bloom – ZEROBASEONE",
    "Levanter – Stray Kids",
-   "Hello Future – NCT DREAM"
+   "Hello Future – NCT DREAM",
+   "9 and Three Quarters (Run Away) – TXT (TOMORROW X TOGETHER)"
   ]
  }
 }
