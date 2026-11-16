@@ -1,12 +1,12 @@
 {
- "bijgewerkt": "15 nov 2026",
+ "bijgewerkt": "16 nov 2026",
  "quote": {
-  "tekst": "As time goes by, I think the chemistry between our seven just gets better.",
-  "wie": "Jake (ENHYPEN), interview met NME (2025)"
+  "tekst": "As I continue making music, I think I'll find the version of myself that is most true to who I am.",
+  "wie": "EVAN (solo, voorheen Heeseung van ENHYPEN), interview met The Korea Herald (2026)"
  },
  "aftellen": {
-  "titel": "Jake (ENHYPEN) jarig",
-  "datum": "2026-11-15"
+  "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
+  "datum": "2026-11-20"
  },
  "secties": [
   {
@@ -70,12 +70,6 @@
    "id": "tour",
    "items": [
     {
-     "datum": "2026-11-13",
-     "tot": "2026-11-15",
-     "titel": "TXT · start wereldtour",
-     "sub": "Seoul, KSPO Dome"
-    },
-    {
      "datum": "2026-11-20",
      "tot": "2026-11-22",
      "titel": "TXT · Macau",
@@ -91,17 +85,17 @@
      "datum": "2026-12-05",
      "titel": "Stray Kids · Hongkong",
      "sub": "Kai Tak Stadium"
+    },
+    {
+     "datum": "2026-12-12",
+     "titel": "Stray Kids · Taipei",
+     "sub": "Taiwan, Taipei Dome"
     }
    ]
   },
   {
    "id": "jarig",
    "items": [
-    {
-     "datum": "2026-11-15",
-     "titel": "Jake",
-     "sub": "ENHYPEN"
-    },
     {
      "datum": "2026-12-05",
      "titel": "Soobin",
@@ -116,16 +110,21 @@
      "datum": "2026-12-09",
      "titel": "Ni-ki",
      "sub": "ENHYPEN"
+    },
+    {
+     "datum": "2027-01-15",
+     "titel": "EVAN",
+     "sub": "solo"
     }
    ]
   }
  ],
  "nummer": {
-  "titel": "9 and Three Quarters (Run Away)",
-  "artiest": "TXT (TOMORROW X TOGETHER)",
-  "album": "The Dream Chapter: MAGIC",
-  "jaar": "2019",
-  "over": "Over de kracht die je vindt in bijzondere momenten met je vrienden; de titel verwijst naar perron 9¾ uit Harry Potter. Titelnummer van hun eerste album."
+  "titel": "Earth, Wind & Fire",
+  "artiest": "BOYNEXTDOOR",
+  "album": "HOW?",
+  "jaar": "2024",
+  "over": "Vrolijk hyperpop-nummer over verliefd zijn en hoe dat soms heel anders loopt dan gepland. BOYNEXTDOOR is een boyband van KOZ Entertainment, gedebuteerd in 2023."
  },
  "gehad": {
   "quotes": [
@@ -156,7 +155,8 @@
    "There is always a safe choice, but the reason we do experimental things is because it's more fun.",
    "It's the small efforts I've built up, day by day, that have brought me to where I am now.",
    "We still have that same heat and passion for the stage.",
-   "As time goes by, I think the chemistry between our seven just gets better."
+   "As time goes by, I think the chemistry between our seven just gets better.",
+   "As I continue making music, I think I'll find the version of myself that is most true to who I am."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -182,7 +182,8 @@
    "In Bloom – ZEROBASEONE",
    "Levanter – Stray Kids",
    "Hello Future – NCT DREAM",
-   "9 and Three Quarters (Run Away) – TXT (TOMORROW X TOGETHER)"
+   "9 and Three Quarters (Run Away) – TXT (TOMORROW X TOGETHER)",
+   "Earth, Wind & Fire – BOYNEXTDOOR"
   ]
  }
 }
