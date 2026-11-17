@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "16 nov 2026",
+ "bijgewerkt": "17 nov 2026",
  "quote": {
-  "tekst": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
-  "wie": "J.K. Rowling, schrijver van Harry Potter, in haar speech aan Harvard University (2008)"
+  "tekst": "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
+  "wie": "Theodore Roosevelt, Amerikaanse president en avonturier, in een toespraak in Syracuse (1903)"
  },
  "aftellen": {
   "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
@@ -69,12 +69,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon in een eigen korte film",
-     "sub": "in 'Eevee & Friends' (2013) spelen Eevee en alle Eeveelutions de hoofdrol"
+     "titel": "Weetje: Flareon leert Flare Blitz",
+     "sub": "die superkrachtige vuuraanval bestaat pas sinds Diamond & Pearl"
     },
     {
-     "titel": "Tip: verzamel per illustrator",
-     "sub": "onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar"
+     "titel": "Tip: let op promokaarten",
+     "sub": "sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'"
     }
    ]
   },
@@ -104,14 +104,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon ex",
-  "pokemon": "flareon",
-  "set": "Prismatic Evolutions",
-  "nummer": "014/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Double Rare",
-  "over": "De gewone ex-versie van Flareon uit Prismatic Evolutions, de speciale Eevee-set waarin Eevee en alle Eeveelutions een eigen ex-kaart kregen.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/14.png"
+  "naam": "Vaporeon",
+  "pokemon": "vaporeon",
+  "set": "Majestic Dawn",
+  "nummer": "34/100",
+  "jaar": "2008",
+  "zeldzaamheid": "Rare",
+  "over": "Uit Majestic Dawn, de set waarin Leafeon en Glaceon hun eerste kaarten kregen. Alle zeven Eeveelutions van toen zitten erin, dus je kunt er een complete Eevee-familie uit verzamelen.",
+  "afbeelding": "https://images.pokemontcg.io/dp5/34.png"
  },
  "gehad": {
   "quotes": [
@@ -134,7 +134,8 @@
    "Genius is one per cent inspiration and ninety-nine per cent perspiration.",
    "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
    "Effortless is a myth.",
-   "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all."
+   "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
+   "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -171,7 +172,9 @@
    "Weetje: Flareon spuwt vuur van 1.600 °C — Pokédex: ingeademde lucht wordt in zijn vlamzak verhit tot ruim 3.000 °F",
    "Tip: sleeve je topkaarten dubbel — eerst een strak 'perfect fit'-hoesje, dan een gewone sleeve eroverheen",
    "Weetje: Flareon in een eigen korte film — in 'Eevee & Friends' (2013) spelen Eevee en alle Eeveelutions de hoofdrol",
-   "Tip: verzamel per illustrator — onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar"
+   "Tip: verzamel per illustrator — onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar",
+   "Weetje: Flareon leert Flare Blitz — die superkrachtige vuuraanval bestaat pas sinds Diamond & Pearl",
+   "Tip: let op promokaarten — sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -192,7 +195,8 @@
    "Flareon – Majestic Dawn 19/100",
    "Jolteon ex – Prismatic Evolutions 153/131",
    "Glaceon – Majestic Dawn 5/100",
-   "Flareon ex – Prismatic Evolutions 014/131"
+   "Flareon ex – Prismatic Evolutions 014/131",
+   "Vaporeon – Majestic Dawn 34/100"
   ]
  }
 }
