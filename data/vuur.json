@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "17 nov 2026",
+ "bijgewerkt": "18 nov 2026",
  "quote": {
-  "tekst": "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
-  "wie": "Theodore Roosevelt, Amerikaanse president en avonturier, in een toespraak in Syracuse (1903)"
+  "tekst": "I learned that courage was not the absence of fear, but the triumph over it.",
+  "wie": "Nelson Mandela, Zuid-Afrikaanse president, in zijn boek Long Walk to Freedom (1994)"
  },
  "aftellen": {
   "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
@@ -12,12 +12,6 @@
   {
    "id": "tcg",
    "items": [
-    {
-     "datum": "2026-11-13",
-     "tot": "2026-11-17",
-     "titel": "Mega Greninja ex League Battle Deck",
-     "sub": "kant-en-klaar toernooideck"
-    },
     {
      "datum": "2026-12-04",
      "tot": "2026-12-08",
@@ -69,12 +63,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon leert Flare Blitz",
-     "sub": "die superkrachtige vuuraanval bestaat pas sinds Diamond & Pearl"
+     "titel": "Weetje: Flareon is de 'Vlam-Pokémon'",
+     "sub": "zo staat zijn categorie in de Pokédex: Flame Pokémon"
     },
     {
-     "titel": "Tip: let op promokaarten",
-     "sub": "sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'"
+     "titel": "Tip: leer de zeldzaamheidssymbolen",
+     "sub": "rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)"
     }
    ]
   },
@@ -104,14 +98,14 @@
   }
  ],
  "kaart": {
-  "naam": "Vaporeon",
-  "pokemon": "vaporeon",
-  "set": "Majestic Dawn",
-  "nummer": "34/100",
-  "jaar": "2008",
-  "zeldzaamheid": "Rare",
-  "over": "Uit Majestic Dawn, de set waarin Leafeon en Glaceon hun eerste kaarten kregen. Alle zeven Eeveelutions van toen zitten erin, dus je kunt er een complete Eevee-familie uit verzamelen.",
-  "afbeelding": "https://images.pokemontcg.io/dp5/34.png"
+  "naam": "Espeon ex",
+  "pokemon": "espeon",
+  "set": "Prismatic Evolutions",
+  "nummer": "155/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "Een van de felbegeerde Special Illustration Rares uit Prismatic Evolutions, de set die helemaal om Eevee en zijn evoluties draait. De tekening loopt over de hele kaart door.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/155.png"
  },
  "gehad": {
   "quotes": [
@@ -135,7 +129,8 @@
    "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves.",
    "Effortless is a myth.",
    "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
-   "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty."
+   "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
+   "I learned that courage was not the absence of fear, but the triumph over it."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -174,7 +169,9 @@
    "Weetje: Flareon in een eigen korte film — in 'Eevee & Friends' (2013) spelen Eevee en alle Eeveelutions de hoofdrol",
    "Tip: verzamel per illustrator — onderaan staat wie de kaart tekende: zoek alle Flareons van één tekenaar",
    "Weetje: Flareon leert Flare Blitz — die superkrachtige vuuraanval bestaat pas sinds Diamond & Pearl",
-   "Tip: let op promokaarten — sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'"
+   "Tip: let op promokaarten — sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'",
+   "Weetje: Flareon is de 'Vlam-Pokémon' — zo staat zijn categorie in de Pokédex: Flame Pokémon",
+   "Tip: leer de zeldzaamheidssymbolen — rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -196,7 +193,8 @@
    "Jolteon ex – Prismatic Evolutions 153/131",
    "Glaceon – Majestic Dawn 5/100",
    "Flareon ex – Prismatic Evolutions 014/131",
-   "Vaporeon – Majestic Dawn 34/100"
+   "Vaporeon – Majestic Dawn 34/100",
+   "Espeon ex – Prismatic Evolutions 155/131"
   ]
  }
 }
