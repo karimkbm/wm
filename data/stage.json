@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "18 nov 2026",
+ "bijgewerkt": "19 nov 2026",
  "quote": {
-  "tekst": "Because we've been together for so long, we understand each other.",
-  "wie": "Bang Chan (Stray Kids), interview met Rolling Stone (2025)"
+  "tekst": "I just tried to make something that really feels like me, and I hope that comes through.",
+  "wie": "Yeonjun (TXT), interview met Esquire India over 'NO LABELS: PART 02' (2026)"
  },
  "aftellen": {
   "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
@@ -23,6 +23,11 @@
      "tot": "2026-11-24",
      "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
      "sub": "spin-off single met 'I Want You' · cd op 23 nov"
+    },
+    {
+     "datum": "2026-11-20",
+     "titel": "ENHYPEN: speciaal optreden bij MAMA",
+     "sub": "filmische show met 'Dune: Part Three' · Kyocera Dome Osaka"
     },
     {
      "datum": "2026-11-25",
@@ -110,21 +115,16 @@
      "datum": "2026-12-09",
      "titel": "Ni-ki",
      "sub": "ENHYPEN"
-    },
-    {
-     "datum": "2027-01-15",
-     "titel": "EVAN",
-     "sub": "solo"
     }
    ]
   }
  ],
  "nummer": {
-  "titel": "The Chase",
-  "artiest": "Hearts2Hearts",
-  "album": "The Chase",
-  "jaar": "2025",
-  "over": "Debuutnummer van deze SM-girlgroup uit 2025, geïnspireerd op Alice in Wonderland: vol zelfvertrouwen je eigen weg kiezen en nieuwsgierig een nieuwe wereld ontdekken. Synthpop."
+  "titel": "MANIAC",
+  "artiest": "Stray Kids",
+  "album": "ODDINARY",
+  "jaar": "2022",
+  "over": "Gaat over dat iedereen een eigen 'gekke' kant heeft, en dat je die niet hoeft te verstoppen: anders zijn is juist oké. Mede geschreven door 3RACHA."
  },
  "gehad": {
   "quotes": [
@@ -158,7 +158,8 @@
    "As time goes by, I think the chemistry between our seven just gets better.",
    "As I continue making music, I think I'll find the version of myself that is most true to who I am.",
    "I'm talking about me becoming a better person who goes further as a human being.",
-   "Because we've been together for so long, we understand each other."
+   "Because we've been together for so long, we understand each other.",
+   "I just tried to make something that really feels like me, and I hope that comes through."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -187,7 +188,8 @@
    "9 and Three Quarters (Run Away) – TXT (TOMORROW X TOGETHER)",
    "Earth, Wind & Fire – BOYNEXTDOOR",
    "Angel Bite – TXT (TOMORROW X TOGETHER)",
-   "The Chase – Hearts2Hearts"
+   "The Chase – Hearts2Hearts",
+   "MANIAC – Stray Kids"
   ]
  }
 }

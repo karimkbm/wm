@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "18 nov 2026",
+ "bijgewerkt": "19 nov 2026",
  "quote": {
-  "tekst": "I learned that courage was not the absence of fear, but the triumph over it.",
-  "wie": "Nelson Mandela, Zuid-Afrikaanse president, in zijn boek Long Walk to Freedom (1994)"
+  "tekst": "By endurance we conquer.",
+  "wie": "Ernest Shackleton, poolreiziger; zijn familiemotto, waar hij zijn schip Endurance naar vernoemde"
  },
  "aftellen": {
   "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
@@ -63,12 +63,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon is de 'Vlam-Pokémon'",
-     "sub": "zo staat zijn categorie in de Pokédex: Flame Pokémon"
+     "titel": "Weetje: de meeste Flareons zijn mannetjes",
+     "sub": "net als bij Eevee is maar 1 op de 8 (12,5%) een vrouwtje"
     },
     {
-     "titel": "Tip: leer de zeldzaamheidssymbolen",
-     "sub": "rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)"
+     "titel": "Tip: duik in de bakken met losse kaarten",
+     "sub": "op een beurs liggen gewone Flareons vaak tussen de losse kaarten"
     }
    ]
   },
@@ -77,8 +77,9 @@
    "items": [
     {
      "datum": "2026-11-19",
-     "titel": "GTA 6 komt uit op 19 november",
-     "sub": "PS5 en Xbox, vooraf downloaden vanaf 10 nov · pc nog niet aangekondigd"
+     "tot": "2026-11-23",
+     "titel": "GTA 6 is uit",
+     "sub": "vandaag op PS5 en Xbox Series X|S · pc nog niet aangekondigd"
     },
     {
      "titel": "s&box gaat gratis",
@@ -98,14 +99,14 @@
   }
  ],
  "kaart": {
-  "naam": "Espeon ex",
-  "pokemon": "espeon",
-  "set": "Prismatic Evolutions",
-  "nummer": "155/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "Een van de felbegeerde Special Illustration Rares uit Prismatic Evolutions, de set die helemaal om Eevee en zijn evoluties draait. De tekening loopt over de hele kaart door.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/155.png"
+  "naam": "Flareon",
+  "pokemon": "flareon",
+  "set": "Plasma Freeze",
+  "nummer": "12/116",
+  "jaar": "2013",
+  "zeldzaamheid": "Uncommon",
+  "over": "Een Team Plasma-kaart: herkenbaar aan de donkerblauwe rand en het Plasma-logo. Er bestaat ook een reverse holo-versie van.",
+  "afbeelding": "https://images.pokemontcg.io/bw9/12.png"
  },
  "gehad": {
   "quotes": [
@@ -130,7 +131,8 @@
    "Effortless is a myth.",
    "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
    "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
-   "I learned that courage was not the absence of fear, but the triumph over it."
+   "I learned that courage was not the absence of fear, but the triumph over it.",
+   "By endurance we conquer."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -171,7 +173,9 @@
    "Weetje: Flareon leert Flare Blitz — die superkrachtige vuuraanval bestaat pas sinds Diamond & Pearl",
    "Tip: let op promokaarten — sommige Flareons zitten alleen in boxen of tins; herken ze aan 'PROMO'",
    "Weetje: Flareon is de 'Vlam-Pokémon' — zo staat zijn categorie in de Pokédex: Flame Pokémon",
-   "Tip: leer de zeldzaamheidssymbolen — rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)"
+   "Tip: leer de zeldzaamheidssymbolen — rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)",
+   "Weetje: de meeste Flareons zijn mannetjes — net als bij Eevee is maar 1 op de 8 (12,5%) een vrouwtje",
+   "Tip: duik in de bakken met losse kaarten — op een beurs liggen gewone Flareons vaak tussen de losse kaarten"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -194,7 +198,8 @@
    "Glaceon – Majestic Dawn 5/100",
    "Flareon ex – Prismatic Evolutions 014/131",
    "Vaporeon – Majestic Dawn 34/100",
-   "Espeon ex – Prismatic Evolutions 155/131"
+   "Espeon ex – Prismatic Evolutions 155/131",
+   "Flareon – Plasma Freeze 12/116"
   ]
  }
 }
