@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "19 nov 2026",
+ "bijgewerkt": "20 nov 2026",
  "quote": {
-  "tekst": "By endurance we conquer.",
-  "wie": "Ernest Shackleton, poolreiziger; zijn familiemotto, waar hij zijn schip Endurance naar vernoemde"
+  "tekst": "However difficult life may seem, there is always something you can do and succeed at.",
+  "wie": "Stephen Hawking, natuurkundige; geciteerd door Al Jazeera (2018)"
  },
  "aftellen": {
   "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
@@ -63,12 +63,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: de meeste Flareons zijn mannetjes",
-     "sub": "net als bij Eevee is maar 1 op de 8 (12,5%) een vrouwtje"
+     "titel": "Weetje: Flareon kan slecht tegen water",
+     "sub": "als vuur-Pokémon is hij zwak tegen water-, grond- en steenaanvallen"
     },
     {
-     "titel": "Tip: duik in de bakken met losse kaarten",
-     "sub": "op een beurs liggen gewone Flareons vaak tussen de losse kaarten"
+     "titel": "Tip: ruil met je dubbele Eeveelutions",
+     "sub": "veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal"
     }
    ]
   },
@@ -99,14 +99,14 @@
   }
  ],
  "kaart": {
-  "naam": "Flareon",
-  "pokemon": "flareon",
-  "set": "Plasma Freeze",
-  "nummer": "12/116",
-  "jaar": "2013",
-  "zeldzaamheid": "Uncommon",
-  "over": "Een Team Plasma-kaart: herkenbaar aan de donkerblauwe rand en het Plasma-logo. Er bestaat ook een reverse holo-versie van.",
-  "afbeelding": "https://images.pokemontcg.io/bw9/12.png"
+  "naam": "Sylveon VMAX",
+  "pokemon": "sylveon",
+  "set": "Evolving Skies",
+  "nummer": "212/203",
+  "jaar": "2021",
+  "zeldzaamheid": "Secret Rare (alternatieve illustratie)",
+  "over": "Een geheime kaart met een nummer boven 203 en een eigen illustratie van Taira Akitsu. Evolving Skies staat bij verzamelaars bekend als dé set vol Eeveelutions.",
+  "afbeelding": "https://images.pokemontcg.io/swsh7/212.png"
  },
  "gehad": {
   "quotes": [
@@ -132,7 +132,8 @@
    "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
    "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
    "I learned that courage was not the absence of fear, but the triumph over it.",
-   "By endurance we conquer."
+   "By endurance we conquer.",
+   "However difficult life may seem, there is always something you can do and succeed at."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -175,7 +176,9 @@
    "Weetje: Flareon is de 'Vlam-Pokémon' — zo staat zijn categorie in de Pokédex: Flame Pokémon",
    "Tip: leer de zeldzaamheidssymbolen — rondje = common, ruitje = uncommon, sterretje = rare (onderaan de kaart)",
    "Weetje: de meeste Flareons zijn mannetjes — net als bij Eevee is maar 1 op de 8 (12,5%) een vrouwtje",
-   "Tip: duik in de bakken met losse kaarten — op een beurs liggen gewone Flareons vaak tussen de losse kaarten"
+   "Tip: duik in de bakken met losse kaarten — op een beurs liggen gewone Flareons vaak tussen de losse kaarten",
+   "Weetje: Flareon kan slecht tegen water — als vuur-Pokémon is hij zwak tegen water-, grond- en steenaanvallen",
+   "Tip: ruil met je dubbele Eeveelutions — veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -199,7 +202,8 @@
    "Flareon ex – Prismatic Evolutions 014/131",
    "Vaporeon – Majestic Dawn 34/100",
    "Espeon ex – Prismatic Evolutions 155/131",
-   "Flareon – Plasma Freeze 12/116"
+   "Flareon – Plasma Freeze 12/116",
+   "Sylveon VMAX – Evolving Skies 212/203"
   ]
  }
 }
