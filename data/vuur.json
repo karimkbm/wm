@@ -1,12 +1,12 @@
 {
- "bijgewerkt": "20 nov 2026",
+ "bijgewerkt": "21 nov 2026",
  "quote": {
-  "tekst": "However difficult life may seem, there is always something you can do and succeed at.",
-  "wie": "Stephen Hawking, natuurkundige; geciteerd door Al Jazeera (2018)"
+  "tekst": "I really think a champion is defined not by their wins but by how they can recover when they fall.",
+  "wie": "Serena Williams, tenniskampioen; o.a. geciteerd door TIME"
  },
  "aftellen": {
-  "titel": "Con-NXT Pokémon Beurs in Etten-Leur",
-  "datum": "2026-11-21"
+  "titel": "Cardfanz Arena Oss: Winter Edition",
+  "datum": "2026-11-28"
  },
  "secties": [
   {
@@ -63,12 +63,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: Flareon kan slecht tegen water",
-     "sub": "als vuur-Pokémon is hij zwak tegen water-, grond- en steenaanvallen"
+     "titel": "Weetje: alle Eeveelutions zijn even sterk",
+     "sub": "elk heeft 525 basispunten in totaal, alleen anders verdeeld"
     },
     {
-     "titel": "Tip: ruil met je dubbele Eeveelutions",
-     "sub": "veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal"
+     "titel": "Tip: kies of je ook Japanse kaarten wilt",
+     "sub": "Japanse Flareons zien er anders uit: kies of ze in je map mogen"
     }
    ]
   },
@@ -99,14 +99,14 @@
   }
  ],
  "kaart": {
-  "naam": "Sylveon VMAX",
-  "pokemon": "sylveon",
-  "set": "Evolving Skies",
-  "nummer": "212/203",
-  "jaar": "2021",
-  "zeldzaamheid": "Secret Rare (alternatieve illustratie)",
-  "over": "Een geheime kaart met een nummer boven 203 en een eigen illustratie van Taira Akitsu. Evolving Skies staat bij verzamelaars bekend als dé set vol Eeveelutions.",
-  "afbeelding": "https://images.pokemontcg.io/swsh7/212.png"
+  "naam": "Eevee ex",
+  "pokemon": "eevee",
+  "set": "Prismatic Evolutions",
+  "nummer": "167/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Special Illustration Rare",
+  "over": "De topkaart van Prismatic Evolutions, de speciale set rond Eevee en alle Eeveelutions. Met zijn vermogen Rainbow DNA kan Eevee ex in het spel evolueren naar elke Eeveelution-ex.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/167.png"
  },
  "gehad": {
   "quotes": [
@@ -133,7 +133,8 @@
    "Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty.",
    "I learned that courage was not the absence of fear, but the triumph over it.",
    "By endurance we conquer.",
-   "However difficult life may seem, there is always something you can do and succeed at."
+   "However difficult life may seem, there is always something you can do and succeed at.",
+   "I really think a champion is defined not by their wins but by how they can recover when they fall."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -178,7 +179,9 @@
    "Weetje: de meeste Flareons zijn mannetjes — net als bij Eevee is maar 1 op de 8 (12,5%) een vrouwtje",
    "Tip: duik in de bakken met losse kaarten — op een beurs liggen gewone Flareons vaak tussen de losse kaarten",
    "Weetje: Flareon kan slecht tegen water — als vuur-Pokémon is hij zwak tegen water-, grond- en steenaanvallen",
-   "Tip: ruil met je dubbele Eeveelutions — veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal"
+   "Tip: ruil met je dubbele Eeveelutions — veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal",
+   "Weetje: alle Eeveelutions zijn even sterk — elk heeft 525 basispunten in totaal, alleen anders verdeeld",
+   "Tip: kies of je ook Japanse kaarten wilt — Japanse Flareons zien er anders uit: kies of ze in je map mogen"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -203,7 +206,8 @@
    "Vaporeon – Majestic Dawn 34/100",
    "Espeon ex – Prismatic Evolutions 155/131",
    "Flareon – Plasma Freeze 12/116",
-   "Sylveon VMAX – Evolving Skies 212/203"
+   "Sylveon VMAX – Evolving Skies 212/203",
+   "Eevee ex – Prismatic Evolutions 167/131"
   ]
  }
 }
