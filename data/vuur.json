@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "22 nov 2026",
+ "bijgewerkt": "23 nov 2026",
  "quote": {
-  "tekst": "I really think a champion is defined not by their wins but by how they can recover when they fall.",
-  "wie": "Serena Williams, tenniskampioen; o.a. geciteerd door TIME"
+  "tekst": "I think great video games are like favorite playgrounds, places you become attached to and go back to again and again.",
+  "wie": "Shigeru Miyamoto, maker van Mario en Zelda, in de Mario Mania Player's Guide (1991)"
  },
  "aftellen": {
   "titel": "Cardfanz Arena Oss: Winter Edition",
@@ -25,10 +25,27 @@
      "sub": "met Sylveon ex of Greninja ex"
     },
     {
-     "datum": "2027-02-05",
-     "tot": "2027-02-09",
+     "datum": "2026-12-04",
+     "tot": "2026-12-08",
+     "titel": "Unova Heavy Hitters Premium Collection",
+     "sub": "luxe box met Pokémon uit de Unova-regio"
+    },
+    {
+     "datum": "2027-01-23",
+     "titel": "Prerelease Flowing Fists",
+     "sub": "Build & Battle-toernooien in de winkels"
+    },
+    {
+     "datum": "2027-01-29",
+     "tot": "2027-02-02",
+     "titel": "Pokémon Day 2027 Collection",
+     "sub": "speciale box voor Pokémon Day"
+    },
+    {
+     "datum": "2027-02-06",
+     "tot": "2027-02-10",
      "titel": "Flowing Fists: Mega Lucario Z ex",
-     "sub": "eerste nieuwe hoofdset van 2027"
+     "sub": "eerste hoofdset van 2027 · nu op zaterdag"
     }
    ]
   },
@@ -36,15 +53,20 @@
    "id": "beurs",
    "items": [
     {
-     "datum": "2026-11-21",
-     "tot": "2026-11-22",
-     "titel": "Con-NXT Pokémon Beurs",
-     "sub": "Etten-Leur · De Grauwe Polder · vanaf 10:00"
-    },
-    {
      "datum": "2026-11-28",
      "titel": "Cardfanz Arena Oss: Winter Edition",
      "sub": "Oss · Frans Heesen Stadion · vanaf 11:00"
+    },
+    {
+     "datum": "2026-12-05",
+     "titel": "TCG-Beurs Brasschaat",
+     "sub": "Brasschaat (België) · D'ouwe Kerk · vanaf 10:00"
+    },
+    {
+     "datum": "2026-12-05",
+     "tot": "2026-12-06",
+     "titel": "Con-NXT Bergen op Zoom",
+     "sub": "Bergen op Zoom · House of Marqeez · vanaf 10:00"
     },
     {
      "datum": "2026-12-12",
@@ -53,9 +75,14 @@
      "sub": "Turnhout (België) · Futur · za 9:00, zo 10:00"
     },
     {
+     "datum": "2026-12-20",
+     "titel": "Antwerp Card Fest Kersteditie",
+     "sub": "Ranst (België) · GC Den Boomgaard · vanaf 10:00"
+    },
+    {
      "datum": "2026-12-26",
      "titel": "Xclusive Collectors Kerstbeurs",
-     "sub": "'s-Hertogenbosch · 9:00–16:30"
+     "sub": "Rosmalen · Autotron · 10:00–16:00"
     }
    ]
   },
@@ -63,12 +90,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: alle Eeveelutions zijn even sterk",
-     "sub": "elk heeft 525 basispunten in totaal, alleen anders verdeeld"
+     "titel": "Weetje: Flareon kookt mee in Pokémon Sleep",
+     "sub": "zijn vaardigheid maakt ruimte voor 7 extra ingrediënten in de pot"
     },
     {
-     "titel": "Tip: kies of je ook Japanse kaarten wilt",
-     "sub": "Japanse Flareons zien er anders uit: kies of ze in je map mogen"
+     "titel": "Tip: kies een map zonder ringen",
+     "sub": "ringen kunnen deukjes maken in kaarten vlak bij de rug van de map"
     }
    ]
   },
@@ -93,20 +120,20 @@
      "datum": "2026-12-17",
      "tot": "2027-01-04",
      "titel": "Steam Winter Sale",
-     "sub": "17 december t/m 4 januari, bevestigd door Valve"
+     "sub": "17 dec t/m 4 jan, vanaf 19:00 · bevestigd door Valve"
     }
    ]
   }
  ],
  "kaart": {
-  "naam": "Eevee ex",
-  "pokemon": "eevee",
-  "set": "Prismatic Evolutions",
-  "nummer": "167/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "De topkaart van Prismatic Evolutions, de speciale set rond Eevee en alle Eeveelutions. Met zijn vermogen Rainbow DNA kan Eevee ex in het spel evolueren naar elke Eeveelution-ex.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/167.png"
+  "naam": "Flareon ★",
+  "pokemon": "flareon",
+  "set": "EX Power Keepers",
+  "nummer": "100/108",
+  "jaar": "2007",
+  "zeldzaamheid": "Rare Holo Star (Gold Star)",
+  "over": "Een zeldzame Gold Star-kaart met Flareon in zijn shiny-kleuren. Je mag maar één Pokémon ★ in je deck hebben, en Power Keepers was de allerlaatste set van de EX-serie.",
+  "afbeelding": "https://images.pokemontcg.io/ex16/100.png"
  },
  "gehad": {
   "quotes": [
@@ -134,7 +161,8 @@
    "I learned that courage was not the absence of fear, but the triumph over it.",
    "By endurance we conquer.",
    "However difficult life may seem, there is always something you can do and succeed at.",
-   "I really think a champion is defined not by their wins but by how they can recover when they fall."
+   "I really think a champion is defined not by their wins but by how they can recover when they fall.",
+   "I think great video games are like favorite playgrounds, places you become attached to and go back to again and again."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -181,7 +209,9 @@
    "Weetje: Flareon kan slecht tegen water — als vuur-Pokémon is hij zwak tegen water-, grond- en steenaanvallen",
    "Tip: ruil met je dubbele Eeveelutions — veel verzamelaars zoeken juist Umbreon of Sylveon: handig ruilmateriaal",
    "Weetje: alle Eeveelutions zijn even sterk — elk heeft 525 basispunten in totaal, alleen anders verdeeld",
-   "Tip: kies of je ook Japanse kaarten wilt — Japanse Flareons zien er anders uit: kies of ze in je map mogen"
+   "Tip: kies of je ook Japanse kaarten wilt — Japanse Flareons zien er anders uit: kies of ze in je map mogen",
+   "Weetje: Flareon kookt mee in Pokémon Sleep — zijn vaardigheid maakt ruimte voor 7 extra ingrediënten in de pot",
+   "Tip: kies een map zonder ringen — ringen kunnen deukjes maken in kaarten vlak bij de rug van de map"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -207,7 +237,8 @@
    "Espeon ex – Prismatic Evolutions 155/131",
    "Flareon – Plasma Freeze 12/116",
    "Sylveon VMAX – Evolving Skies 212/203",
-   "Eevee ex – Prismatic Evolutions 167/131"
+   "Eevee ex – Prismatic Evolutions 167/131",
+   "Flareon ★ – EX Power Keepers 100/108"
   ]
  }
 }
