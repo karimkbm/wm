@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "24 nov 2026",
+ "bijgewerkt": "25 nov 2026",
  "quote": {
-  "tekst": "Late is just for a little while. Suck is forever.",
-  "wie": "Gabe Newell, oprichter van Valve, over waarom het oké is als een game later komt (PC Gamer)"
+  "tekst": "It is possible to fly without motors, but not without knowledge and skill.",
+  "wie": "Wilbur Wright, vliegtuigpionier, in een brief aan Octave Chanute (1900)"
  },
  "aftellen": {
   "titel": "Cardfanz Arena Oss: Winter Edition",
@@ -90,12 +90,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Weetje: diep inademen betekent: pas op!",
-     "sub": "Pokédex (Ultra Sun): ademt Flareon diep in, dan komt er een vuuraanval aan"
+     "titel": "Tip: maak een Flareon-checklist",
+     "sub": "Bulbapedia toont alle Flareon-kaarten: vink af welke je al hebt"
     },
     {
-     "titel": "Tip: let op de centrering",
-     "sub": "zijn de randen links en rechts even breed? Dan is het een extra mooie kaart"
+     "titel": "Weetje: Flareon leert Lava Plume",
+     "sub": "in Legends: Z-A op level 40, en Flare Blitz op level 50"
     }
    ]
   },
@@ -120,14 +120,14 @@
   }
  ],
  "kaart": {
-  "naam": "Vaporeon ex",
-  "pokemon": "vaporeon",
-  "set": "Prismatic Evolutions",
-  "nummer": "149/131",
-  "jaar": "2025",
-  "zeldzaamheid": "Special Illustration Rare",
-  "over": "Een Special Illustration Rare uit Prismatic Evolutions, de speciale Eevee-set: de tekening loopt over de hele kaart door. Samen met de SIR's van Eevee en de andere Eeveelutions vormt hij een geliefde verzamelreeks.",
-  "afbeelding": "https://images.pokemontcg.io/sv8pt5/149.png"
+  "naam": "Espeon ★",
+  "pokemon": "espeon",
+  "set": "POP Series 5",
+  "nummer": "16/17",
+  "jaar": "2007",
+  "zeldzaamheid": "Rare Holo Star (Gold Star)",
+  "over": "Een Gold Star-kaart: Espeon staat er in zijn zeldzame shiny kleuren op, met een gouden ster naast de naam. Je kon hem alleen vinden in kleine POP-pakjes van Play! Pokémon, daarom is hij lastig te vinden.",
+  "afbeelding": "https://images.pokemontcg.io/pop5/16.png"
  },
  "gehad": {
   "quotes": [
@@ -157,7 +157,8 @@
    "However difficult life may seem, there is always something you can do and succeed at.",
    "I really think a champion is defined not by their wins but by how they can recover when they fall.",
    "I think great video games are like favorite playgrounds, places you become attached to and go back to again and again.",
-   "Late is just for a little while. Suck is forever."
+   "Late is just for a little while. Suck is forever.",
+   "It is possible to fly without motors, but not without knowledge and skill."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -208,7 +209,9 @@
    "Weetje: Flareon kookt mee in Pokémon Sleep — zijn vaardigheid maakt ruimte voor 7 extra ingrediënten in de pot",
    "Tip: kies een map zonder ringen — ringen kunnen deukjes maken in kaarten vlak bij de rug van de map",
    "Weetje: diep inademen betekent: pas op! — Pokédex (Ultra Sun): ademt Flareon diep in, dan komt er een vuuraanval aan",
-   "Tip: let op de centrering — zijn de randen links en rechts even breed? Dan is het een extra mooie kaart"
+   "Tip: let op de centrering — zijn de randen links en rechts even breed? Dan is het een extra mooie kaart",
+   "Tip: maak een Flareon-checklist — Bulbapedia toont alle Flareon-kaarten: vink af welke je al hebt",
+   "Weetje: Flareon leert Lava Plume — in Legends: Z-A op level 40, en Flare Blitz op level 50"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -236,7 +239,8 @@
    "Sylveon VMAX – Evolving Skies 212/203",
    "Eevee ex – Prismatic Evolutions 167/131",
    "Flareon ★ – EX Power Keepers 100/108",
-   "Vaporeon ex – Prismatic Evolutions 149/131"
+   "Vaporeon ex – Prismatic Evolutions 149/131",
+   "Espeon ★ – POP Series 5 16/17"
   ]
  }
 }

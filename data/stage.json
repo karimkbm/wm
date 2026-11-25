@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "24 nov 2026",
+ "bijgewerkt": "25 nov 2026",
  "quote": {
-  "tekst": "I don't have any regrets because I'm doing the job I want to.",
-  "wie": "Jungwon (ENHYPEN), interview met Weverse Magazine"
+  "tekst": "I hope that one day Stray Kids will become a genre itself.",
+  "wie": "HAN (Stray Kids), interview met NME (2021)"
  },
  "aftellen": {
   "titel": "Stray Kids: Japans mini-album 'SUIATSU'",
@@ -12,12 +12,6 @@
   {
    "id": "nieuw",
    "items": [
-    {
-     "datum": "2026-11-20",
-     "tot": "2026-11-24",
-     "titel": "ENHYPEN: 'THE SIN : PARALLEL WORLD'",
-     "sub": "spin-off single met 'I Want You' · cd op 23 nov"
-    },
     {
      "datum": "2026-11-25",
      "tot": "2026-11-29",
@@ -114,11 +108,11 @@
   }
  ],
  "nummer": {
-  "titel": "Sugar Rush Ride",
-  "artiest": "TXT (TOMORROW X TOGETHER)",
-  "album": "The Name Chapter: TEMPTATION",
-  "jaar": "2023",
-  "over": "Gaat over een verleiding die zoet lijkt maar gevaarlijk is, verteld als een sprookje in de sfeer van Peter Pan en Neverland. Er zitten ook invloeden van Koreaanse pansori in."
+  "titel": "O.O",
+  "artiest": "NMIXX",
+  "album": "AD MARE",
+  "jaar": "2022",
+  "over": "Debuutnummer van NMIXX, girlgroup van JYP (net als Stray Kids). Het gaat over samen op reis gaan naar een nieuwe wereld. Bijzonder: het mixt verschillende genres in één nummer."
  },
  "gehad": {
   "quotes": [
@@ -158,7 +152,8 @@
    "Thanks to them, I am able to keep my freckles.",
    "Each member, with their own difference, can put their own style inside of their own lines.",
    "I can't believe the moment I've been dreaming of is finally coming true.",
-   "I don't have any regrets because I'm doing the job I want to."
+   "I don't have any regrets because I'm doing the job I want to.",
+   "I hope that one day Stray Kids will become a genre itself."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -193,7 +188,8 @@
    "Feel My Rhythm – Red Velvet",
    "Talk to You – Yeonjun (TXT)",
    "I DO ME – KiiiKiii",
-   "Sugar Rush Ride – TXT (TOMORROW X TOGETHER)"
+   "Sugar Rush Ride – TXT (TOMORROW X TOGETHER)",
+   "O.O – NMIXX"
   ]
  }
 }
