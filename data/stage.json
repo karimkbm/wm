@@ -1,12 +1,12 @@
 {
- "bijgewerkt": "25 nov 2026",
+ "bijgewerkt": "26 nov 2026",
  "quote": {
-  "tekst": "I hope that one day Stray Kids will become a genre itself.",
-  "wie": "HAN (Stray Kids), interview met NME (2021)"
+  "tekst": "We want to keep doing things our own way and establish our own signature sound.",
+  "wie": "Ohyul (LNGSHOT), interview met EARMILK (2026)"
  },
  "aftellen": {
-  "titel": "Stray Kids: Japans mini-album 'SUIATSU'",
-  "datum": "2026-11-25"
+  "titel": "Soobin (TXT) jarig",
+  "datum": "2026-12-05"
  },
  "secties": [
   {
@@ -17,6 +17,10 @@
      "tot": "2026-11-29",
      "titel": "Stray Kids: Japans mini-album 'SUIATSU'",
      "sub": "hun vierde Japanse mini-album"
+    },
+    {
+     "titel": "Stray Kids: extra concerten in Seoul",
+     "sub": "1 en 2 jan 2027 in Gocheok Sky Dome, onderdeel van RUN IT"
     },
     {
      "titel": "Stray Kids: wereldtour 'RUN IT' 2027",
@@ -108,11 +112,11 @@
   }
  ],
  "nummer": {
-  "titel": "O.O",
-  "artiest": "NMIXX",
-  "album": "AD MARE",
-  "jaar": "2022",
-  "over": "Debuutnummer van NMIXX, girlgroup van JYP (net als Stray Kids). Het gaat over samen op reis gaan naar een nieuwe wereld. Bijzonder: het mixt verschillende genres in één nummer."
+  "titel": "SUIATSU",
+  "artiest": "Stray Kids",
+  "album": "SUIATSU (Japans mini-album)",
+  "jaar": "2026",
+  "over": "Gloednieuw titelnummer (25 nov), gemaakt door 3RACHA. Een diepzeevis die naar het licht zwemt staat voor doorzetten als alles op je drukt. Stevig rocknummer."
  },
  "gehad": {
   "quotes": [
@@ -153,7 +157,8 @@
    "Each member, with their own difference, can put their own style inside of their own lines.",
    "I can't believe the moment I've been dreaming of is finally coming true.",
    "I don't have any regrets because I'm doing the job I want to.",
-   "I hope that one day Stray Kids will become a genre itself."
+   "I hope that one day Stray Kids will become a genre itself.",
+   "We want to keep doing things our own way and establish our own signature sound."
   ],
   "nummers": [
    "Masterpiece – LNGSHOT",
@@ -189,7 +194,8 @@
    "Talk to You – Yeonjun (TXT)",
    "I DO ME – KiiiKiii",
    "Sugar Rush Ride – TXT (TOMORROW X TOGETHER)",
-   "O.O – NMIXX"
+   "O.O – NMIXX",
+   "SUIATSU – Stray Kids"
   ]
  }
 }

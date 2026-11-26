@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "25 nov 2026",
+ "bijgewerkt": "26 nov 2026",
  "quote": {
   "tekst": "It is possible to fly without motors, but not without knowledge and skill.",
   "wie": "Wilbur Wright, vliegtuigpionier, in een brief aan Octave Chanute (1900)"
@@ -103,12 +103,18 @@
    "id": "gaming",
    "items": [
     {
-     "titel": "s&box gaat gratis",
-     "sub": "Facepunch: eind 2026 free-to-play, plus een nieuw Sandbox-spel"
+     "datum": "2026-12-10",
+     "tot": "2026-12-14",
+     "titel": "s&box wordt gratis",
+     "sub": "Facepunch: vanaf 10 dec free-to-play op Steam"
     },
     {
      "titel": "Teardown Rally komt eraan",
-     "sub": "gratis racemodus met 18 nieuwe voertuigen, tot 12 spelers"
+     "sub": "gratis racemodus, volgens de trailer vanaf 8 dec op Steam"
+    },
+    {
+     "titel": "GTA 6: nog geen pc-versie",
+     "sub": "uit op PS5 en Xbox; Rockstar noemde nog geen pc-datum"
     },
     {
      "datum": "2026-12-17",
