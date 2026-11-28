@@ -1,8 +1,8 @@
 {
- "bijgewerkt": "26 nov 2026",
+ "bijgewerkt": "28 nov 2026",
  "quote": {
-  "tekst": "It is possible to fly without motors, but not without knowledge and skill.",
-  "wie": "Wilbur Wright, vliegtuigpionier, in een brief aan Octave Chanute (1900)"
+  "tekst": "The best way to predict the future is to invent it.",
+  "wie": "Alan Kay, computerpionier, bij Xerox PARC (1971)"
  },
  "aftellen": {
   "titel": "Cardfanz Arena Oss: Winter Edition",
@@ -90,12 +90,12 @@
    "id": "flareon",
    "items": [
     {
-     "titel": "Tip: maak een Flareon-checklist",
-     "sub": "Bulbapedia toont alle Flareon-kaarten: vink af welke je al hebt"
+     "titel": "Weetje: versla Flareon, word sterker",
+     "sub": "je Pokémon krijgt er 2 aanvalspunten (Attack-EV's) voor"
     },
     {
-     "titel": "Weetje: Flareon leert Lava Plume",
-     "sub": "in Legends: Z-A op level 40, en Flare Blitz op level 50"
+     "titel": "Tip: maak foto's van je Flareons",
+     "sub": "zo laat je op een beurs meteen zien wat je hebt om te ruilen"
     }
    ]
   },
@@ -126,14 +126,14 @@
   }
  ],
  "kaart": {
-  "naam": "Espeon ★",
-  "pokemon": "espeon",
-  "set": "POP Series 5",
-  "nummer": "16/17",
-  "jaar": "2007",
-  "zeldzaamheid": "Rare Holo Star (Gold Star)",
-  "over": "Een Gold Star-kaart: Espeon staat er in zijn zeldzame shiny kleuren op, met een gouden ster naast de naam. Je kon hem alleen vinden in kleine POP-pakjes van Play! Pokémon, daarom is hij lastig te vinden.",
-  "afbeelding": "https://images.pokemontcg.io/pop5/16.png"
+  "naam": "Flareon",
+  "pokemon": "flareon",
+  "set": "Prismatic Evolutions",
+  "nummer": "013/131",
+  "jaar": "2025",
+  "zeldzaamheid": "Rare",
+  "over": "Een gewone Flareon uit de Eevee-set Prismatic Evolutions. Hij bestaat ook als reverse holo met een Poké Ball- of Master Ball-patroon: verzamelaars proberen vaak alle versies te vinden.",
+  "afbeelding": "https://images.pokemontcg.io/sv8pt5/13.png"
  },
  "gehad": {
   "quotes": [
@@ -164,7 +164,8 @@
    "I really think a champion is defined not by their wins but by how they can recover when they fall.",
    "I think great video games are like favorite playgrounds, places you become attached to and go back to again and again.",
    "Late is just for a little while. Suck is forever.",
-   "It is possible to fly without motors, but not without knowledge and skill."
+   "It is possible to fly without motors, but not without knowledge and skill.",
+   "The best way to predict the future is to invent it."
   ],
   "weetjes": [
    "Topstuk om naar te zoeken: Flareon ex — Special Illustration Rare uit Prismatic Evolutions (146/131)",
@@ -217,7 +218,9 @@
    "Weetje: diep inademen betekent: pas op! — Pokédex (Ultra Sun): ademt Flareon diep in, dan komt er een vuuraanval aan",
    "Tip: let op de centrering — zijn de randen links en rechts even breed? Dan is het een extra mooie kaart",
    "Tip: maak een Flareon-checklist — Bulbapedia toont alle Flareon-kaarten: vink af welke je al hebt",
-   "Weetje: Flareon leert Lava Plume — in Legends: Z-A op level 40, en Flare Blitz op level 50"
+   "Weetje: Flareon leert Lava Plume — in Legends: Z-A op level 40, en Flare Blitz op level 50",
+   "Weetje: versla Flareon, word sterker — je Pokémon krijgt er 2 aanvalspunten (Attack-EV's) voor",
+   "Tip: maak foto's van je Flareons — zo laat je op een beurs meteen zien wat je hebt om te ruilen"
   ],
   "kaarten": [
    "Flareon ex – Prismatic Evolutions 146/131",
@@ -246,7 +249,8 @@
    "Eevee ex – Prismatic Evolutions 167/131",
    "Flareon ★ – EX Power Keepers 100/108",
    "Vaporeon ex – Prismatic Evolutions 149/131",
-   "Espeon ★ – POP Series 5 16/17"
+   "Espeon ★ – POP Series 5 16/17",
+   "Flareon – Prismatic Evolutions 013/131"
   ]
  }
 }
